@@ -8,12 +8,12 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "",
-    "generated_at": "2026-07-12T12:45:13Z",
+    "generated_at": "2026-07-12T13:35:55Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
     "read_only": true,
-    "slate_date": "2026-07-12",
+    "slate_date": "2026-07-14",
     "sources": [
       "m1_phase_c_pick_ledger.csv"
     ]
@@ -546,12 +546,15 @@
       "m1_phase_c_lock.json"
     ],
     "m1_ab31": {
-      "date_hint": "2026-07-11",
-      "status": "calibration clock"
+      "clock_basis": "calendar-date HOLD; date-keyed by design",
+      "hold_ends_no_earlier_than": "2026-08-11",
+      "status": "HOLD"
     },
     "m1_phase_c": {
-      "date_hint": "~2026-07-17",
-      "pick_days": 10,
+      "clock_basis": "qualifying live pick-days",
+      "display_rule": "calendar estimate intentionally omitted; qualifying-count state is authoritative",
+      "pick_days": 9,
+      "remaining_qualifying_pick_days": 6,
       "target": 15
     }
   }
