@@ -8,7 +8,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "",
-    "generated_at": "2026-07-13T12:45:34Z",
+    "generated_at": "2026-07-13T13:55:30Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -529,15 +529,22 @@
   },
   "verdict_clocks": {
     "clv_preliminary": {
-      "days": 20,
+      "clock_basis": "dedicated forward primary-window captures only; retro rows excluded",
+      "counter": "data/experiments/clv/phase_c/clv1_phase_d_forward_accrual.json",
+      "days": 0,
       "days_target": 20,
-      "locked_picks": 60,
       "manifest": "data/experiments/clv/phase_c/clv1_phase_c_manifest.json",
-      "pass": false,
-      "picks": 60,
+      "picks": 0,
       "picks_target": 50,
+      "prior_mixed_preliminary_read": {
+        "days": 20,
+        "pass": false,
+        "picks": 60,
+        "posture": "frozen NULL provenance; retro-inclusive and not the forward counter",
+        "status": "SCORABLE"
+      },
       "report": "reports/experiments/clv/phase_d/clv1_phase_d_preliminary_read.json",
-      "status": "SCORABLE"
+      "status": "ACCRUING"
     },
     "graveyard_nulls": 12,
     "lane_day20": {
