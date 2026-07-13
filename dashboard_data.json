@@ -8,7 +8,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "",
-    "generated_at": "2026-07-13T12:30:19Z",
+    "generated_at": "2026-07-13T12:45:34Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -73,73 +73,53 @@
         "status_label": "live tracked system · registered 6/16+ basis"
       },
       {
-        "descriptor": "Passive PA-level simulation shadow; scores are uncalibrated.",
-        "hits": 7,
-        "id": "sim1",
-        "last7": [
-          {
-            "date": "2026-07-11",
-            "hits": 0,
-            "picks": 3
-          }
-        ],
-        "name": "Sim-1",
-        "rate": 0.2413793103448276,
-        "rate_label": "24.1% (7/29)",
-        "sample": 29,
-        "status_label": "passive shadow",
-        "top10_label": "19.4% (19/98)",
-        "top3_label": "24.1% (7/29)",
-        "top5_label": "22.4% (11/49)"
-      },
-      {
         "coverage_label": null,
-        "descriptor": "Legacy baseline reference record.",
-        "hits": 30,
-        "id": "systemareference",
+        "descriptor": "Full-conviction environment filter.",
+        "hits": 16,
+        "id": "efc",
         "last7": [
-          {
-            "date": "2026-07-05",
-            "hits": 1,
-            "picks": 5
-          },
           {
             "date": "2026-07-06",
-            "hits": 2,
-            "picks": 5
+            "hits": 0,
+            "picks": 1
           },
           {
             "date": "2026-07-07",
-            "hits": 2,
-            "picks": 5
+            "hits": 0,
+            "picks": 1
           },
           {
             "date": "2026-07-08",
-            "hits": 2,
-            "picks": 5
+            "hits": 0,
+            "picks": 3
           },
           {
             "date": "2026-07-09",
             "hits": 0,
-            "picks": 5
+            "picks": 1
           },
           {
             "date": "2026-07-10",
-            "hits": 3,
-            "picks": 5
+            "hits": 1,
+            "picks": 1
           },
           {
             "date": "2026-07-11",
             "hits": 2,
-            "picks": 5
+            "picks": 3
+          },
+          {
+            "date": "2026-07-12",
+            "hits": 1,
+            "picks": 2
           }
         ],
-        "name": "System A reference",
-        "rate": 0.23076923076923078,
-        "rate_label": "23.1% (30/130)",
-        "sample": 130,
-        "status_label": "reference-only",
-        "void_label": "0 voids"
+        "name": "E-FC",
+        "rate": 0.2318840579710145,
+        "rate_label": "23.2% (16/69)",
+        "sample": 69,
+        "status_label": "live tracked system",
+        "void_label": "5 voids"
       },
       {
         "coverage_label": null,
@@ -192,64 +172,84 @@
       },
       {
         "coverage_label": null,
-        "descriptor": "Full-conviction environment filter.",
-        "hits": 15,
-        "id": "efc",
+        "descriptor": "Legacy baseline reference record.",
+        "hits": 30,
+        "id": "systemareference",
         "last7": [
           {
-            "date": "2026-07-05",
-            "hits": 0,
-            "picks": 3
-          },
-          {
             "date": "2026-07-06",
-            "hits": 0,
-            "picks": 1
+            "hits": 2,
+            "picks": 5
           },
           {
             "date": "2026-07-07",
-            "hits": 0,
-            "picks": 1
+            "hits": 2,
+            "picks": 5
           },
           {
             "date": "2026-07-08",
-            "hits": 0,
-            "picks": 3
+            "hits": 2,
+            "picks": 5
           },
           {
             "date": "2026-07-09",
             "hits": 0,
-            "picks": 1
+            "picks": 5
           },
           {
             "date": "2026-07-10",
-            "hits": 1,
-            "picks": 1
+            "hits": 3,
+            "picks": 5
           },
           {
             "date": "2026-07-11",
             "hits": 2,
+            "picks": 5
+          },
+          {
+            "date": "2026-07-12",
+            "hits": 0,
+            "picks": 5
+          }
+        ],
+        "name": "System A reference",
+        "rate": 0.2222222222222222,
+        "rate_label": "22.2% (30/135)",
+        "sample": 135,
+        "status_label": "reference-only",
+        "void_label": "0 voids"
+      },
+      {
+        "descriptor": "Passive PA-level simulation shadow; scores are uncalibrated.",
+        "hits": 7,
+        "id": "sim1",
+        "last7": [
+          {
+            "date": "2026-07-11",
+            "hits": 0,
+            "picks": 3
+          },
+          {
+            "date": "2026-07-12",
+            "hits": 0,
             "picks": 3
           }
         ],
-        "name": "E-FC",
-        "rate": 0.22388059701492538,
-        "rate_label": "22.4% (15/67)",
-        "sample": 67,
-        "status_label": "live tracked system",
-        "void_label": "5 voids"
+        "name": "Sim-1",
+        "rate": 0.21875,
+        "rate_label": "21.9% (7/32)",
+        "sample": 32,
+        "status_label": "passive shadow",
+        "top10_label": "17.6% (19/108)",
+        "top3_label": "21.9% (7/32)",
+        "top5_label": "20.4% (11/54)"
       },
       {
-        "coverage_label": "23.0% (83/361)",
+        "coverage_label": "22.7% (84/370)",
         "descriptor": "Finds broader medium-profile power/context candidates.",
-        "hits": 131,
+        "hits": 134,
         "id": "scout",
         "last7": [
-          {
-            "date": "2026-07-05",
-            "hits": 4,
-            "picks": 24
-          },
           {
             "date": "2026-07-06",
             "hits": 7,
@@ -279,26 +279,26 @@
             "date": "2026-07-11",
             "hits": 4,
             "picks": 24
+          },
+          {
+            "date": "2026-07-12",
+            "hits": 3,
+            "picks": 24
           }
         ],
         "name": "Scout",
-        "rate": 0.21688741721854304,
-        "rate_label": "21.7% (131/604)",
-        "sample": 604,
+        "rate": 0.21337579617834396,
+        "rate_label": "21.3% (134/628)",
+        "sample": 628,
         "status_label": "shadow / coverage research",
         "void_label": "19 voids"
       },
       {
-        "coverage_label": "19.1% (69/361)",
+        "coverage_label": "19.2% (71/370)",
         "descriptor": "Passive Lane ranks 4–13 coverage layer.",
-        "hits": 49,
+        "hits": 51,
         "id": "laneshadow",
         "last7": [
-          {
-            "date": "2026-07-05",
-            "hits": 3,
-            "picks": 10
-          },
           {
             "date": "2026-07-06",
             "hits": 2,
@@ -328,26 +328,26 @@
             "date": "2026-07-11",
             "hits": 3,
             "picks": 10
+          },
+          {
+            "date": "2026-07-12",
+            "hits": 2,
+            "picks": 10
           }
         ],
         "name": "Lane shadow",
-        "rate": 0.2094017094017094,
-        "rate_label": "20.9% (49/234)",
-        "sample": 234,
+        "rate": 0.20901639344262296,
+        "rate_label": "20.9% (51/244)",
+        "sample": 244,
         "status_label": "shadow / coverage research",
         "void_label": "6 voids"
       },
       {
         "coverage_label": null,
         "descriptor": "Closed precision clock retained as a reference record.",
-        "hits": 26,
+        "hits": 27,
         "id": "systemf",
         "last7": [
-          {
-            "date": "2026-07-05",
-            "hits": 0,
-            "picks": 5
-          },
           {
             "date": "2026-07-06",
             "hits": 1,
@@ -377,26 +377,26 @@
             "date": "2026-07-11",
             "hits": 2,
             "picks": 5
+          },
+          {
+            "date": "2026-07-12",
+            "hits": 1,
+            "picks": 5
           }
         ],
         "name": "System F",
-        "rate": 0.20634920634920634,
-        "rate_label": "20.6% (26/126)",
-        "sample": 126,
+        "rate": 0.20610687022900764,
+        "rate_label": "20.6% (27/131)",
+        "sample": 131,
         "status_label": "retired clock · reference-only",
         "void_label": "4 voids"
       },
       {
         "coverage_label": null,
         "descriptor": "Closed precision clock retained as a reference record.",
-        "hits": 26,
+        "hits": 27,
         "id": "systemd",
         "last7": [
-          {
-            "date": "2026-07-05",
-            "hits": 0,
-            "picks": 5
-          },
           {
             "date": "2026-07-06",
             "hits": 0,
@@ -426,26 +426,26 @@
             "date": "2026-07-11",
             "hits": 1,
             "picks": 5
+          },
+          {
+            "date": "2026-07-12",
+            "hits": 1,
+            "picks": 5
           }
         ],
         "name": "System D",
         "rate": 0.2,
-        "rate_label": "20.0% (26/130)",
-        "sample": 130,
+        "rate_label": "20.0% (27/135)",
+        "sample": 135,
         "status_label": "retired clock · reference-only",
         "void_label": "0 voids"
       },
       {
-        "coverage_label": "2.8% (10/361)",
+        "coverage_label": "2.7% (10/370)",
         "descriptor": "Shadow split across power, environment, and value axes.",
         "hits": 24,
         "id": "v3",
         "last7": [
-          {
-            "date": "2026-07-05",
-            "hits": 2,
-            "picks": 9
-          },
           {
             "date": "2026-07-06",
             "hits": 1,
@@ -475,12 +475,17 @@
             "date": "2026-07-11",
             "hits": 3,
             "picks": 9
+          },
+          {
+            "date": "2026-07-12",
+            "hits": 0,
+            "picks": 9
           }
         ],
         "name": "v3",
-        "rate": 0.13333333333333333,
-        "rate_label": "13.3% (24/180)",
-        "sample": 180,
+        "rate": 0.12698412698412698,
+        "rate_label": "12.7% (24/189)",
+        "sample": 189,
         "status_label": "shadow / coverage research",
         "void_label": "6 voids"
       },
@@ -520,7 +525,7 @@
   "track_record": {
     "frame_line": "Observational — settlement tracking; registered verdict metrics govern.",
     "source_report": "daily_visibility_sections_LATEST.md",
-    "visibility_markdown": "daily_visibility_sections_2026-07-11.md\n"
+    "visibility_markdown": "daily_visibility_sections_2026-07-12.md\n"
   },
   "verdict_clocks": {
     "clv_preliminary": {
