@@ -15,7 +15,7 @@
     "laggard_books": [
       {
         "book": "BetMGM",
-        "count": 2
+        "count": 3
       },
       {
         "book": "DraftKings",
@@ -27,6 +27,10 @@
       },
       {
         "book": "Bovada",
+        "count": 1
+      },
+      {
+        "book": "Fanatics",
         "count": 1
       },
       {
@@ -155,11 +159,45 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-07-16_open_162056Z.csv"
       },
       {
+        "book": "Fanatics",
+        "clv_sign": null,
+        "consensus_price": "+113",
+        "game_id": "mlb_823440",
+        "m1_rank": 8,
+        "market_key": "batter_total_bases",
+        "market_label": "total bases",
+        "normalized_player": "treaturner",
+        "plain": "Fanatics: Trea Turner total bases o1.5 +125, market +113, 5%",
+        "player": "Trea Turner",
+        "point": 1.5,
+        "price": "+125",
+        "relative_divergence": 0.0529762593017025,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-07-16_mid_190528Z.csv"
+      },
+      {
+        "book": "BetMGM",
+        "clv_sign": null,
+        "consensus_price": "-160",
+        "game_id": "mlb_823440",
+        "m1_rank": 9,
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "normalized_player": "franciscoalvarez",
+        "plain": "BetMGM: Francisco Alvarez hits o0.5 -140, market -160, 5%",
+        "player": "Francisco Alvarez",
+        "point": 0.5,
+        "price": "-140",
+        "relative_divergence": 0.0525089937069762,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-07-16_mid_190528Z.csv"
+      },
+      {
         "book": "theScore Bet",
         "clv_sign": null,
         "consensus_price": "-250",
         "game_id": "mlb_823440",
-        "m1_rank": 8,
+        "m1_rank": 10,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "brandonmarsh",
@@ -176,7 +214,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "2026-07-16T23:10:00Z",
-    "generated_at": "2026-07-16T17:15:04Z",
+    "generated_at": "2026-07-16T19:05:32Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -187,21 +225,21 @@
       "lane2_fa_coverage_shadow_2026-07-16_2026-07-16_155001Z.csv",
       "lane2_fa_predictions_2026-07-16_2026-07-16_155001Z.csv",
       "m1_phase_c_pick_ledger.csv",
-      "market_mispricing_phase0_snapshot_2026-07-16_open_162056Z.csv",
+      "market_mispricing_phase0_snapshot_2026-07-16_mid_190528Z.csv",
       "pa_sim_v0_lite_predictions_2026-07-16_2026-07-16_155004Z_LOCKED_RUN.csv",
-      "scored_rows_2026-07-16_2026-07-16_154552Z.csv",
+      "scored_rows_2026-07-16_2026-07-16_183057Z.csv",
       "top5_operational_2026-07-16_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_D_PROJECTED_ALLOWED_2026-07-16_154552Z.csv",
       "top5_operational_2026-07-16_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ADDITIVE_CONTEXT_SHADOW_TOP5_2026-07-16_154552Z.csv",
-      "top5_operational_2026-07-16_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ELITE_POWER_EXCEPTION_CANDIDATES_2026-07-16_154552Z.csv",
       "top5_operational_2026-07-16_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_FULL_CONVICTION_CANDIDATES_2026-07-16_154552Z.csv",
       "top5_operational_2026-07-16_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_F_PROJECTED_ALLOWED_2026-07-16_154552Z.csv",
+      "top5_operational_2026-07-16_NEAR_CLOSE_LIVE_REOBSERVATION_SYSTEM_E_ELITE_POWER_EXCEPTION_CANDIDATES_2026-07-16_183057Z.csv",
       "vnext_v3_shadow_candidates_2026-07-16_VNEXT_V3_SHADOW_CANDIDATES_ALL_AXES_2026-07-16_154552Z.csv"
     ]
   },
   "players": [
     {
       "best_hr_book": "betPARX",
-      "best_hr_odds": "+410",
+      "best_hr_odds": "+400",
       "convergence_count": 7,
       "countdown": "",
       "game_id": "mlb_823440",
@@ -344,8 +382,8 @@
       "team": "NYM"
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+525",
+      "best_hr_book": "BetRivers",
+      "best_hr_odds": "+550",
       "convergence_count": 7,
       "countdown": "",
       "game_id": "mlb_823440",
@@ -457,6 +495,117 @@
         }
       ],
       "team": "NYM"
+    },
+    {
+      "best_hr_book": "Hard Rock Bet",
+      "best_hr_odds": "+525",
+      "convergence_count": 6,
+      "countdown": "",
+      "game_id": "mlb_823440",
+      "game_start_utc": "2026-07-16T23:10:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:10 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/607208/headshot/67/current",
+      "id": "treaturner|mlb_823440",
+      "markets": [
+        {
+          "book": "Fanatics",
+          "consensus_price": "+113",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "Fanatics · total bases o1.5 · +125 · mkt +113",
+          "point": 1.5,
+          "price": "+125",
+          "relative_divergence": 0.0529762593017025
+        }
+      ],
+      "opponent": "NYM",
+      "player": "Trea Turner",
+      "player_id": 607208,
+      "sort": {
+        "m1_relative_divergence": 0.0529762593017025,
+        "player": "Trea Turner",
+        "primary": 6
+      },
+      "system_keys": [
+        "shadow",
+        "sim",
+        "scout",
+        "system_f",
+        "system_d",
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Lane shadow #7",
+          "hr": false,
+          "label": "Lane shadow",
+          "market_key": null,
+          "rank": 7,
+          "relative_divergence": null,
+          "system": "shadow"
+        },
+        {
+          "clv_sign": null,
+          "detail": "Sim-1 #7 · sim score 0.20 (uncalibrated)",
+          "hr": false,
+          "label": "Sim-1",
+          "market_key": null,
+          "p_hr_sim": 0.1964,
+          "rank": 7,
+          "relative_divergence": null,
+          "sim_score_label": "sim score 0.20 (uncalibrated)",
+          "system": "sim"
+        },
+        {
+          "adaptive_scout_score": 61.14181818181818,
+          "clv_sign": null,
+          "detail": "Scout #7 · score 61.1",
+          "hr": false,
+          "label": "Scout",
+          "market_key": null,
+          "rank": 7,
+          "relative_divergence": null,
+          "system": "scout"
+        },
+        {
+          "clv_sign": null,
+          "detail": "F #5 · score 75.9",
+          "hr": false,
+          "label": "F",
+          "market_key": null,
+          "rank": 5,
+          "relative_divergence": null,
+          "score": 75.91,
+          "source_view": "F",
+          "system": "system_f"
+        },
+        {
+          "clv_sign": null,
+          "detail": "D #5 · score 75.8",
+          "hr": false,
+          "label": "D",
+          "market_key": null,
+          "rank": 5,
+          "relative_divergence": null,
+          "score": 75.82,
+          "source_view": "D",
+          "system": "system_d"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 5%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0529762593017025,
+          "system": "m1"
+        }
+      ],
+      "team": "PHI"
     },
     {
       "best_hr_book": "",
@@ -682,7 +831,7 @@
     },
     {
       "best_hr_book": "betPARX",
-      "best_hr_odds": "+335",
+      "best_hr_odds": "+325",
       "convergence_count": 5,
       "countdown": "",
       "game_id": "mlb_823440",
@@ -770,93 +919,89 @@
       "team": "PHI"
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+525",
-      "convergence_count": 5,
+      "best_hr_book": "betPARX",
+      "best_hr_odds": "+510",
+      "convergence_count": 4,
       "countdown": "",
       "game_id": "mlb_823440",
       "game_start_utc": "2026-07-16T23:10:00Z",
       "game_started": false,
       "game_state": "NOT_STARTED",
       "game_time_et": "7:10 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/607208/headshot/67/current",
-      "id": "treaturner|mlb_823440",
-      "markets": [],
-      "opponent": "NYM",
-      "player": "Trea Turner",
-      "player_id": 607208,
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/682626/headshot/67/current",
+      "id": "franciscoalvarez|mlb_823440",
+      "markets": [
+        {
+          "book": "BetMGM",
+          "consensus_price": "-160",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "BetMGM · hits o0.5 · -140 · mkt -160",
+          "point": 0.5,
+          "price": "-140",
+          "relative_divergence": 0.0525089937069762
+        }
+      ],
+      "opponent": "PHI",
+      "player": "Francisco Alvarez",
+      "player_id": 682626,
       "sort": {
-        "m1_relative_divergence": 0.0,
-        "player": "Trea Turner",
-        "primary": 5
+        "m1_relative_divergence": 0.0525089937069762,
+        "player": "Francisco Alvarez",
+        "primary": 4
       },
       "system_keys": [
         "shadow",
         "sim",
         "scout",
-        "system_f",
-        "system_d"
+        "m1"
       ],
       "systems": [
         {
           "clv_sign": null,
-          "detail": "Lane shadow #7",
+          "detail": "Lane shadow #8",
           "hr": false,
           "label": "Lane shadow",
           "market_key": null,
-          "rank": 7,
+          "rank": 8,
           "relative_divergence": null,
           "system": "shadow"
         },
         {
           "clv_sign": null,
-          "detail": "Sim-1 #7 · sim score 0.20 (uncalibrated)",
+          "detail": "Sim-1 #3 · sim score 0.31 (uncalibrated)",
           "hr": false,
           "label": "Sim-1",
           "market_key": null,
-          "p_hr_sim": 0.1964,
-          "rank": 7,
+          "p_hr_sim": 0.3066,
+          "rank": 3,
           "relative_divergence": null,
-          "sim_score_label": "sim score 0.20 (uncalibrated)",
+          "sim_score_label": "sim score 0.31 (uncalibrated)",
           "system": "sim"
         },
         {
-          "adaptive_scout_score": 61.14181818181818,
+          "adaptive_scout_score": 60.00811904761905,
           "clv_sign": null,
-          "detail": "Scout #7 · score 61.1",
+          "detail": "Scout #8 · score 60.0",
           "hr": false,
           "label": "Scout",
           "market_key": null,
-          "rank": 7,
+          "rank": 8,
           "relative_divergence": null,
           "system": "scout"
         },
         {
           "clv_sign": null,
-          "detail": "F #5 · score 75.9",
+          "detail": "M-1 5%",
           "hr": false,
-          "label": "F",
-          "market_key": null,
-          "rank": 5,
-          "relative_divergence": null,
-          "score": 75.91,
-          "source_view": "F",
-          "system": "system_f"
-        },
-        {
-          "clv_sign": null,
-          "detail": "D #5 · score 75.8",
-          "hr": false,
-          "label": "D",
-          "market_key": null,
-          "rank": 5,
-          "relative_divergence": null,
-          "score": 75.82,
-          "source_view": "D",
-          "system": "system_d"
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0525089937069762,
+          "system": "m1"
         }
       ],
-      "team": "PHI"
+      "team": "NYM"
     },
     {
       "best_hr_book": "",
@@ -937,8 +1082,8 @@
       "team": "NYM"
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+475",
+      "best_hr_book": "betPARX",
+      "best_hr_odds": "+510",
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_823440",
@@ -1030,8 +1175,8 @@
       "team": "NYM"
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+525",
+      "best_hr_book": "betPARX",
+      "best_hr_odds": "+575",
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_823440",
@@ -1118,69 +1263,6 @@
           "rank": null,
           "relative_divergence": 0.0559487642269993,
           "system": "m1"
-        }
-      ],
-      "team": "NYM"
-    },
-    {
-      "best_hr_book": "Hard Rock Bet (OH)",
-      "best_hr_odds": "+475",
-      "convergence_count": 3,
-      "countdown": "",
-      "game_id": "mlb_823440",
-      "game_start_utc": "2026-07-16T23:10:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "7:10 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/682626/headshot/67/current",
-      "id": "franciscoalvarez|mlb_823440",
-      "markets": [],
-      "opponent": "PHI",
-      "player": "Francisco Alvarez",
-      "player_id": 682626,
-      "sort": {
-        "m1_relative_divergence": 0.0,
-        "player": "Francisco Alvarez",
-        "primary": 3
-      },
-      "system_keys": [
-        "shadow",
-        "sim",
-        "scout"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "Lane shadow #8",
-          "hr": false,
-          "label": "Lane shadow",
-          "market_key": null,
-          "rank": 8,
-          "relative_divergence": null,
-          "system": "shadow"
-        },
-        {
-          "clv_sign": null,
-          "detail": "Sim-1 #3 · sim score 0.31 (uncalibrated)",
-          "hr": false,
-          "label": "Sim-1",
-          "market_key": null,
-          "p_hr_sim": 0.3066,
-          "rank": 3,
-          "relative_divergence": null,
-          "sim_score_label": "sim score 0.31 (uncalibrated)",
-          "system": "sim"
-        },
-        {
-          "adaptive_scout_score": 60.00811904761905,
-          "clv_sign": null,
-          "detail": "Scout #8 · score 60.0",
-          "hr": false,
-          "label": "Scout",
-          "market_key": null,
-          "rank": 8,
-          "relative_divergence": null,
-          "system": "scout"
         }
       ],
       "team": "NYM"
@@ -1754,18 +1836,18 @@
           },
           {
             "market": "hits",
-            "picks": 590,
+            "picks": 591,
             "status": "measured against market expectations"
           },
           {
             "market": "total bases",
-            "picks": 779,
+            "picks": 780,
             "status": "measured against market expectations"
           }
         ],
         "name": "M-1",
         "rate": 0,
-        "rate_label": "observational (2195)",
+        "rate_label": "observational (2197)",
         "status_label": "live observational clock"
       }
     ]
