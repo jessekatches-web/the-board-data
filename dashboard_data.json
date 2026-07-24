@@ -15,7 +15,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "",
-    "generated_at": "2026-07-24T12:31:10Z",
+    "generated_at": "2026-07-24T12:47:11Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -80,54 +80,102 @@
         "status_label": "live tracked system · registered 6/16+ basis"
       },
       {
-        "descriptor": "Passive PA-level simulation shadow; scores are uncalibrated.",
-        "hits": 11,
-        "id": "sim1",
+        "coverage_label": null,
+        "descriptor": "Closed precision clock retained as a reference record.",
+        "hits": 37,
+        "id": "systemd",
         "last7": [
           {
-            "date": "2026-07-16",
-            "hits": 1,
-            "picks": 3
-          },
-          {
             "date": "2026-07-17",
-            "hits": 0,
-            "picks": 3
+            "hits": 3,
+            "picks": 5
           },
           {
             "date": "2026-07-18",
             "hits": 0,
-            "picks": 3
+            "picks": 5
           },
           {
             "date": "2026-07-19",
             "hits": 1,
-            "picks": 3
+            "picks": 5
+          },
+          {
+            "date": "2026-07-20",
+            "hits": 0,
+            "picks": 5
+          },
+          {
+            "date": "2026-07-21",
+            "hits": 2,
+            "picks": 5
+          },
+          {
+            "date": "2026-07-22",
+            "hits": 1,
+            "picks": 5
+          },
+          {
+            "date": "2026-07-23",
+            "hits": 2,
+            "picks": 5
+          }
+        ],
+        "name": "System D",
+        "rate": 0.21142857142857144,
+        "rate_label": "21.1% (37/175)",
+        "sample": 175,
+        "status_label": "retired clock · reference-only",
+        "void_label": "0 voids"
+      },
+      {
+        "coverage_label": null,
+        "descriptor": "Closed precision clock retained as a reference record.",
+        "hits": 36,
+        "id": "systemf",
+        "last7": [
+          {
+            "date": "2026-07-17",
+            "hits": 2,
+            "picks": 5
+          },
+          {
+            "date": "2026-07-18",
+            "hits": 0,
+            "picks": 5
+          },
+          {
+            "date": "2026-07-19",
+            "hits": 1,
+            "picks": 5
           },
           {
             "date": "2026-07-20",
             "hits": 1,
-            "picks": 3
+            "picks": 5
           },
           {
             "date": "2026-07-21",
-            "hits": 1,
-            "picks": 3
+            "hits": 0,
+            "picks": 5
           },
           {
             "date": "2026-07-22",
-            "hits": 0,
-            "picks": 3
+            "hits": 1,
+            "picks": 5
+          },
+          {
+            "date": "2026-07-23",
+            "hits": 3,
+            "picks": 5
           }
         ],
-        "name": "Sim-1",
-        "rate": 0.20754716981132076,
-        "rate_label": "20.8% (11/53)",
-        "sample": 53,
-        "status_label": "passive shadow",
-        "top10_label": "18.5% (32/173)",
-        "top3_label": "20.8% (11/53)",
-        "top5_label": "19.5% (17/87)"
+        "name": "System F",
+        "rate": 0.21052631578947367,
+        "rate_label": "21.1% (36/171)",
+        "sample": 171,
+        "status_label": "retired clock · reference-only",
+        "void_label": "4 voids"
       },
       {
         "coverage_label": null,
@@ -179,65 +227,11 @@
         "void_label": "5 voids"
       },
       {
-        "coverage_label": null,
-        "descriptor": "Closed precision clock retained as a reference record.",
-        "hits": 35,
-        "id": "systemd",
-        "last7": [
-          {
-            "date": "2026-07-16",
-            "hits": 1,
-            "picks": 5
-          },
-          {
-            "date": "2026-07-17",
-            "hits": 3,
-            "picks": 5
-          },
-          {
-            "date": "2026-07-18",
-            "hits": 0,
-            "picks": 5
-          },
-          {
-            "date": "2026-07-19",
-            "hits": 1,
-            "picks": 5
-          },
-          {
-            "date": "2026-07-20",
-            "hits": 0,
-            "picks": 5
-          },
-          {
-            "date": "2026-07-21",
-            "hits": 2,
-            "picks": 5
-          },
-          {
-            "date": "2026-07-22",
-            "hits": 1,
-            "picks": 5
-          }
-        ],
-        "name": "System D",
-        "rate": 0.20588235294117646,
-        "rate_label": "20.6% (35/170)",
-        "sample": 170,
-        "status_label": "retired clock · reference-only",
-        "void_label": "0 voids"
-      },
-      {
-        "coverage_label": "20.3% (96/473)",
+        "coverage_label": "20.6% (98/476)",
         "descriptor": "Finds broader medium-profile power/context candidates.",
-        "hits": 158,
+        "hits": 161,
         "id": "scout",
         "last7": [
-          {
-            "date": "2026-07-16",
-            "hits": 2,
-            "picks": 8
-          },
           {
             "date": "2026-07-17",
             "hits": 4,
@@ -267,14 +261,19 @@
             "date": "2026-07-22",
             "hits": 2,
             "picks": 24
+          },
+          {
+            "date": "2026-07-23",
+            "hits": 3,
+            "picks": 15
           }
         ],
         "name": "Scout",
-        "rate": 0.2041343669250646,
-        "rate_label": "20.4% (158/774)",
-        "sample": 774,
+        "rate": 0.20405576679340937,
+        "rate_label": "20.4% (161/789)",
+        "sample": 789,
         "status_label": "shadow / coverage research",
-        "void_label": "25 voids"
+        "void_label": "26 voids"
       },
       {
         "coverage_label": null,
@@ -326,65 +325,61 @@
         "void_label": "0 voids"
       },
       {
-        "coverage_label": null,
-        "descriptor": "Closed precision clock retained as a reference record.",
-        "hits": 33,
-        "id": "systemf",
+        "descriptor": "Passive PA-level simulation shadow; scores are uncalibrated.",
+        "hits": 11,
+        "id": "sim1",
         "last7": [
           {
-            "date": "2026-07-16",
-            "hits": 1,
-            "picks": 5
-          },
-          {
             "date": "2026-07-17",
-            "hits": 2,
-            "picks": 5
+            "hits": 0,
+            "picks": 3
           },
           {
             "date": "2026-07-18",
             "hits": 0,
-            "picks": 5
+            "picks": 3
           },
           {
             "date": "2026-07-19",
             "hits": 1,
-            "picks": 5
+            "picks": 3
           },
           {
             "date": "2026-07-20",
             "hits": 1,
-            "picks": 5
+            "picks": 3
           },
           {
             "date": "2026-07-21",
-            "hits": 0,
-            "picks": 5
+            "hits": 1,
+            "picks": 3
           },
           {
             "date": "2026-07-22",
-            "hits": 1,
-            "picks": 5
+            "hits": 0,
+            "picks": 3
+          },
+          {
+            "date": "2026-07-23",
+            "hits": 0,
+            "picks": 3
           }
         ],
-        "name": "System F",
-        "rate": 0.19879518072289157,
-        "rate_label": "19.9% (33/166)",
-        "sample": 166,
-        "status_label": "retired clock · reference-only",
-        "void_label": "4 voids"
+        "name": "Sim-1",
+        "rate": 0.19642857142857142,
+        "rate_label": "19.6% (11/56)",
+        "sample": 56,
+        "status_label": "passive shadow",
+        "top10_label": "18.6% (34/183)",
+        "top3_label": "19.6% (11/56)",
+        "top5_label": "18.5% (17/92)"
       },
       {
-        "coverage_label": "17.3% (82/473)",
+        "coverage_label": "17.6% (84/476)",
         "descriptor": "Passive Lane ranks 4–13 coverage layer.",
-        "hits": 60,
+        "hits": 61,
         "id": "laneshadow",
         "last7": [
-          {
-            "date": "2026-07-16",
-            "hits": 2,
-            "picks": 5
-          },
           {
             "date": "2026-07-17",
             "hits": 2,
@@ -414,12 +409,17 @@
             "date": "2026-07-22",
             "hits": 0,
             "picks": 10
+          },
+          {
+            "date": "2026-07-23",
+            "hits": 1,
+            "picks": 10
           }
         ],
         "name": "Lane shadow",
-        "rate": 0.19543973941368079,
-        "rate_label": "19.5% (60/307)",
-        "sample": 307,
+        "rate": 0.19242902208201892,
+        "rate_label": "19.2% (61/317)",
+        "sample": 317,
         "status_label": "shadow / coverage research",
         "void_label": "8 voids"
       },
@@ -429,11 +429,6 @@
         "hits": 33,
         "id": "systemareference",
         "last7": [
-          {
-            "date": "2026-07-16",
-            "hits": 0,
-            "picks": 5
-          },
           {
             "date": "2026-07-17",
             "hits": 1,
@@ -463,26 +458,26 @@
             "date": "2026-07-22",
             "hits": 1,
             "picks": 5
+          },
+          {
+            "date": "2026-07-23",
+            "hits": 0,
+            "picks": 5
           }
         ],
         "name": "System A reference",
-        "rate": 0.19411764705882353,
-        "rate_label": "19.4% (33/170)",
-        "sample": 170,
+        "rate": 0.18857142857142858,
+        "rate_label": "18.9% (33/175)",
+        "sample": 175,
         "status_label": "reference-only",
         "void_label": "0 voids"
       },
       {
-        "coverage_label": "3.0% (14/473)",
+        "coverage_label": "2.9% (14/476)",
         "descriptor": "Shadow split across power, environment, and value axes.",
         "hits": 32,
         "id": "v3",
         "last7": [
-          {
-            "date": "2026-07-16",
-            "hits": 0,
-            "picks": 4
-          },
           {
             "date": "2026-07-17",
             "hits": 1,
@@ -512,12 +507,17 @@
             "date": "2026-07-22",
             "hits": 1,
             "picks": 9
+          },
+          {
+            "date": "2026-07-23",
+            "hits": 0,
+            "picks": 3
           }
         ],
         "name": "v3",
-        "rate": 0.13617021276595745,
-        "rate_label": "13.6% (32/235)",
-        "sample": 235,
+        "rate": 0.13445378151260504,
+        "rate_label": "13.4% (32/238)",
+        "sample": 238,
         "status_label": "shadow / coverage research",
         "void_label": "7 voids"
       },
@@ -556,8 +556,8 @@
   },
   "track_record": {
     "frame_line": "Observational — settlement tracking; registered verdict metrics govern.",
-    "source_report": "daily_visibility_sections_2026-07-22.md",
-    "visibility_markdown": "## M-1 Outcomes\n\nObservational — settlement tracking; registered verdict metric is excess CLV.\nOutcome denominator basis: PA-valid settled player-market rows only; zero-PA and absent-boxscore rows are VOID.\nRetroactive-grading note: CLV sign is rendered from captured closes where available; this is report visibility only.\n\n### 2026-07-22 settlements\n\n| Market | Picks | Hits | Hit rate | Avg implied prob at pick |\n|---|---|---|---|---|\n| Doubles | 50 | 5 | 10.0% | 18.6% |\n| Hits | 73 | 43 | 58.9% | 57.6% |\n| HR | 44 | 8 | 18.2% | 15.3% |\n| Total bases | 86 | 38 | 44.2% | 45.8% |\n\nHR subgroup (secondary only; no HR-specific verdict): matched-close coverage=42/44 (95.5%); unmatched=2.\n\n#### CLV-sign split\n\n| Market | CLV bucket | Picks | Hits | Hit rate |\n|---|---|---|---|---|\n| Doubles | negative/flat CLV | 32 | 5 | 15.6% |\n| Doubles | positive CLV | 17 | 0 | 0.0% |\n| Hits | negative/flat CLV | 46 | 26 | 56.5% |\n| Hits | positive CLV | 27 | 17 | 63.0% |\n| HR | negative/flat CLV | 19 | 4 | 21.1% |\n| HR | positive CLV | 23 | 4 | 17.4% |\n| Total bases | negative/flat CLV | 50 | 24 | 48.0% |\n| Total bases | positive CLV | 35 | 14 | 40.0% |\n\nPositive-CLV-and-hit names: A.J. Ewing — Hits 0.5 @ Bally Bet; Brett Baty — Hits 0.5 @ DraftKings; CJ Abrams — Hits 1.5 @ Bally Bet; Dillon Dingler — Hits 0.5 @ theScore Bet; Dominic Canzone — Hits 0.5 @ theScore Bet; Dylan Crews — Hits 1.5 @ BetMGM; Francisco Lindor — Hits 0.5 @ Bally Bet; Freddie Freeman — Hits 0.5 @ DraftKings; Freddie Freeman — Hits 1.5 @ BetOnline.ag; Josh Bell — Hits 0.5 @ theScore Bet; Justin Foscue — Hits 0.5 @ Bally Bet; Kerry Carpenter — Hits 0.5 @ DraftKings; Kody Clemens — Hits 0.5 @ BetMGM; Luke Raley — Hits 0.5 @ Hard Rock Bet (OH); Royce Lewis — Hits 0.5 @ DraftKings; Spencer Torkelson — Hits 0.5 @ DraftKings; Trent Grisham — Hits 0.5 @ BetMGM; Brett Baty — HR 0.5 @ Hard Rock Bet (OH); Dalton Rushing — HR 0.5 @ betPARX; Sal Stewart — HR 0.5 @ BetRivers; Salvador Perez — HR 0.5 @ DraftKings; Austin Riley — Total bases 1.5 @ BetOnline.ag; Dalton Rushing — Total bases 1.5 @ Bally Bet; Dylan Crews — Total bases 1.5 @ theScore Bet; Freddie Freeman — Total bases 1.5 @ DraftKings; Kerry Carpenter — Total bases 0.5 @ theScore Bet; Kody Clemens — Total bases 1.5 @ BetMGM; Luke Raley — Total bases 0.5 @ Hard Rock Bet (OH); Rafael Devers — Total bases 1.5 @ BetOnline.ag; Royce Lewis — Total bases 0.5 @ Fanatics; Ryan McMahon — Total bases 1.5 @ BetOnline.ag; Seiya Suzuki — Total bases 1.5 @ DraftKings; Shea Langeliers — Total bases 1.5 @ Bovada; Spencer Torkelson — Total bases 1.5 @ theScore Bet; Willson Contreras — Total bases 1.5 @ Bovada.\n\n### Cumulative M-1 outcomes through 2026-07-22\n\n| Market | Picks | Hits | Hit rate | Avg implied prob at pick |\n|---|---|---|---|---|\n| Doubles | 748 | 119 | 15.9% | 18.7% |\n| Hits | 971 | 518 | 53.3% | 56.8% |\n| HR | 609 | 92 | 15.1% | 15.1% |\n| Total bases | 1258 | 523 | 41.6% | 45.6% |\n\nHR subgroup (secondary only; no HR-specific verdict): matched-close coverage=555/609 (91.1%); unmatched=54.\n\n#### Cumulative CLV-sign split\n\n| Market | CLV bucket | Picks | Hits | Hit rate |\n|---|---|---|---|---|\n| Doubles | negative/flat CLV | 454 | 70 | 15.4% |\n| Doubles | positive CLV | 212 | 37 | 17.5% |\n| Hits | negative/flat CLV | 537 | 279 | 52.0% |\n| Hits | positive CLV | 326 | 186 | 57.1% |\n| HR | negative/flat CLV | 255 | 31 | 12.2% |\n| HR | positive CLV | 300 | 54 | 18.0% |\n| Total bases | negative/flat CLV | 676 | 278 | 41.1% |\n| Total bases | positive CLV | 457 | 198 | 43.3% |\n\n## Sim-1 Outcomes\n\nObservational — settlement tracking; registered verdict metric is excess CLV.\nSim-1 remains passive/unscored shadow archive; this is report-window visibility only, not a registered read.\n\n| Date | Top-3 hits | Top-3 hit rate | Top-3 hit names | Top-10 hits | Top-10 hit rate | Top-10 hit names |\n|---|---|---|---|---|---|---|\n| 2026-07-02 | 0/3 | 0.0% | none | 0/10 | 0.0% | none |\n| 2026-07-03 | 2/3 | 66.7% | Kody Clemens, Junior Caminero | 2/9 | 22.2% | Kody Clemens, Junior Caminero |\n| 2026-07-04 | 1/3 | 33.3% | Jackson Chourio | 3/10 | 30.0% | Jackson Chourio, Dominic Canzone, Kody Clemens |\n| 2026-07-05 | 1/3 | 33.3% | Rafael Devers | 1/10 | 10.0% | Rafael Devers |\n| 2026-07-06 | 1/3 | 33.3% | Heliot Ramos | 3/10 | 30.0% | Heliot Ramos, Curtis Mead, Ben Rice |\n| 2026-07-07 | 0/2 | 0.0% | none | 0/9 | 0.0% | none |\n| 2026-07-08 | 0/3 | 0.0% | none | 1/10 | 10.0% | Pete Crow-Armstrong |\n| 2026-07-09 | 0/3 | 0.0% | none | 2/10 | 20.0% | Bryan Reynolds, Manny Machado |\n| 2026-07-10 | 2/3 | 66.7% | Rafael Devers, Wyatt Langford | 7/10 | 70.0% | Rafael Devers, Wyatt Langford, Kazuma Okamoto, Spencer Torkelson, Colt Keith, Joc Pederson, Ben Rice |\n| 2026-07-11 | 0/3 | 0.0% | none | 0/10 | 0.0% | none |\n| 2026-07-12 | 0/3 | 0.0% | none | 0/10 | 0.0% | none |\n| 2026-07-16 | 1/3 | 33.3% | Francisco Alvarez | 2/8 | 25.0% | Francisco Alvarez, Trea Turner |\n| 2026-07-17 | 0/3 | 0.0% | none | 1/10 | 10.0% | Junior Caminero |\n| 2026-07-18 | 0/3 | 0.0% | none | 1/9 | 11.1% | Joc Pederson |\n| 2026-07-19 | 1/3 | 33.3% | Wyatt Langford | 3/10 | 30.0% | Wyatt Langford, CJ Abrams, Willson Contreras |\n| 2026-07-20 | 1/3 | 33.3% | Manny Machado | 4/10 | 40.0% | Manny Machado, Ty France, CJ Abrams, Ketel Marte |\n| 2026-07-21 | 1/3 | 33.3% | Wyatt Langford | 2/9 | 22.2% | Wyatt Langford, CJ Abrams |\n| 2026-07-22 | 0/3 | 0.0% | none | 0/9 | 0.0% | none |\n\nCumulative since 2026-07-02: top-3 11/53 (20.8%); top-10 32/173 (18.5%).\n\n## Coverage & Shadow\n\nCoverage diagnostics — durability judged over many slates; no single-day disposition decisions.\n\n### 2026-07-22 coverage diagnostics\n\nTrue medium-profile HR target count: 12\nTrue medium-profile HR target names: Brett Baty, Casey Schmitt, Corbin Carroll, Dalton Rushing, JJ Bleday, JJ Wetherholt, Jackson Merrill, Max Muncy, Sal Stewart, Salvador Perez, Seiya Suzuki, Spencer Torkelson\n\n| System | Coverage | Caught names | Unique/marginal names |\n|---|---|---|---|\n| Scout | 1/12 | Max Muncy | Max Muncy |\n| v3 | 0/12 | none | none |\n| 2FA-coverage | 0/12 | none | none |\n\n#### Lane coverage-shadow ranks 4–13\n\nCoverage-only/passive — excluded from all forward-clock precision criteria: 0/10 HR hits; names: none.\n\n#### Adaptive Scout — quarantined daily line\n\nQuarantined: predicted=24; hits=2; raw precision=8.3%; coverage vs true-target denominator=1/12 (8.3%); unique-beyond-other-systems names: Max Muncy.\n"
+    "source_report": "daily_visibility_sections_2026-07-23.md",
+    "visibility_markdown": "## M-1 Outcomes\n\nObservational — settlement tracking; registered verdict metric is excess CLV.\nOutcome denominator basis: PA-valid settled player-market rows only; zero-PA and absent-boxscore rows are VOID.\nRetroactive-grading note: CLV sign is rendered from captured closes where available; this is report visibility only.\n\n### 2026-07-23 settlements\n\n| Market | Picks | Hits | Hit rate | Avg implied prob at pick |\n|---|---|---|---|---|\n| Doubles | 26 | 5 | 19.2% | 19.0% |\n| Hits | 28 | 14 | 50.0% | 58.6% |\n| HR | 12 | 0 | 0.0% | 14.7% |\n| Total bases | 31 | 11 | 35.5% | 44.8% |\n\nHR subgroup (secondary only; no HR-specific verdict): matched-close coverage=11/12 (91.7%); unmatched=1.\n\n#### CLV-sign split\n\n| Market | CLV bucket | Picks | Hits | Hit rate |\n|---|---|---|---|---|\n| Doubles | negative/flat CLV | 14 | 4 | 28.6% |\n| Doubles | positive CLV | 4 | 1 | 25.0% |\n| Hits | negative/flat CLV | 15 | 5 | 33.3% |\n| Hits | positive CLV | 7 | 4 | 57.1% |\n| HR | negative/flat CLV | 1 | 0 | 0.0% |\n| HR | positive CLV | 10 | 0 | 0.0% |\n| Total bases | negative/flat CLV | 17 | 3 | 17.6% |\n| Total bases | positive CLV | 7 | 5 | 71.4% |\n\nPositive-CLV-and-hit names: George Springer — Doubles 0.5 @ theScore Bet; Alec Burleson — Hits 1.5 @ Bally Bet; Carter Jensen — Hits 0.5 @ Bally Bet; JJ Wetherholt — Hits 0.5 @ Bally Bet; Kevin McGonigle — Hits 0.5 @ BetMGM; Carter Jensen — Total bases 1.5 @ Bally Bet; Corbin Carroll — Total bases 1.5 @ Bally Bet; Dillon Dingler — Total bases 1.5 @ betPARX; George Springer — Total bases 1.5 @ BetOnline.ag; JJ Wetherholt — Total bases 1.5 @ Bally Bet.\n\n### Cumulative M-1 outcomes through 2026-07-23\n\n| Market | Picks | Hits | Hit rate | Avg implied prob at pick |\n|---|---|---|---|---|\n| Doubles | 774 | 124 | 16.0% | 18.7% |\n| Hits | 999 | 532 | 53.3% | 56.8% |\n| HR | 621 | 92 | 14.8% | 15.1% |\n| Total bases | 1289 | 534 | 41.4% | 45.6% |\n\nHR subgroup (secondary only; no HR-specific verdict): matched-close coverage=566/621 (91.1%); unmatched=55.\n\n#### Cumulative CLV-sign split\n\n| Market | CLV bucket | Picks | Hits | Hit rate |\n|---|---|---|---|---|\n| Doubles | negative/flat CLV | 468 | 74 | 15.8% |\n| Doubles | positive CLV | 216 | 38 | 17.6% |\n| Hits | negative/flat CLV | 552 | 284 | 51.4% |\n| Hits | positive CLV | 333 | 190 | 57.1% |\n| HR | negative/flat CLV | 256 | 31 | 12.1% |\n| HR | positive CLV | 310 | 54 | 17.4% |\n| Total bases | negative/flat CLV | 693 | 281 | 40.5% |\n| Total bases | positive CLV | 464 | 203 | 43.8% |\n\n## Sim-1 Outcomes\n\nObservational — settlement tracking; registered verdict metric is excess CLV.\nSim-1 remains passive/unscored shadow archive; this is report-window visibility only, not a registered read.\n\n| Date | Top-3 hits | Top-3 hit rate | Top-3 hit names | Top-10 hits | Top-10 hit rate | Top-10 hit names |\n|---|---|---|---|---|---|---|\n| 2026-07-02 | 0/3 | 0.0% | none | 0/10 | 0.0% | none |\n| 2026-07-03 | 2/3 | 66.7% | Kody Clemens, Junior Caminero | 2/9 | 22.2% | Kody Clemens, Junior Caminero |\n| 2026-07-04 | 1/3 | 33.3% | Jackson Chourio | 3/10 | 30.0% | Jackson Chourio, Dominic Canzone, Kody Clemens |\n| 2026-07-05 | 1/3 | 33.3% | Rafael Devers | 1/10 | 10.0% | Rafael Devers |\n| 2026-07-06 | 1/3 | 33.3% | Heliot Ramos | 3/10 | 30.0% | Heliot Ramos, Curtis Mead, Ben Rice |\n| 2026-07-07 | 0/2 | 0.0% | none | 0/9 | 0.0% | none |\n| 2026-07-08 | 0/3 | 0.0% | none | 1/10 | 10.0% | Pete Crow-Armstrong |\n| 2026-07-09 | 0/3 | 0.0% | none | 2/10 | 20.0% | Bryan Reynolds, Manny Machado |\n| 2026-07-10 | 2/3 | 66.7% | Rafael Devers, Wyatt Langford | 7/10 | 70.0% | Rafael Devers, Wyatt Langford, Kazuma Okamoto, Spencer Torkelson, Colt Keith, Joc Pederson, Ben Rice |\n| 2026-07-11 | 0/3 | 0.0% | none | 0/10 | 0.0% | none |\n| 2026-07-12 | 0/3 | 0.0% | none | 0/10 | 0.0% | none |\n| 2026-07-16 | 1/3 | 33.3% | Francisco Alvarez | 2/8 | 25.0% | Francisco Alvarez, Trea Turner |\n| 2026-07-17 | 0/3 | 0.0% | none | 1/10 | 10.0% | Junior Caminero |\n| 2026-07-18 | 0/3 | 0.0% | none | 1/9 | 11.1% | Joc Pederson |\n| 2026-07-19 | 1/3 | 33.3% | Wyatt Langford | 3/10 | 30.0% | Wyatt Langford, CJ Abrams, Willson Contreras |\n| 2026-07-20 | 1/3 | 33.3% | Manny Machado | 4/10 | 40.0% | Manny Machado, Ty France, CJ Abrams, Ketel Marte |\n| 2026-07-21 | 1/3 | 33.3% | Wyatt Langford | 2/9 | 22.2% | Wyatt Langford, CJ Abrams |\n| 2026-07-22 | 0/3 | 0.0% | none | 0/9 | 0.0% | none |\n| 2026-07-23 | 0/3 | 0.0% | none | 2/10 | 20.0% | Ty France, Michael Harris II |\n\nCumulative since 2026-07-02: top-3 11/56 (19.6%); top-10 34/183 (18.6%).\n\n## Coverage & Shadow\n\nCoverage diagnostics — durability judged over many slates; no single-day disposition decisions.\n\n### 2026-07-23 coverage diagnostics\n\nTrue medium-profile HR target count: 3\nTrue medium-profile HR target names: Drake Baldwin, Michael Harris II, Ty France\n\n| System | Coverage | Caught names | Unique/marginal names |\n|---|---|---|---|\n| Scout | 2/3 | Drake Baldwin, Michael Harris II | none |\n| v3 | 0/3 | none | none |\n| 2FA-coverage | 2/3 | Drake Baldwin, Michael Harris II | none |\n\n#### Lane coverage-shadow ranks 4–13\n\nCoverage-only/passive — excluded from all forward-clock precision criteria: 1/10 HR hits; names: Michael Harris II.\n\n#### Adaptive Scout — quarantined daily line\n\nQuarantined: predicted=16; hits=3; raw precision=18.8%; coverage vs true-target denominator=2/3 (66.7%); unique-beyond-other-systems names: none.\n"
   },
   "verdict_clocks": {
     "clv_preliminary": {
