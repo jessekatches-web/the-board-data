@@ -1,4 +1,23 @@
 {
+  "apex_fixture_demo": {
+    "fixture_only": true,
+    "frame": "APEX FIXTURE DEMO — synthetic public-data fixture · not live picks · not evidence · no staking",
+    "rows": [
+      {
+        "detail": "APEX fixture demo #1 · 5/5 gates · slot 2 · SP 1.6 HR/9 · conv 2",
+        "game_id": "apex_fixture_7001",
+        "player": "Fixture Slugger",
+        "rank": 1
+      },
+      {
+        "detail": "APEX fixture demo #2 · 5/5 gates · slot 4 · SP 1.4 HR/9 · conv 2",
+        "game_id": "apex_fixture_7002",
+        "player": "Fixture Power",
+        "rank": 2
+      }
+    ],
+    "staking_authorized": false
+  },
   "games": [
     {
       "away_team": "Houston Astros",
@@ -4157,7 +4176,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "2026-07-27T22:40:00Z",
-    "generated_at": "2026-07-28T02:15:38Z",
+    "generated_at": "2026-07-28T06:46:40Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -4165,19 +4184,21 @@
     "slate_date": "2026-07-27",
     "sources": [
       "adaptive_scout_predictions_2026-07-27_2026-07-27_200951Z_DIAGNOSTIC.csv",
+      "apex-lock.json",
       "lane2_fa_coverage_shadow_2026-07-27_2026-07-27_154947Z.csv",
       "lane2_fa_predictions_2026-07-27_2026-07-27_154947Z.csv",
       "m1_phase_c_pick_ledger.csv",
       "market_mispricing_phase0_snapshot_2026-07-27_near_close_223553Z.csv",
       "pa_sim_v0_lite_predictions_2026-07-27_2026-07-27_154950Z_LOCKED_RUN.csv",
+      "publication.json",
+      "ranking.json",
       "scored_rows_2026-07-27_2026-07-28_013053Z.csv",
       "top5_operational_2026-07-27_NEAR_CLOSE_LIVE_REOBSERVATION_SYSTEM_D_PROJECTED_ALLOWED_2026-07-28_003607Z.csv",
       "top5_operational_2026-07-27_NEAR_CLOSE_LIVE_REOBSERVATION_SYSTEM_E_ADDITIVE_CONTEXT_SHADOW_TOP5_2026-07-28_003607Z.csv",
       "top5_operational_2026-07-27_NEAR_CLOSE_LIVE_REOBSERVATION_SYSTEM_E_ELITE_POWER_EXCEPTION_CANDIDATES_2026-07-28_003607Z.csv",
       "top5_operational_2026-07-27_NEAR_CLOSE_LIVE_REOBSERVATION_SYSTEM_E_FULL_CONVICTION_CANDIDATES_2026-07-27_213121Z.csv",
       "top5_operational_2026-07-27_NEAR_CLOSE_LIVE_REOBSERVATION_SYSTEM_F_PROJECTED_ALLOWED_2026-07-28_003607Z.csv",
-      "vnext_v3_shadow_candidates_2026-07-27_VNEXT_V3_SHADOW_CANDIDATES_ALL_AXES_2026-07-27_200042Z.csv",
-      "ranking.json"
+      "vnext_v3_shadow_candidates_2026-07-27_VNEXT_V3_SHADOW_CANDIDATES_ALL_AXES_2026-07-27_200042Z.csv"
     ]
   },
   "players": [
@@ -13639,6 +13660,96 @@
         }
       ],
       "team": "TEX",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "apex_fixture_7002",
+      "game_start_utc": "",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "FIXTURE",
+      "headshot_url": null,
+      "id": "fixturepower|apex_fixture_7002",
+      "markets": [],
+      "opponent": "Synthetic fixture",
+      "player": "Fixture Power",
+      "player_id": null,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Fixture Power",
+        "primary": 1
+      },
+      "system_keys": [
+        "apex_fixture"
+      ],
+      "systems": [
+        {
+          "claims_authorized": false,
+          "clv_sign": null,
+          "detail": "APEX fixture demo #2 · 5/5 gates · slot 4 · SP 1.4 HR/9 · conv 2",
+          "evidence_eligible": false,
+          "fixture_only": true,
+          "gamePk": 7002,
+          "hr": true,
+          "label": "APEX DEMO",
+          "market_key": null,
+          "personId": 102,
+          "rank": 2,
+          "relative_divergence": null,
+          "staking_authorized": false,
+          "system": "apex_fixture"
+        }
+      ],
+      "team": "Synthetic fixture",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "apex_fixture_7001",
+      "game_start_utc": "",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "FIXTURE",
+      "headshot_url": null,
+      "id": "fixtureslugger|apex_fixture_7001",
+      "markets": [],
+      "opponent": "Synthetic fixture",
+      "player": "Fixture Slugger",
+      "player_id": null,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Fixture Slugger",
+        "primary": 1
+      },
+      "system_keys": [
+        "apex_fixture"
+      ],
+      "systems": [
+        {
+          "claims_authorized": false,
+          "clv_sign": null,
+          "detail": "APEX fixture demo #1 · 5/5 gates · slot 2 · SP 1.6 HR/9 · conv 2",
+          "evidence_eligible": false,
+          "fixture_only": true,
+          "gamePk": 7001,
+          "hr": true,
+          "label": "APEX DEMO",
+          "market_key": null,
+          "personId": 101,
+          "rank": 1,
+          "relative_divergence": null,
+          "staking_authorized": false,
+          "system": "apex_fixture"
+        }
+      ],
+      "team": "Synthetic fixture",
       "validated_price_flag": null
     }
   ],
