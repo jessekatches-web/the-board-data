@@ -45,8 +45,8 @@
       "game_start_utc": "2026-08-06T16:40:00Z",
       "game_time_et": "12:40 PM",
       "home_team": "Cincinnati Reds",
-      "started": false,
-      "state": "NOT_STARTED"
+      "started": true,
+      "state": "LIVE"
     },
     {
       "away_team": "Miami Marlins",
@@ -72,8 +72,8 @@
       "game_start_utc": "2026-08-06T17:10:00Z",
       "game_time_et": "1:10 PM",
       "home_team": "Cleveland Guardians",
-      "started": false,
-      "state": "NOT_STARTED"
+      "started": true,
+      "state": "LIVE"
     },
     {
       "away_team": "Chicago White Sox",
@@ -219,7 +219,7 @@
       },
       {
         "book": "DraftKings",
-        "count": 13
+        "count": 14
       },
       {
         "book": "Hard Rock Bet (OH)",
@@ -2377,11 +2377,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-06_early-sweep_150603Z.csv"
       },
       {
+        "book": "DraftKings",
+        "clv_sign": null,
+        "consensus_price": "-245",
+        "game_id": "mlb_824401",
+        "m1_rank": 126,
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "normalized_player": "franciscolindor",
+        "plain": "DraftKings: Francisco Lindor hits o0.5 -217, market -245, 4%",
+        "player": "Francisco Lindor",
+        "point": 0.5,
+        "price": "-217",
+        "relative_divergence": 0.035916098719533,
+        "settled": null,
+        "source_snapshot_path": "clv1_lane_medium_filtered_2026-08-06_mlb_824401_per_game_close_2026-08-06_165006Z.csv"
+      },
+      {
         "book": "BetMGM",
         "clv_sign": null,
         "consensus_price": "-182",
         "game_id": "mlb_823430",
-        "m1_rank": 126,
+        "m1_rank": 127,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "bradyhouse",
@@ -2398,7 +2415,7 @@
         "clv_sign": null,
         "consensus_price": "-224",
         "game_id": "mlb_824080",
-        "m1_rank": 127,
+        "m1_rank": 128,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "kodyclemens",
@@ -2422,7 +2439,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "2026-08-06T16:35:00Z",
-    "generated_at": "2026-08-06T16:35:05Z",
+    "generated_at": "2026-08-06T17:15:10Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -3757,8 +3774,8 @@
       "countdown": "",
       "game_id": "mlb_824481",
       "game_start_utc": "2026-08-06T16:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "12:40 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/682829/headshot/67/current",
       "id": "ellydelacruz|mlb_824481",
@@ -4055,8 +4072,8 @@
       "countdown": "",
       "game_id": "mlb_824401",
       "game_start_utc": "2026-08-06T17:10:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "1:10 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/596019/headshot/67/current",
       "id": "franciscolindor|mlb_824401",
@@ -4090,6 +4107,16 @@
           "point": 1.5,
           "price": "+125",
           "relative_divergence": 0.0542818435746726
+        },
+        {
+          "book": "DraftKings",
+          "consensus_price": "-245",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "DraftKings · hits o0.5 · -217 · mkt -245",
+          "point": 0.5,
+          "price": "-217",
+          "relative_divergence": 0.035916098719533
         }
       ],
       "opponent": "CLE",
@@ -4144,6 +4171,16 @@
           "rank": null,
           "relative_divergence": 0.0542818435746726,
           "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.035916098719533,
+          "system": "m1"
         }
       ],
       "team": "NYM",
@@ -4165,8 +4202,8 @@
       "countdown": "",
       "game_id": "mlb_824401",
       "game_start_utc": "2026-08-06T17:10:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "1:10 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/800050/headshot/67/current",
       "id": "chasedelauter|mlb_824401",
@@ -4367,8 +4404,8 @@
       "countdown": "",
       "game_id": "mlb_824481",
       "game_start_utc": "2026-08-06T16:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "12:40 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/701398/headshot/67/current",
       "id": "salstewart|mlb_824481",
@@ -4459,8 +4496,8 @@
       "countdown": "",
       "game_id": "mlb_824481",
       "game_start_utc": "2026-08-06T16:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "12:40 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/668709/headshot/67/current",
       "id": "jjbleday|mlb_824481",
@@ -4970,8 +5007,8 @@
       "countdown": "",
       "game_id": "mlb_824401",
       "game_start_utc": "2026-08-06T17:10:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "1:10 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/701807/headshot/67/current",
       "id": "carsonbenge|mlb_824401",
@@ -5148,8 +5185,8 @@
       "countdown": "",
       "game_id": "mlb_824401",
       "game_start_utc": "2026-08-06T17:10:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "1:10 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/543760/headshot/67/current",
       "id": "marcussemien|mlb_824401",
@@ -5227,8 +5264,8 @@
       "countdown": "",
       "game_id": "mlb_824401",
       "game_start_utc": "2026-08-06T17:10:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "1:10 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/672275/headshot/67/current",
       "id": "patrickbailey|mlb_824401",
@@ -5405,8 +5442,8 @@
       "countdown": "",
       "game_id": "mlb_824481",
       "game_start_utc": "2026-08-06T16:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "12:40 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/680574/headshot/67/current",
       "id": "mattmclain|mlb_824481",
@@ -5959,8 +5996,8 @@
       "countdown": "",
       "game_id": "mlb_824401",
       "game_start_utc": "2026-08-06T17:10:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "1:10 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/682626/headshot/67/current",
       "id": "franciscoalvarez|mlb_824401",
@@ -6236,8 +6273,8 @@
       "countdown": "",
       "game_id": "mlb_824481",
       "game_start_utc": "2026-08-06T16:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "12:40 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/671732/headshot/67/current",
       "id": "lawrencebutler|mlb_824481",
@@ -6473,8 +6510,8 @@
       "countdown": "",
       "game_id": "mlb_824481",
       "game_start_utc": "2026-08-06T16:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "12:40 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/663886/headshot/67/current",
       "id": "tylerstephenson|mlb_824481",
@@ -7854,8 +7891,8 @@
       "countdown": "",
       "game_id": "mlb_824481",
       "game_start_utc": "2026-08-06T16:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "12:40 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/691016/headshot/67/current",
       "id": "tylersoderstrom|mlb_824481",
@@ -9499,7 +9536,7 @@
           },
           {
             "market": "hits",
-            "picks": 1747,
+            "picks": 1748,
             "status": "measured against market expectations"
           },
           {
@@ -9510,7 +9547,7 @@
         ],
         "name": "M-1",
         "rate": 0,
-        "rate_label": "observational (6621)",
+        "rate_label": "observational (6622)",
         "status_label": "M-1 Phase C preliminary read PASS · artifact 04e9c2bb876473139d76bb05c28c796c2e74d3e3610723cfd851ff892489000a"
       }
     ]
