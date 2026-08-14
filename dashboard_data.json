@@ -213,32 +213,34 @@
     },
     "near_miss_distribution": {
       "card_relationship": "NESTED_ONE_OBSERVATION_PER_SLATE",
-      "effective_card_size_counts": {},
+      "effective_card_size_counts": {
+        "4": 1
+      },
       "expected_method": "POISSON_BINOMIAL_FROM_LOCKED_FANDUEL_LEG_PRICES_INDEPENDENCE_ASSUMPTION",
       "independent_observations_per_slate": 1,
       "paper_only": true,
       "reduced_slate_count": 0,
       "schema": "fuse-near-miss-cumulative-v2",
-      "settled_slate_count": 0,
-      "status": "AWAITING_SETTLEMENTS",
+      "settled_slate_count": 1,
+      "status": "AVAILABLE",
       "thresholds": {
         "3_plus": {
-          "expected_count": 0.0,
-          "expected_rate": null,
+          "expected_count": 0.0037907429856251828,
+          "expected_rate": 0.0037907429856251828,
           "observed_count": 0,
-          "observed_rate": null
+          "observed_rate": 0.0
         },
         "4_plus": {
-          "expected_count": 0.0,
-          "expected_rate": null,
+          "expected_count": 0.0001000196038423531,
+          "expected_rate": 0.0001000196038423531,
           "observed_count": 0,
-          "observed_rate": null
+          "observed_rate": 0.0
         },
         "5_plus": {
           "expected_count": 0.0,
-          "expected_rate": null,
+          "expected_rate": 0.0,
           "observed_count": 0,
-          "observed_rate": null
+          "observed_rate": 0.0
         }
       },
       "total_voided_leg_count": 0,
@@ -2674,7 +2676,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "2026-08-13T17:10:00Z",
-    "generated_at": "2026-08-14T12:16:48Z",
+    "generated_at": "2026-08-14T12:46:08Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -9026,10 +9028,10 @@
     "clv_preliminary": {
       "clock_basis": "dedicated forward primary-window captures only; retro rows excluded",
       "counter": "data/experiments/clv/phase_c/clv1_phase_d_forward_accrual.json",
-      "days": 35,
+      "days": 36,
       "days_target": 20,
       "manifest": "data/experiments/clv/phase_c/clv1_phase_c_manifest.json",
-      "picks": 99,
+      "picks": 101,
       "picks_target": 50,
       "prior_mixed_preliminary_read": {
         "days": 20,
