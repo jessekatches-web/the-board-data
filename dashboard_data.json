@@ -330,20 +330,20 @@
       "state": "NOT_STARTED"
     },
     {
-      "away_team": "Texas Rangers",
-      "game_id": "1145a9db8d138b13599e168a340ad3c7",
-      "game_start_utc": "",
-      "game_time_et": "TBD",
-      "home_team": "Athletics",
-      "started": false,
-      "state": "NOT_STARTED"
-    },
-    {
       "away_team": "New York Yankees",
       "game_id": "dbbb481a063336e996454ea669238bf7",
       "game_start_utc": "",
       "game_time_et": "TBD",
       "home_team": "Toronto Blue Jays",
+      "started": false,
+      "state": "NOT_STARTED"
+    },
+    {
+      "away_team": "Texas Rangers",
+      "game_id": "1145a9db8d138b13599e168a340ad3c7",
+      "game_start_utc": "",
+      "game_time_et": "TBD",
+      "home_team": "Athletics",
       "started": false,
       "state": "NOT_STARTED"
     },
@@ -426,7 +426,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "2026-08-15T17:10:00Z",
-    "generated_at": "2026-08-15T15:51:36Z",
+    "generated_at": "2026-08-15T16:09:56Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -437,12 +437,13 @@
       "lane2_fa_predictions_2026-08-15_2026-08-15_155128Z.csv",
       "m1_phase_c_pick_ledger.csv",
       "pa_sim_v0_lite_predictions_2026-08-15_2026-08-15_155133Z_LOCKED_RUN.csv",
-      "scored_rows_2026-08-15_2026-08-15_154557Z.csv",
-      "top5_operational_2026-08-15_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_D_PROJECTED_ALLOWED_2026-08-15_154557Z.csv",
-      "top5_operational_2026-08-15_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ADDITIVE_CONTEXT_SHADOW_TOP5_2026-08-15_154557Z.csv",
-      "top5_operational_2026-08-15_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ELITE_POWER_EXCEPTION_CANDIDATES_2026-08-15_154557Z.csv",
-      "top5_operational_2026-08-15_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_FULL_CONVICTION_CANDIDATES_2026-08-15_154557Z.csv",
-      "top5_operational_2026-08-15_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_F_PROJECTED_ALLOWED_2026-08-15_154557Z.csv",
+      "scored_rows_2026-08-15_2026-08-15_160518Z.csv",
+      "top5_operational_2026-08-15_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_D_PROJECTED_ALLOWED_2026-08-15_160518Z.csv",
+      "top5_operational_2026-08-15_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ADDITIVE_CONTEXT_SHADOW_TOP5_2026-08-15_160518Z.csv",
+      "top5_operational_2026-08-15_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ELITE_POWER_EXCEPTION_CANDIDATES_2026-08-15_160518Z.csv",
+      "top5_operational_2026-08-15_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_FULL_CONVICTION_CANDIDATES_2026-08-15_160518Z.csv",
+      "top5_operational_2026-08-15_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_F_PROJECTED_ALLOWED_2026-08-15_160518Z.csv",
+      "vnext_v3_shadow_candidates_2026-08-15_VNEXT_V3_SHADOW_CANDIDATES_ALL_AXES_2026-08-15_154557Z.csv",
       "project_homer_descriptive_census_2026-07-28.json"
     ]
   },
@@ -450,7 +451,7 @@
     {
       "best_hr_book": "",
       "best_hr_odds": null,
-      "convergence_count": 4,
+      "convergence_count": 5,
       "countdown": "",
       "game_id": "mlb_824239",
       "game_start_utc": "2026-08-15T17:10:00Z",
@@ -466,15 +467,28 @@
       "sort": {
         "m1_relative_divergence": 0.0,
         "player": "Munetaka Murakami",
-        "primary": 4
+        "primary": 5
       },
       "system_keys": [
+        "v3",
         "system_e",
         "epe",
         "system_f",
         "system_d"
       ],
       "systems": [
+        {
+          "clv_sign": null,
+          "detail": "v3 · elite power axis #3",
+          "hr": false,
+          "label": "v3",
+          "market_key": null,
+          "rank": 3,
+          "relative_divergence": null,
+          "system": "v3",
+          "v3_axis": "ELITE_POWER_AXIS",
+          "v3_axis_rank_score": 88.86
+        },
         {
           "clv_sign": null,
           "detail": "E #1 · score 85.6",
@@ -530,7 +544,7 @@
     {
       "best_hr_book": "",
       "best_hr_odds": null,
-      "convergence_count": 3,
+      "convergence_count": 4,
       "countdown": "",
       "game_id": "mlb_824480",
       "game_start_utc": "2026-08-15T22:40:00Z",
@@ -546,11 +560,12 @@
       "sort": {
         "m1_relative_divergence": 0.0,
         "player": "Elly De La Cruz",
-        "primary": 3
+        "primary": 4
       },
       "system_keys": [
         "shadow",
         "sim",
+        "v3",
         "system_d"
       ],
       "systems": [
@@ -578,6 +593,18 @@
         },
         {
           "clv_sign": null,
+          "detail": "v3 · environment axis #3",
+          "hr": false,
+          "label": "v3",
+          "market_key": null,
+          "rank": 3,
+          "relative_divergence": null,
+          "system": "v3",
+          "v3_axis": "ENVIRONMENT_AXIS",
+          "v3_axis_rank_score": 76.3
+        },
+        {
+          "clv_sign": null,
           "detail": "D #2 · score 79.2",
           "hr": false,
           "label": "D",
@@ -590,6 +617,71 @@
         }
       ],
       "team": "CIN",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 3,
+      "countdown": "",
+      "game_id": "mlb_824644",
+      "game_start_utc": "2026-08-15T18:20:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "2:20 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/691718/headshot/67/current",
+      "id": "petecrowarmstrong|mlb_824644",
+      "markets": [],
+      "opponent": "STL",
+      "player": "Pete Crow-Armstrong",
+      "player_id": 691718,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Pete Crow-Armstrong",
+        "primary": 3
+      },
+      "system_keys": [
+        "shadow",
+        "v3",
+        "system_d"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Lane shadow #4",
+          "hr": false,
+          "label": "Lane shadow",
+          "market_key": null,
+          "rank": 4,
+          "relative_divergence": null,
+          "system": "shadow"
+        },
+        {
+          "clv_sign": null,
+          "detail": "v3 · environment axis #1",
+          "hr": false,
+          "label": "v3",
+          "market_key": null,
+          "rank": 1,
+          "relative_divergence": null,
+          "system": "v3",
+          "v3_axis": "ENVIRONMENT_AXIS",
+          "v3_axis_rank_score": 79.17
+        },
+        {
+          "clv_sign": null,
+          "detail": "D #4 · score 78.0",
+          "hr": false,
+          "label": "D",
+          "market_key": null,
+          "rank": 4,
+          "relative_divergence": null,
+          "score": 78.01,
+          "source_view": "D",
+          "system": "system_d"
+        }
+      ],
+      "team": "CHC",
       "validated_price_flag": null
     },
     {
@@ -657,6 +749,60 @@
         }
       ],
       "team": "HOU",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 2,
+      "countdown": "",
+      "game_id": "mlb_824239",
+      "game_start_utc": "2026-08-15T17:10:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "1:10 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/680664/headshot/67/current",
+      "id": "eduardovalencia|mlb_824239",
+      "markets": [],
+      "opponent": "CWS",
+      "player": "Eduardo Valencia",
+      "player_id": 680664,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Eduardo Valencia",
+        "primary": 2
+      },
+      "system_keys": [
+        "v3",
+        "system_f"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "v3 · elite power axis #1",
+          "hr": false,
+          "label": "v3",
+          "market_key": null,
+          "rank": 1,
+          "relative_divergence": null,
+          "system": "v3",
+          "v3_axis": "ELITE_POWER_AXIS",
+          "v3_axis_rank_score": 91.35
+        },
+        {
+          "clv_sign": null,
+          "detail": "F #5 · score 87.8",
+          "hr": false,
+          "label": "F",
+          "market_key": null,
+          "rank": 5,
+          "relative_divergence": null,
+          "score": 87.79,
+          "source_view": "F",
+          "system": "system_f"
+        }
+      ],
+      "team": "DET",
       "validated_price_flag": null
     },
     {
@@ -824,58 +970,6 @@
       "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
-      "game_id": "mlb_824644",
-      "game_start_utc": "2026-08-15T18:20:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "2:20 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/691718/headshot/67/current",
-      "id": "petecrowarmstrong|mlb_824644",
-      "markets": [],
-      "opponent": "STL",
-      "player": "Pete Crow-Armstrong",
-      "player_id": 691718,
-      "sort": {
-        "m1_relative_divergence": 0.0,
-        "player": "Pete Crow-Armstrong",
-        "primary": 2
-      },
-      "system_keys": [
-        "shadow",
-        "system_d"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "Lane shadow #4",
-          "hr": false,
-          "label": "Lane shadow",
-          "market_key": null,
-          "rank": 4,
-          "relative_divergence": null,
-          "system": "shadow"
-        },
-        {
-          "clv_sign": null,
-          "detail": "D #4 · score 78.0",
-          "hr": false,
-          "label": "D",
-          "market_key": null,
-          "rank": 4,
-          "relative_divergence": null,
-          "score": 78.01,
-          "source_view": "D",
-          "system": "system_d"
-        }
-      ],
-      "team": "CHC",
-      "validated_price_flag": null
-    },
-    {
-      "best_hr_book": "",
-      "best_hr_odds": null,
-      "convergence_count": 2,
-      "countdown": "",
       "game_id": "mlb_823990",
       "game_start_utc": "2026-08-16T01:38:00Z",
       "game_started": false,
@@ -975,6 +1069,58 @@
         }
       ],
       "team": "LAD",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 2,
+      "countdown": "",
+      "game_id": "mlb_824480",
+      "game_start_utc": "2026-08-15T22:40:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "6:40 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/663886/headshot/67/current",
+      "id": "tylerstephenson|mlb_824480",
+      "markets": [],
+      "opponent": "MIA",
+      "player": "Tyler Stephenson",
+      "player_id": 663886,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Tyler Stephenson",
+        "primary": 2
+      },
+      "system_keys": [
+        "shadow",
+        "v3"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Lane shadow #10",
+          "hr": false,
+          "label": "Lane shadow",
+          "market_key": null,
+          "rank": 10,
+          "relative_divergence": null,
+          "system": "shadow"
+        },
+        {
+          "clv_sign": null,
+          "detail": "v3 · environment axis #2",
+          "hr": false,
+          "label": "v3",
+          "market_key": null,
+          "rank": 2,
+          "relative_divergence": null,
+          "system": "v3",
+          "v3_axis": "ENVIRONMENT_AXIS",
+          "v3_axis_rank_score": 78.22
+        }
+      ],
+      "team": "CIN",
       "validated_price_flag": null
     },
     {
@@ -1099,40 +1245,40 @@
       "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
-      "game_id": "mlb_824239",
-      "game_start_utc": "2026-08-15T17:10:00Z",
+      "game_id": "mlb_823347",
+      "game_start_utc": "2026-08-15T23:15:00Z",
       "game_started": false,
       "game_state": "NOT_STARTED",
-      "game_time_et": "1:10 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/680664/headshot/67/current",
-      "id": "eduardovalencia|mlb_824239",
+      "game_time_et": "7:15 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/699013/headshot/67/current",
+      "id": "esmerlynvaldez|mlb_823347",
       "markets": [],
-      "opponent": "CWS",
-      "player": "Eduardo Valencia",
-      "player_id": 680664,
+      "opponent": "BOS",
+      "player": "Esmerlyn Valdez",
+      "player_id": 699013,
       "sort": {
         "m1_relative_divergence": 0.0,
-        "player": "Eduardo Valencia",
+        "player": "Esmerlyn Valdez",
         "primary": 1
       },
       "system_keys": [
-        "system_f"
+        "v3"
       ],
       "systems": [
         {
           "clv_sign": null,
-          "detail": "F #5 · score 87.8",
+          "detail": "v3 · elite power axis #2",
           "hr": false,
-          "label": "F",
+          "label": "v3",
           "market_key": null,
-          "rank": 5,
+          "rank": 2,
           "relative_divergence": null,
-          "score": 87.79,
-          "source_view": "F",
-          "system": "system_f"
+          "system": "v3",
+          "v3_axis": "ELITE_POWER_AXIS",
+          "v3_axis_rank_score": 89.46
         }
       ],
-      "team": "DET",
+      "team": "PIT",
       "validated_price_flag": null
     },
     {
@@ -1578,45 +1724,6 @@
         }
       ],
       "team": "PHI",
-      "validated_price_flag": null
-    },
-    {
-      "best_hr_book": "",
-      "best_hr_odds": null,
-      "convergence_count": 1,
-      "countdown": "",
-      "game_id": "mlb_824480",
-      "game_start_utc": "2026-08-15T22:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "6:40 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/663886/headshot/67/current",
-      "id": "tylerstephenson|mlb_824480",
-      "markets": [],
-      "opponent": "MIA",
-      "player": "Tyler Stephenson",
-      "player_id": 663886,
-      "sort": {
-        "m1_relative_divergence": 0.0,
-        "player": "Tyler Stephenson",
-        "primary": 1
-      },
-      "system_keys": [
-        "shadow"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "Lane shadow #10",
-          "hr": false,
-          "label": "Lane shadow",
-          "market_key": null,
-          "rank": 10,
-          "relative_divergence": null,
-          "system": "shadow"
-        }
-      ],
-      "team": "CIN",
       "validated_price_flag": null
     },
     {
