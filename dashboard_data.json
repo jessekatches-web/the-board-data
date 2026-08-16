@@ -136,18 +136,20 @@
     "market_data_used": false,
     "not_evidence": true,
     "phase0_price_source": {
-      "capture_timestamp": "2026-08-16T17:30:35Z",
-      "source_path": "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-16_mid_173035Z.json",
+      "capture_timestamp": "2026-08-16T22:35:20Z",
+      "source_path": "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-16_near_close_223520Z.json",
       "source_paths": [
         "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-16_early-sweep_143054Z.json",
         "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-16_open_143127Z.json",
-        "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-16_mid_173035Z.json"
+        "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-16_mid_173035Z.json",
+        "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-16_near_close_223520Z.json"
       ],
-      "source_sha256": "465b1723ba3e27c6de482c817d63b342c5acb303444a2c8f9c381485a2d82672",
+      "source_sha256": "042d05ea03dce7a8b1bd4b08e14900c3d4b1fc6451802ad31fd13c810ee89e71",
       "source_sha256s": [
         "adf57e39fafe5da8ab30d703dd88e700b098ad10c7d02d905d433d138f90b9af",
         "321414e213fd49b733bd2659dd21bcf096c309b14810d0bce6b8e844f67abcec",
-        "465b1723ba3e27c6de482c817d63b342c5acb303444a2c8f9c381485a2d82672"
+        "465b1723ba3e27c6de482c817d63b342c5acb303444a2c8f9c381485a2d82672",
+        "042d05ea03dce7a8b1bd4b08e14900c3d4b1fc6451802ad31fd13c810ee89e71"
       ]
     },
     "provider_credits_used": 0,
@@ -907,7 +909,7 @@
       },
       {
         "book": "BetMGM",
-        "count": 36
+        "count": 37
       },
       {
         "book": "DraftKings",
@@ -4560,11 +4562,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-16_early-sweep_143054Z.csv"
       },
       {
+        "book": "BetMGM",
+        "clv_sign": null,
+        "consensus_price": "-186",
+        "game_id": "mlb_824156",
+        "m1_rank": 213,
+        "market_key": "batter_total_bases",
+        "market_label": "total bases",
+        "normalized_player": "dominiccanzone",
+        "plain": "BetMGM: Dominic Canzone total bases o0.5 -165, market -186, 4%",
+        "player": "Dominic Canzone",
+        "point": 0.5,
+        "price": "-165",
+        "relative_divergence": 0.0423195889919044,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-16_near_close_223520Z.csv"
+      },
+      {
         "book": "Bally Bet",
         "clv_sign": null,
         "consensus_price": "-149",
         "game_id": "mlb_823912",
-        "m1_rank": 213,
+        "m1_rank": 214,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "christianyelich",
@@ -4581,7 +4600,7 @@
         "clv_sign": null,
         "consensus_price": "+108",
         "game_id": "mlb_824642",
-        "m1_rank": 214,
+        "m1_rank": 215,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "alecburleson",
@@ -4598,7 +4617,7 @@
         "clv_sign": null,
         "consensus_price": "-129",
         "game_id": "mlb_824477",
-        "m1_rank": 215,
+        "m1_rank": 216,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "mattmclain",
@@ -4615,7 +4634,7 @@
         "clv_sign": null,
         "consensus_price": "-101",
         "game_id": "mlb_823670",
-        "m1_rank": 216,
+        "m1_rank": 217,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "luisarraez",
@@ -4632,7 +4651,7 @@
         "clv_sign": null,
         "consensus_price": "-144",
         "game_id": "mlb_824642",
-        "m1_rank": 217,
+        "m1_rank": 218,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "michaelconforto",
@@ -4649,7 +4668,7 @@
         "clv_sign": null,
         "consensus_price": "-119",
         "game_id": "mlb_824156",
-        "m1_rank": 218,
+        "m1_rank": 219,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "taylortrammell",
@@ -4666,7 +4685,7 @@
         "clv_sign": null,
         "consensus_price": "-149",
         "game_id": "mlb_824236",
-        "m1_rank": 219,
+        "m1_rank": 220,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "colsonmontgomery",
@@ -4683,7 +4702,7 @@
         "clv_sign": null,
         "consensus_price": "-104",
         "game_id": "mlb_824880",
-        "m1_rank": 220,
+        "m1_rank": 221,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "corbincarroll",
@@ -4700,7 +4719,7 @@
         "clv_sign": null,
         "consensus_price": "-143",
         "game_id": "mlb_824880",
-        "m1_rank": 221,
+        "m1_rank": 222,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "mikeyastrzemski",
@@ -4717,7 +4736,7 @@
         "clv_sign": null,
         "consensus_price": "-278",
         "game_id": "mlb_824880",
-        "m1_rank": 222,
+        "m1_rank": 223,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "michaelharrisii",
@@ -4734,7 +4753,7 @@
         "clv_sign": null,
         "consensus_price": "-215",
         "game_id": "mlb_823670",
-        "m1_rank": 223,
+        "m1_rank": 224,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "kodyclemens",
@@ -4751,7 +4770,7 @@
         "clv_sign": null,
         "consensus_price": "-116",
         "game_id": "mlb_824156",
-        "m1_rank": 224,
+        "m1_rank": 225,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "calraleigh",
@@ -4768,7 +4787,7 @@
         "clv_sign": null,
         "consensus_price": "-103",
         "game_id": "mlb_822940",
-        "m1_rank": 225,
+        "m1_rank": 226,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "cobymayo",
@@ -4785,7 +4804,7 @@
         "clv_sign": null,
         "consensus_price": "-240",
         "game_id": "mlb_823590",
-        "m1_rank": 226,
+        "m1_rank": 227,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "cjabrams",
@@ -4802,7 +4821,7 @@
         "clv_sign": null,
         "consensus_price": "-193",
         "game_id": "mlb_823912",
-        "m1_rank": 227,
+        "m1_rank": 228,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "jacksonchourio",
@@ -4819,7 +4838,7 @@
         "clv_sign": null,
         "consensus_price": "-161",
         "game_id": "mlb_823912",
-        "m1_rank": 228,
+        "m1_rank": 229,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "williamcontreras",
@@ -4836,7 +4855,7 @@
         "clv_sign": null,
         "consensus_price": "-252",
         "game_id": "mlb_824965",
-        "m1_rank": 229,
+        "m1_rank": 230,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "jakeburger",
@@ -4853,7 +4872,7 @@
         "clv_sign": null,
         "consensus_price": "-112",
         "game_id": "mlb_824477",
-        "m1_rank": 230,
+        "m1_rank": 231,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "kebryanhayes",
@@ -4870,7 +4889,7 @@
         "clv_sign": null,
         "consensus_price": "-276",
         "game_id": "mlb_824880",
-        "m1_rank": 231,
+        "m1_rank": 232,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "drakebaldwin",
@@ -4887,7 +4906,7 @@
         "clv_sign": null,
         "consensus_price": "-205",
         "game_id": "mlb_824965",
-        "m1_rank": 232,
+        "m1_rank": 233,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "lawrencebutler",
@@ -4904,7 +4923,7 @@
         "clv_sign": null,
         "consensus_price": "-253",
         "game_id": "mlb_823670",
-        "m1_rank": 233,
+        "m1_rank": 234,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "byronbuxton",
@@ -4921,7 +4940,7 @@
         "clv_sign": null,
         "consensus_price": "-238",
         "game_id": "mlb_823590",
-        "m1_rank": 234,
+        "m1_rank": 235,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "daylenlile",
@@ -4938,7 +4957,7 @@
         "clv_sign": null,
         "consensus_price": "-225",
         "game_id": "mlb_823344",
-        "m1_rank": 235,
+        "m1_rank": 236,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "wilyerabreu",
@@ -4955,7 +4974,7 @@
         "clv_sign": null,
         "consensus_price": "-188",
         "game_id": "mlb_823912",
-        "m1_rank": 236,
+        "m1_rank": 237,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "mookiebetts",
@@ -4972,7 +4991,7 @@
         "clv_sign": null,
         "consensus_price": "-155",
         "game_id": "mlb_823590",
-        "m1_rank": 237,
+        "m1_rank": 238,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "brettbaty",
@@ -4989,7 +5008,7 @@
         "clv_sign": null,
         "consensus_price": "-225",
         "game_id": "mlb_823182",
-        "m1_rank": 238,
+        "m1_rank": 239,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "rafaeldevers",
@@ -5006,7 +5025,7 @@
         "clv_sign": null,
         "consensus_price": "-200",
         "game_id": "mlb_822940",
-        "m1_rank": 239,
+        "m1_rank": 240,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "gunnarhenderson",
@@ -5023,7 +5042,7 @@
         "clv_sign": null,
         "consensus_price": "-212",
         "game_id": "mlb_823991",
-        "m1_rank": 240,
+        "m1_rank": 241,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "salvadorperez",
@@ -5040,7 +5059,7 @@
         "clv_sign": null,
         "consensus_price": "-182",
         "game_id": "mlb_824397",
-        "m1_rank": 241,
+        "m1_rank": 242,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "nathaniellowe",
@@ -5057,7 +5076,7 @@
         "clv_sign": null,
         "consensus_price": "-182",
         "game_id": "mlb_824880",
-        "m1_rank": 242,
+        "m1_rank": 243,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "timtawa",
@@ -5074,7 +5093,7 @@
         "clv_sign": null,
         "consensus_price": "-194",
         "game_id": "mlb_824477",
-        "m1_rank": 243,
+        "m1_rank": 244,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "ellydelacruz",
@@ -5091,7 +5110,7 @@
         "clv_sign": null,
         "consensus_price": "-248",
         "game_id": "mlb_824642",
-        "m1_rank": 244,
+        "m1_rank": 245,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "seiyasuzuki",
@@ -5115,7 +5134,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "2026-08-16T17:35:00Z",
-    "generated_at": "2026-08-16T20:12:56Z",
+    "generated_at": "2026-08-16T22:35:30Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -5126,8 +5145,8 @@
       "lane2_fa_coverage_shadow_2026-08-16_2026-08-16_143041Z.csv",
       "lane2_fa_predictions_2026-08-16_2026-08-16_143041Z.csv",
       "m1_phase_c_pick_ledger.csv",
-      "market_mispricing_phase0_snapshot_2026-08-16_mid_173035Z.csv",
-      "phase0_raw_payloads_2026-08-16_mid_173035Z.json",
+      "market_mispricing_phase0_snapshot_2026-08-16_near_close_223520Z.csv",
+      "phase0_raw_payloads_2026-08-16_near_close_223520Z.json",
       "pa_sim_v0_lite_predictions_2026-08-16_2026-08-16_143046Z_LOCKED_RUN.csv",
       "scored_rows_2026-08-16_2026-08-16_200057Z.csv",
       "top5_operational_2026-08-16_FULL_SLATE_POST_LINEUP_FORECAST_SYSTEM_D_PROJECTED_ALLOWED_2026-08-16_200057Z.csv",
@@ -5141,8 +5160,8 @@
   },
   "players": [
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+350",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 5,
       "countdown": "",
       "game_id": "mlb_823991",
@@ -5453,8 +5472,8 @@
       "validated_price_flag": null
     },
     {
-      "best_hr_book": "Bally Bet",
-      "best_hr_odds": "+390",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 4,
       "countdown": "",
       "game_id": "mlb_823912",
@@ -5766,8 +5785,8 @@
       "validated_price_flag": null
     },
     {
-      "best_hr_book": "Bally Bet",
-      "best_hr_odds": "+650",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_824642",
@@ -5890,8 +5909,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+350",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_824477",
@@ -6034,8 +6053,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+375",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_824477",
@@ -6138,8 +6157,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet (OH)",
-      "best_hr_odds": "+375",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_823590",
@@ -6301,8 +6320,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+450",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_823182",
@@ -6403,8 +6422,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+425",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_824642",
@@ -6547,8 +6566,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+500",
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+2000",
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_823182",
@@ -6649,8 +6668,8 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+425",
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+1500",
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_823344",
@@ -6772,8 +6791,8 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+425",
+      "best_hr_book": "Hard Rock Bet",
+      "best_hr_odds": "+900",
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_824397",
@@ -6856,8 +6875,8 @@
       }
     },
     {
-      "best_hr_book": "Caesars",
-      "best_hr_odds": "+320",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_824880",
@@ -6939,8 +6958,8 @@
       }
     },
     {
-      "best_hr_book": "BetRivers",
-      "best_hr_odds": "+350",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_824642",
@@ -7003,8 +7022,8 @@
       "validated_price_flag": null
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+1750",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_823670",
@@ -7114,8 +7133,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+450",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_823991",
@@ -7226,8 +7245,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+1400",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_822940",
@@ -7356,8 +7375,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+475",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_824965",
@@ -7488,8 +7507,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+350",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_824965",
@@ -7599,8 +7618,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+425",
+      "best_hr_book": "Hard Rock Bet (OH)",
+      "best_hr_odds": "+1500",
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_823991",
@@ -7710,8 +7729,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+600",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_823912",
@@ -7861,8 +7880,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+500",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_823590",
@@ -8043,8 +8062,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+425",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_823670",
@@ -8154,8 +8173,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+450",
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+1500",
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_824397",
@@ -8226,8 +8245,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+425",
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+2000",
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_823912",
@@ -8337,8 +8356,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+1150",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_822940",
@@ -8467,8 +8486,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+450",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_824965",
@@ -8598,8 +8617,8 @@
       }
     },
     {
-      "best_hr_book": "Caesars",
-      "best_hr_odds": "+390",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_823670",
@@ -8710,8 +8729,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+300",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_824965",
@@ -8841,8 +8860,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+500",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_824642",
@@ -8978,8 +8997,8 @@
       "validated_price_flag": null
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+750",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823590",
@@ -9176,8 +9195,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+850",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823670",
@@ -9275,8 +9294,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+800",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823670",
@@ -9394,8 +9413,8 @@
       }
     },
     {
-      "best_hr_book": "BetRivers",
-      "best_hr_odds": "+900",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824236",
@@ -9513,8 +9532,8 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+1000",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824477",
@@ -9632,8 +9651,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+600",
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+2000",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823912",
@@ -9751,8 +9770,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+500",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824642",
@@ -9850,8 +9869,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+575",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823344",
@@ -9929,8 +9948,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+750",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824156",
@@ -10008,8 +10027,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+375",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824642",
@@ -10107,8 +10126,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+475",
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+2000",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824965",
@@ -10246,8 +10265,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+575",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824642",
@@ -10345,8 +10364,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+650",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_822774",
@@ -10424,8 +10443,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet (OH)",
-      "best_hr_odds": "+650",
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+4000",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823344",
@@ -10543,8 +10562,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+575",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824880",
@@ -10642,8 +10661,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+510",
+      "best_hr_book": "Hard Rock Bet (OH)",
+      "best_hr_odds": "+2000",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823912",
@@ -10722,7 +10741,7 @@
     },
     {
       "best_hr_book": "betPARX",
-      "best_hr_odds": "+575",
+      "best_hr_odds": "+1500",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824397",
@@ -10840,8 +10859,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+575",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823912",
@@ -10919,8 +10938,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+550",
+      "best_hr_book": "betPARX",
+      "best_hr_odds": "+1400",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824397",
@@ -10998,8 +11017,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+600",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824477",
@@ -11196,8 +11215,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet (OH)",
-      "best_hr_odds": "+1500",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_822940",
@@ -11295,8 +11314,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+550",
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+1500",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824397",
@@ -11374,8 +11393,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+1000",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_822774",
@@ -11493,8 +11512,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+550",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824965",
@@ -11612,8 +11631,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+650",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_822774",
@@ -11691,8 +11710,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+550",
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+500",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824156",
@@ -11770,8 +11789,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+410",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824477",
@@ -11869,8 +11888,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+550",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823590",
@@ -11968,8 +11987,8 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+525",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823991",
@@ -12087,8 +12106,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+575",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823670",
@@ -12186,8 +12205,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+475",
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+1100",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824397",
@@ -12285,8 +12304,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+575",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_822774",
@@ -12404,8 +12423,8 @@
       }
     },
     {
-      "best_hr_book": "Caesars",
-      "best_hr_odds": "+500",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823670",
@@ -12503,8 +12522,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+550",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824156",
@@ -12602,8 +12621,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet (OH)",
-      "best_hr_odds": "+425",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824880",
@@ -12701,8 +12720,8 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+550",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824880",
@@ -12780,8 +12799,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+500",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824236",
@@ -12859,8 +12878,8 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+425",
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+1500",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823182",
@@ -13076,8 +13095,8 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+425",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824880",
@@ -13195,8 +13214,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+450",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823670",
@@ -13294,8 +13313,8 @@
       }
     },
     {
-      "best_hr_book": "Caesars",
-      "best_hr_odds": "+500",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823590",
@@ -13373,8 +13392,8 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+450",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824236",
@@ -13512,8 +13531,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet (OH)",
-      "best_hr_odds": "+375",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823590",
@@ -13611,8 +13630,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+800",
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+2600",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823182",
@@ -13690,8 +13709,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+425",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824880",
@@ -13789,8 +13808,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+400",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824236",
@@ -13868,8 +13887,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet (OH)",
-      "best_hr_odds": "+650",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824236",
@@ -13947,8 +13966,8 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+500",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823590",
@@ -14125,8 +14144,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+550",
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+500",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824156",
@@ -14146,6 +14165,16 @@
           "point": 1.5,
           "price": "+171",
           "relative_divergence": 0.0568784370954293
+        },
+        {
+          "book": "BetMGM",
+          "consensus_price": "-186",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "BetMGM · total bases o0.5 · -165 · mkt -186",
+          "point": 0.5,
+          "price": "-165",
+          "relative_divergence": 0.0423195889919044
         }
       ],
       "opponent": "",
@@ -14169,6 +14198,16 @@
           "rank": null,
           "relative_divergence": 0.0568784370954293,
           "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0423195889919044,
+          "system": "m1"
         }
       ],
       "team": "",
@@ -14184,8 +14223,8 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+600",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824642",
@@ -14263,8 +14302,8 @@
       }
     },
     {
-      "best_hr_book": "Fliff",
-      "best_hr_odds": "+715",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823912",
@@ -14421,8 +14460,8 @@
       "validated_price_flag": null
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+475",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823991",
@@ -15121,13 +15160,13 @@
           },
           {
             "market": "total bases",
-            "picks": 3081,
+            "picks": 3082,
             "status": "measured against market expectations"
           }
         ],
         "name": "M-1",
         "rate": 0,
-        "rate_label": "observational (8862)",
+        "rate_label": "observational (8863)",
         "status_label": "M-1 Phase C preliminary read PASS · artifact 04e9c2bb876473139d76bb05c28c796c2e74d3e3610723cfd851ff892489000a"
       }
     ]
