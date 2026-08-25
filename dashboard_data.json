@@ -444,7 +444,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "2026-08-25T22:40:00Z",
-    "generated_at": "2026-08-25T15:51:19Z",
+    "generated_at": "2026-08-25T15:51:27Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -454,6 +454,7 @@
       "lane2_fa_coverage_shadow_2026-08-25_2026-08-25_155118Z.csv",
       "lane2_fa_predictions_2026-08-25_2026-08-25_155118Z.csv",
       "m1_phase_c_pick_ledger.csv",
+      "pa_sim_v0_lite_predictions_2026-08-25_2026-08-25_155123Z_LOCKED_RUN.csv",
       "scored_rows_2026-08-25_2026-08-25_154534Z.csv",
       "top5_operational_2026-08-25_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_D_PROJECTED_ALLOWED_2026-08-25_154534Z.csv",
       "top5_operational_2026-08-25_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ADDITIVE_CONTEXT_SHADOW_TOP5_2026-08-25_154534Z.csv",
@@ -464,6 +465,71 @@
     ]
   },
   "players": [
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 3,
+      "countdown": "",
+      "game_id": "mlb_823098",
+      "game_start_utc": "2026-08-26T01:40:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "9:40 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/547180/headshot/67/current",
+      "id": "bryceharper|mlb_823098",
+      "markets": [],
+      "opponent": "SEA",
+      "player": "Bryce Harper",
+      "player_id": 547180,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Bryce Harper",
+        "primary": 3
+      },
+      "system_keys": [
+        "lane",
+        "sim",
+        "system_d"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Lane #2 · market-missed",
+          "hr": false,
+          "label": "Lane",
+          "market_key": null,
+          "rank": 2,
+          "relative_divergence": null,
+          "system": "lane"
+        },
+        {
+          "clv_sign": null,
+          "detail": "Sim-1 #5 · sim score 0.29 (uncalibrated)",
+          "hr": false,
+          "label": "Sim-1",
+          "market_key": null,
+          "p_hr_sim": 0.2926,
+          "rank": 5,
+          "relative_divergence": null,
+          "sim_score_label": "sim score 0.29 (uncalibrated)",
+          "system": "sim"
+        },
+        {
+          "clv_sign": null,
+          "detail": "D #4 · score 81.1",
+          "hr": false,
+          "label": "D",
+          "market_key": null,
+          "rank": 4,
+          "relative_divergence": null,
+          "score": 81.08,
+          "source_view": "D",
+          "system": "system_d"
+        }
+      ],
+      "team": "PHI",
+      "validated_price_flag": null
+    },
     {
       "best_hr_book": "",
       "best_hr_odds": null,
@@ -737,51 +803,103 @@
       "best_hr_odds": null,
       "convergence_count": 2,
       "countdown": "",
+      "game_id": "mlb_823259",
+      "game_start_utc": "2026-08-26T01:40:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "9:40 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/664040/headshot/67/current",
+      "id": "brandonlowe|mlb_823259",
+      "markets": [],
+      "opponent": "SD",
+      "player": "Brandon Lowe",
+      "player_id": 664040,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Brandon Lowe",
+        "primary": 2
+      },
+      "system_keys": [
+        "shadow",
+        "sim"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Lane shadow #6",
+          "hr": false,
+          "label": "Lane shadow",
+          "market_key": null,
+          "rank": 6,
+          "relative_divergence": null,
+          "system": "shadow"
+        },
+        {
+          "clv_sign": null,
+          "detail": "Sim-1 #10 · sim score 0.24 (uncalibrated)",
+          "hr": false,
+          "label": "Sim-1",
+          "market_key": null,
+          "p_hr_sim": 0.2438,
+          "rank": 10,
+          "relative_divergence": null,
+          "sim_score_label": "sim score 0.24 (uncalibrated)",
+          "system": "sim"
+        }
+      ],
+      "team": "PIT",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 2,
+      "countdown": "",
       "game_id": "mlb_823098",
       "game_start_utc": "2026-08-26T01:40:00Z",
       "game_started": false,
       "game_state": "NOT_STARTED",
       "game_time_et": "9:40 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/547180/headshot/67/current",
-      "id": "bryceharper|mlb_823098",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/663728/headshot/67/current",
+      "id": "calraleigh|mlb_823098",
       "markets": [],
-      "opponent": "SEA",
-      "player": "Bryce Harper",
-      "player_id": 547180,
+      "opponent": "PHI",
+      "player": "Cal Raleigh",
+      "player_id": 663728,
       "sort": {
         "m1_relative_divergence": 0.0,
-        "player": "Bryce Harper",
+        "player": "Cal Raleigh",
         "primary": 2
       },
       "system_keys": [
-        "lane",
-        "system_d"
+        "shadow",
+        "sim"
       ],
       "systems": [
         {
           "clv_sign": null,
-          "detail": "Lane #2 · market-missed",
+          "detail": "Lane shadow #7",
           "hr": false,
-          "label": "Lane",
+          "label": "Lane shadow",
           "market_key": null,
-          "rank": 2,
+          "rank": 7,
           "relative_divergence": null,
-          "system": "lane"
+          "system": "shadow"
         },
         {
           "clv_sign": null,
-          "detail": "D #4 · score 81.1",
+          "detail": "Sim-1 #8 · sim score 0.27 (uncalibrated)",
           "hr": false,
-          "label": "D",
+          "label": "Sim-1",
           "market_key": null,
-          "rank": 4,
+          "p_hr_sim": 0.2651,
+          "rank": 8,
           "relative_divergence": null,
-          "score": 81.08,
-          "source_view": "D",
-          "system": "system_d"
+          "sim_score_label": "sim score 0.27 (uncalibrated)",
+          "system": "sim"
         }
       ],
-      "team": "PHI",
+      "team": "SEA",
       "validated_price_flag": null
     },
     {
@@ -893,79 +1011,53 @@
     {
       "best_hr_book": "",
       "best_hr_odds": null,
-      "convergence_count": 1,
+      "convergence_count": 2,
       "countdown": "",
-      "game_id": "mlb_823259",
+      "game_id": "mlb_825042",
       "game_start_utc": "2026-08-26T01:40:00Z",
       "game_started": false,
       "game_state": "NOT_STARTED",
       "game_time_et": "9:40 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/664040/headshot/67/current",
-      "id": "brandonlowe|mlb_823259",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/691718/headshot/67/current",
+      "id": "petecrowarmstrong|mlb_825042",
       "markets": [],
-      "opponent": "SD",
-      "player": "Brandon Lowe",
-      "player_id": 664040,
+      "opponent": "AZ",
+      "player": "Pete Crow-Armstrong",
+      "player_id": 691718,
       "sort": {
         "m1_relative_divergence": 0.0,
-        "player": "Brandon Lowe",
-        "primary": 1
+        "player": "Pete Crow-Armstrong",
+        "primary": 2
       },
       "system_keys": [
-        "shadow"
+        "shadow",
+        "sim"
       ],
       "systems": [
         {
           "clv_sign": null,
-          "detail": "Lane shadow #6",
+          "detail": "Lane shadow #10",
           "hr": false,
           "label": "Lane shadow",
           "market_key": null,
-          "rank": 6,
+          "rank": 10,
           "relative_divergence": null,
           "system": "shadow"
-        }
-      ],
-      "team": "PIT",
-      "validated_price_flag": null
-    },
-    {
-      "best_hr_book": "",
-      "best_hr_odds": null,
-      "convergence_count": 1,
-      "countdown": "",
-      "game_id": "mlb_823098",
-      "game_start_utc": "2026-08-26T01:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "9:40 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/663728/headshot/67/current",
-      "id": "calraleigh|mlb_823098",
-      "markets": [],
-      "opponent": "PHI",
-      "player": "Cal Raleigh",
-      "player_id": 663728,
-      "sort": {
-        "m1_relative_divergence": 0.0,
-        "player": "Cal Raleigh",
-        "primary": 1
-      },
-      "system_keys": [
-        "shadow"
-      ],
-      "systems": [
+        },
         {
           "clv_sign": null,
-          "detail": "Lane shadow #7",
+          "detail": "Sim-1 #3 · sim score 0.32 (uncalibrated)",
           "hr": false,
-          "label": "Lane shadow",
+          "label": "Sim-1",
           "market_key": null,
-          "rank": 7,
+          "p_hr_sim": 0.3222,
+          "rank": 3,
           "relative_divergence": null,
-          "system": "shadow"
+          "sim_score_label": "sim score 0.32 (uncalibrated)",
+          "system": "sim"
         }
       ],
-      "team": "SEA",
+      "team": "CHC",
       "validated_price_flag": null
     },
     {
@@ -1005,6 +1097,47 @@
         }
       ],
       "team": "KC",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_823259",
+      "game_start_utc": "2026-08-26T01:40:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "9:40 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/665487/headshot/67/current",
+      "id": "fernandotatisjr|mlb_823259",
+      "markets": [],
+      "opponent": "PIT",
+      "player": "Fernando Tatis Jr.",
+      "player_id": 665487,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Fernando Tatis Jr.",
+        "primary": 1
+      },
+      "system_keys": [
+        "sim"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Sim-1 #7 · sim score 0.27 (uncalibrated)",
+          "hr": false,
+          "label": "Sim-1",
+          "market_key": null,
+          "p_hr_sim": 0.274,
+          "rank": 7,
+          "relative_divergence": null,
+          "sim_score_label": "sim score 0.27 (uncalibrated)",
+          "system": "sim"
+        }
+      ],
+      "team": "SD",
       "validated_price_flag": null
     },
     {
@@ -1090,6 +1223,47 @@
       "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
+      "game_id": "mlb_823259",
+      "game_start_utc": "2026-08-26T01:40:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "9:40 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/701538/headshot/67/current",
+      "id": "jacksonmerrill|mlb_823259",
+      "markets": [],
+      "opponent": "PIT",
+      "player": "Jackson Merrill",
+      "player_id": 701538,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Jackson Merrill",
+        "primary": 1
+      },
+      "system_keys": [
+        "sim"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Sim-1 #9 · sim score 0.25 (uncalibrated)",
+          "hr": false,
+          "label": "Sim-1",
+          "market_key": null,
+          "p_hr_sim": 0.2539,
+          "rank": 9,
+          "relative_divergence": null,
+          "sim_score_label": "sim score 0.25 (uncalibrated)",
+          "system": "sim"
+        }
+      ],
+      "team": "SD",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 1,
+      "countdown": "",
       "game_id": "mlb_823826",
       "game_start_utc": "2026-08-25T22:40:00Z",
       "game_started": false,
@@ -1129,6 +1303,47 @@
       "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
+      "game_id": "mlb_824881",
+      "game_start_utc": "2026-08-25T23:15:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:15 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/571970/headshot/67/current",
+      "id": "maxmuncy|mlb_824881",
+      "markets": [],
+      "opponent": "ATL",
+      "player": "Max Muncy",
+      "player_id": 571970,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Max Muncy",
+        "primary": 1
+      },
+      "system_keys": [
+        "sim"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Sim-1 #2 · sim score 0.33 (uncalibrated)",
+          "hr": false,
+          "label": "Sim-1",
+          "market_key": null,
+          "p_hr_sim": 0.3292,
+          "rank": 2,
+          "relative_divergence": null,
+          "sim_score_label": "sim score 0.33 (uncalibrated)",
+          "system": "sim"
+        }
+      ],
+      "team": "LAD",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 1,
+      "countdown": "",
       "game_id": "mlb_823989",
       "game_start_utc": "2026-08-26T01:38:00Z",
       "game_started": false,
@@ -1161,45 +1376,6 @@
         }
       ],
       "team": "LAA",
-      "validated_price_flag": null
-    },
-    {
-      "best_hr_book": "",
-      "best_hr_odds": null,
-      "convergence_count": 1,
-      "countdown": "",
-      "game_id": "mlb_825042",
-      "game_start_utc": "2026-08-26T01:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "9:40 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/691718/headshot/67/current",
-      "id": "petecrowarmstrong|mlb_825042",
-      "markets": [],
-      "opponent": "AZ",
-      "player": "Pete Crow-Armstrong",
-      "player_id": 691718,
-      "sort": {
-        "m1_relative_divergence": 0.0,
-        "player": "Pete Crow-Armstrong",
-        "primary": 1
-      },
-      "system_keys": [
-        "shadow"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "Lane shadow #10",
-          "hr": false,
-          "label": "Lane shadow",
-          "market_key": null,
-          "rank": 10,
-          "relative_divergence": null,
-          "system": "shadow"
-        }
-      ],
-      "team": "CHC",
       "validated_price_flag": null
     },
     {
@@ -1251,6 +1427,47 @@
       "game_started": false,
       "game_state": "NOT_STARTED",
       "game_time_et": "9:40 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/668227/headshot/67/current",
+      "id": "randyarozarena|mlb_823098",
+      "markets": [],
+      "opponent": "PHI",
+      "player": "Randy Arozarena",
+      "player_id": 668227,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Randy Arozarena",
+        "primary": 1
+      },
+      "system_keys": [
+        "sim"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Sim-1 #1 · sim score 0.38 (uncalibrated)",
+          "hr": false,
+          "label": "Sim-1",
+          "market_key": null,
+          "p_hr_sim": 0.3841,
+          "rank": 1,
+          "relative_divergence": null,
+          "sim_score_label": "sim score 0.38 (uncalibrated)",
+          "system": "sim"
+        }
+      ],
+      "team": "SEA",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_823098",
+      "game_start_utc": "2026-08-26T01:40:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "9:40 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/607208/headshot/67/current",
       "id": "treaturner|mlb_823098",
       "markets": [],
@@ -1278,6 +1495,88 @@
         }
       ],
       "team": "PHI",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_823505",
+      "game_start_utc": "2026-08-25T23:05:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:05 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/663757/headshot/67/current",
+      "id": "trentgrisham|mlb_823505",
+      "markets": [],
+      "opponent": "HOU",
+      "player": "Trent Grisham",
+      "player_id": 663757,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Trent Grisham",
+        "primary": 1
+      },
+      "system_keys": [
+        "sim"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Sim-1 #6 · sim score 0.29 (uncalibrated)",
+          "hr": false,
+          "label": "Sim-1",
+          "market_key": null,
+          "p_hr_sim": 0.286,
+          "rank": 6,
+          "relative_divergence": null,
+          "sim_score_label": "sim score 0.29 (uncalibrated)",
+          "system": "sim"
+        }
+      ],
+      "team": "NYY",
+      "validated_price_flag": null
+    },
+    {
+      "best_hr_book": "",
+      "best_hr_odds": null,
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_822773",
+      "game_start_utc": "2026-08-25T23:07:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:07 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/686469/headshot/67/current",
+      "id": "vinniepasquantino|mlb_822773",
+      "markets": [],
+      "opponent": "TOR",
+      "player": "Vinnie Pasquantino",
+      "player_id": 686469,
+      "sort": {
+        "m1_relative_divergence": 0.0,
+        "player": "Vinnie Pasquantino",
+        "primary": 1
+      },
+      "system_keys": [
+        "sim"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Sim-1 #4 · sim score 0.29 (uncalibrated)",
+          "hr": false,
+          "label": "Sim-1",
+          "market_key": null,
+          "p_hr_sim": 0.2942,
+          "rank": 4,
+          "relative_divergence": null,
+          "sim_score_label": "sim score 0.29 (uncalibrated)",
+          "system": "sim"
+        }
+      ],
+      "team": "KC",
       "validated_price_flag": null
     },
     {
@@ -1322,7 +1621,108 @@
   ],
   "sim_picks": {
     "frame": "Sim-1 passive/unscored shadow archive; display uses rank and uncalibrated sim score only. v0-lite score magnitudes are known to be roughly 3x inflated and must not be read as probabilities.",
-    "picks": []
+    "picks": [
+      {
+        "game_id": "mlb_823098",
+        "opponent": "PHI",
+        "p_hr_sim": 0.3841,
+        "plain": "Sim-1 #1: Randy Arozarena HR · sim score 0.38 (uncalibrated)",
+        "player": "Randy Arozarena",
+        "rank": 1,
+        "sim_score_label": "sim score 0.38 (uncalibrated)",
+        "team": "SEA"
+      },
+      {
+        "game_id": "mlb_824881",
+        "opponent": "ATL",
+        "p_hr_sim": 0.3292,
+        "plain": "Sim-1 #2: Max Muncy HR · sim score 0.33 (uncalibrated)",
+        "player": "Max Muncy",
+        "rank": 2,
+        "sim_score_label": "sim score 0.33 (uncalibrated)",
+        "team": "LAD"
+      },
+      {
+        "game_id": "mlb_825042",
+        "opponent": "AZ",
+        "p_hr_sim": 0.3222,
+        "plain": "Sim-1 #3: Pete Crow-Armstrong HR · sim score 0.32 (uncalibrated)",
+        "player": "Pete Crow-Armstrong",
+        "rank": 3,
+        "sim_score_label": "sim score 0.32 (uncalibrated)",
+        "team": "CHC"
+      },
+      {
+        "game_id": "mlb_822773",
+        "opponent": "TOR",
+        "p_hr_sim": 0.2942,
+        "plain": "Sim-1 #4: Vinnie Pasquantino HR · sim score 0.29 (uncalibrated)",
+        "player": "Vinnie Pasquantino",
+        "rank": 4,
+        "sim_score_label": "sim score 0.29 (uncalibrated)",
+        "team": "KC"
+      },
+      {
+        "game_id": "mlb_823098",
+        "opponent": "SEA",
+        "p_hr_sim": 0.2926,
+        "plain": "Sim-1 #5: Bryce Harper HR · sim score 0.29 (uncalibrated)",
+        "player": "Bryce Harper",
+        "rank": 5,
+        "sim_score_label": "sim score 0.29 (uncalibrated)",
+        "team": "PHI"
+      },
+      {
+        "game_id": "mlb_823505",
+        "opponent": "HOU",
+        "p_hr_sim": 0.286,
+        "plain": "Sim-1 #6: Trent Grisham HR · sim score 0.29 (uncalibrated)",
+        "player": "Trent Grisham",
+        "rank": 6,
+        "sim_score_label": "sim score 0.29 (uncalibrated)",
+        "team": "NYY"
+      },
+      {
+        "game_id": "mlb_823259",
+        "opponent": "PIT",
+        "p_hr_sim": 0.274,
+        "plain": "Sim-1 #7: Fernando Tatis Jr. HR · sim score 0.27 (uncalibrated)",
+        "player": "Fernando Tatis Jr.",
+        "rank": 7,
+        "sim_score_label": "sim score 0.27 (uncalibrated)",
+        "team": "SD"
+      },
+      {
+        "game_id": "mlb_823098",
+        "opponent": "PHI",
+        "p_hr_sim": 0.2651,
+        "plain": "Sim-1 #8: Cal Raleigh HR · sim score 0.27 (uncalibrated)",
+        "player": "Cal Raleigh",
+        "rank": 8,
+        "sim_score_label": "sim score 0.27 (uncalibrated)",
+        "team": "SEA"
+      },
+      {
+        "game_id": "mlb_823259",
+        "opponent": "PIT",
+        "p_hr_sim": 0.2539,
+        "plain": "Sim-1 #9: Jackson Merrill HR · sim score 0.25 (uncalibrated)",
+        "player": "Jackson Merrill",
+        "rank": 9,
+        "sim_score_label": "sim score 0.25 (uncalibrated)",
+        "team": "SD"
+      },
+      {
+        "game_id": "mlb_823259",
+        "opponent": "SD",
+        "p_hr_sim": 0.2438,
+        "plain": "Sim-1 #10: Brandon Lowe HR · sim score 0.24 (uncalibrated)",
+        "player": "Brandon Lowe",
+        "rank": 10,
+        "sim_score_label": "sim score 0.24 (uncalibrated)",
+        "team": "PIT"
+      }
+    ]
   },
   "sp_e_shadow": {
     "frame": "Emergency market-implied shadow · not governed SP-1 · lineups unconfirmed · no staking",
