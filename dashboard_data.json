@@ -136,16 +136,18 @@
     "market_data_used": false,
     "not_evidence": true,
     "phase0_price_source": {
-      "capture_timestamp": "2026-08-28T17:25:43Z",
-      "source_path": "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-28_open_172543Z.json",
+      "capture_timestamp": "2026-08-28T19:05:58Z",
+      "source_path": "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-28_mid_190558Z.json",
       "source_paths": [
         "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-28_open_162033Z.json",
-        "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-28_open_172543Z.json"
+        "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-28_open_172543Z.json",
+        "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-08-28_mid_190558Z.json"
       ],
-      "source_sha256": "560fec6065e57b954a740a4d2d5d84ba2feb4ff3c9f3dfb0dc9b6c6c61a938f4",
+      "source_sha256": "88b9f40089277f1c1a6e42af21ec285a1e352c30f057c8ebfeaf70c296a061fc",
       "source_sha256s": [
         "b3a0d6a2ddaea793a25dfe9ddbe0f936504616f5dd7086cd65e809cc40bab6b5",
-        "560fec6065e57b954a740a4d2d5d84ba2feb4ff3c9f3dfb0dc9b6c6c61a938f4"
+        "560fec6065e57b954a740a4d2d5d84ba2feb4ff3c9f3dfb0dc9b6c6c61a938f4",
+        "88b9f40089277f1c1a6e42af21ec285a1e352c30f057c8ebfeaf70c296a061fc"
       ]
     },
     "provider_credits_used": 0,
@@ -2075,15 +2077,6 @@
   },
   "games": [
     {
-      "away_team": "Cincinnati Reds",
-      "game_id": "mlb_824638",
-      "game_start_utc": "2026-08-28T18:20:00Z",
-      "game_time_et": "2:20 PM",
-      "home_team": "Chicago Cubs",
-      "started": false,
-      "state": "NOT_STARTED"
-    },
-    {
       "away_team": "Los Angeles Dodgers",
       "game_id": "mlb_824231",
       "game_start_utc": "2026-08-28T22:40:00Z",
@@ -2091,6 +2084,15 @@
       "home_team": "Detroit Tigers",
       "started": false,
       "state": "NOT_STARTED"
+    },
+    {
+      "away_team": "Cincinnati Reds",
+      "game_id": "mlb_824638",
+      "game_start_utc": "2026-08-28T18:20:00Z",
+      "game_time_et": "2:20 PM",
+      "home_team": "Chicago Cubs",
+      "started": true,
+      "state": "LIVE"
     },
     {
       "away_team": "Colorado Rockies",
@@ -2129,20 +2131,20 @@
       "state": "NOT_STARTED"
     },
     {
-      "away_team": "Houston Astros",
-      "game_id": "mlb_823583",
-      "game_start_utc": "2026-08-28T23:10:00Z",
-      "game_time_et": "7:10 PM",
-      "home_team": "New York Mets",
-      "started": false,
-      "state": "NOT_STARTED"
-    },
-    {
       "away_team": "Baltimore Orioles",
       "game_id": "mlb_824960",
       "game_start_utc": "2026-08-29T01:40:00Z",
       "game_time_et": "9:40 PM",
       "home_team": "Athletics",
+      "started": false,
+      "state": "NOT_STARTED"
+    },
+    {
+      "away_team": "Houston Astros",
+      "game_id": "mlb_823583",
+      "game_start_utc": "2026-08-28T23:10:00Z",
+      "game_time_et": "7:10 PM",
+      "home_team": "New York Mets",
       "started": false,
       "state": "NOT_STARTED"
     },
@@ -2156,20 +2158,20 @@
       "state": "NOT_STARTED"
     },
     {
-      "away_team": "Pittsburgh Pirates",
-      "game_id": "mlb_823013",
-      "game_start_utc": "2026-08-29T00:15:00Z",
-      "game_time_et": "8:15 PM",
-      "home_team": "St. Louis Cardinals",
-      "started": false,
-      "state": "NOT_STARTED"
-    },
-    {
       "away_team": "Boston Red Sox",
       "game_id": "mlb_823504",
       "game_start_utc": "2026-08-28T23:15:00Z",
       "game_time_et": "7:15 PM",
       "home_team": "New York Yankees",
+      "started": false,
+      "state": "NOT_STARTED"
+    },
+    {
+      "away_team": "Pittsburgh Pirates",
+      "game_id": "mlb_823013",
+      "game_start_utc": "2026-08-29T00:15:00Z",
+      "game_time_et": "8:15 PM",
+      "home_team": "St. Louis Cardinals",
       "started": false,
       "state": "NOT_STARTED"
     },
@@ -2210,11 +2212,11 @@
       "state": "NOT_STARTED"
     },
     {
-      "away_team": "Chicago White Sox",
-      "game_id": "58cbf4ef2d32ebf1fa4fa41564b795c0",
+      "away_team": "Colorado Rockies",
+      "game_id": "6e66851b93b3cdcc4578b23ae9b93d6d",
       "game_start_utc": "",
       "game_time_et": "TBD",
-      "home_team": "Minnesota Twins",
+      "home_team": "Atlanta Braves",
       "started": false,
       "state": "NOT_STARTED"
     },
@@ -2224,15 +2226,6 @@
       "game_start_utc": "",
       "game_time_et": "TBD",
       "home_team": "Washington Nationals",
-      "started": false,
-      "state": "NOT_STARTED"
-    },
-    {
-      "away_team": "Colorado Rockies",
-      "game_id": "6e66851b93b3cdcc4578b23ae9b93d6d",
-      "game_start_utc": "",
-      "game_time_et": "TBD",
-      "home_team": "Atlanta Braves",
       "started": false,
       "state": "NOT_STARTED"
     },
@@ -2282,15 +2275,6 @@
       "state": "NOT_STARTED"
     },
     {
-      "away_team": "San Diego Padres",
-      "game_id": "0b16c66db57136bcbe0cb430b3315572",
-      "game_start_utc": "",
-      "game_time_et": "TBD",
-      "home_team": "Tampa Bay Rays",
-      "started": false,
-      "state": "NOT_STARTED"
-    },
-    {
       "away_team": "Seattle Mariners",
       "game_id": "365be8fc27b2eb31c003fc150dde54a5",
       "game_start_utc": "",
@@ -2318,6 +2302,15 @@
       "state": "NOT_STARTED"
     },
     {
+      "away_team": "San Diego Padres",
+      "game_id": "0b16c66db57136bcbe0cb430b3315572",
+      "game_start_utc": "",
+      "game_time_et": "TBD",
+      "home_team": "Tampa Bay Rays",
+      "started": false,
+      "state": "NOT_STARTED"
+    },
+    {
       "away_team": "Los Angeles Dodgers",
       "game_id": "bb28f14c5f48561498ab3fabd1ebf47b",
       "game_start_utc": "",
@@ -2341,35 +2334,35 @@
     "laggard_books": [
       {
         "book": "BetMGM",
-        "count": 44
+        "count": 45
       },
       {
         "book": "theScore Bet",
-        "count": 29
+        "count": 34
       },
       {
         "book": "Fanatics",
-        "count": 20
-      },
-      {
-        "book": "DraftKings",
-        "count": 15
+        "count": 23
       },
       {
         "book": "Bally Bet",
-        "count": 14
+        "count": 18
+      },
+      {
+        "book": "DraftKings",
+        "count": 17
+      },
+      {
+        "book": "BetOnline.ag",
+        "count": 9
       },
       {
         "book": "Hard Rock Bet",
         "count": 9
       },
       {
-        "book": "BetOnline.ag",
-        "count": 7
-      },
-      {
         "book": "betPARX",
-        "count": 7
+        "count": 9
       },
       {
         "book": "Bovada",
@@ -2377,7 +2370,7 @@
       },
       {
         "book": "BetRivers",
-        "count": 1
+        "count": 2
       },
       {
         "book": "Caesars",
@@ -2694,9 +2687,26 @@
       {
         "book": "Fanatics",
         "clv_sign": null,
+        "consensus_price": "+469",
+        "game_id": "mlb_824638",
+        "m1_rank": 19,
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "normalized_player": "michaelbusch",
+        "plain": "Fanatics: Michael Busch HR o0.5 +600, market +469, 19%",
+        "player": "Michael Busch",
+        "point": 0.5,
+        "price": "+600",
+        "relative_divergence": 0.1865567645468829,
+        "settled": null,
+        "source_snapshot_path": "clv1_lane_medium_filtered_2026-08-28_mlb_824638_per_game_close_2026-08-28_173858Z.csv"
+      },
+      {
+        "book": "Fanatics",
+        "clv_sign": null,
         "consensus_price": "+511",
         "game_id": "mlb_822691",
-        "m1_rank": 19,
+        "m1_rank": 20,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "abimelecortiz",
@@ -2713,7 +2723,7 @@
         "clv_sign": null,
         "consensus_price": "+351",
         "game_id": "mlb_824396",
-        "m1_rank": 20,
+        "m1_rank": 21,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "bobbywittjr",
@@ -2730,7 +2740,7 @@
         "clv_sign": null,
         "consensus_price": "+517",
         "game_id": "mlb_823013",
-        "m1_rank": 21,
+        "m1_rank": 22,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "brandonlowe",
@@ -2747,7 +2757,7 @@
         "clv_sign": null,
         "consensus_price": "+559",
         "game_id": "mlb_824231",
-        "m1_rank": 22,
+        "m1_rank": 23,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "mookiebetts",
@@ -2764,7 +2774,7 @@
         "clv_sign": null,
         "consensus_price": "+600",
         "game_id": "mlb_824877",
-        "m1_rank": 23,
+        "m1_rank": 24,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "willicastro",
@@ -2781,7 +2791,7 @@
         "clv_sign": null,
         "consensus_price": "+518",
         "game_id": "mlb_822691",
-        "m1_rank": 24,
+        "m1_rank": 25,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "daylenlile",
@@ -2798,7 +2808,7 @@
         "clv_sign": null,
         "consensus_price": "+642",
         "game_id": "mlb_824638",
-        "m1_rank": 25,
+        "m1_rank": 26,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "mattmclain",
@@ -2811,11 +2821,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_162033Z.csv"
       },
       {
+        "book": "Fanatics",
+        "clv_sign": null,
+        "consensus_price": "+416",
+        "game_id": "mlb_822769",
+        "m1_rank": 27,
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "normalized_player": "calraleigh",
+        "plain": "Fanatics: Cal Raleigh HR o0.5 +525, market +416, 18%",
+        "player": "Cal Raleigh",
+        "point": 0.5,
+        "price": "+525",
+        "relative_divergence": 0.1750679339331176,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
         "book": "BetMGM",
         "clv_sign": null,
         "consensus_price": "+418",
         "game_id": "mlb_823744",
-        "m1_rank": 26,
+        "m1_rank": 28,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "brandonnimmo",
@@ -2832,7 +2859,7 @@
         "clv_sign": null,
         "consensus_price": "+419",
         "game_id": "mlb_823013",
-        "m1_rank": 27,
+        "m1_rank": 29,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "jjwetherholt",
@@ -2849,7 +2876,7 @@
         "clv_sign": null,
         "consensus_price": "+689",
         "game_id": "mlb_823013",
-        "m1_rank": 28,
+        "m1_rank": 30,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "jjwetherholt",
@@ -2866,7 +2893,7 @@
         "clv_sign": null,
         "consensus_price": "+441",
         "game_id": "mlb_824877",
-        "m1_rank": 29,
+        "m1_rank": 31,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "mickeymoniak",
@@ -2879,11 +2906,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_172543Z.csv"
       },
       {
+        "book": "Fanatics",
+        "clv_sign": null,
+        "consensus_price": "+401",
+        "game_id": "mlb_824638",
+        "m1_rank": 32,
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "normalized_player": "ianhapp",
+        "plain": "Fanatics: Ian Happ HR o0.5 +500, market +401, 17%",
+        "player": "Ian Happ",
+        "point": 0.5,
+        "price": "+500",
+        "relative_divergence": 0.165149256940558,
+        "settled": null,
+        "source_snapshot_path": "clv1_lane_medium_filtered_2026-08-28_mlb_824638_per_game_close_2026-08-28_180048Z.csv"
+      },
+      {
         "book": "BetMGM",
         "clv_sign": null,
         "consensus_price": "+547",
         "game_id": "mlb_824877",
-        "m1_rank": 30,
+        "m1_rank": 33,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "connornorby",
@@ -2900,7 +2944,7 @@
         "clv_sign": null,
         "consensus_price": "+444",
         "game_id": "mlb_823744",
-        "m1_rank": 31,
+        "m1_rank": 34,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "wyattlangford",
@@ -2917,7 +2961,7 @@
         "clv_sign": null,
         "consensus_price": "+611",
         "game_id": "mlb_822935",
-        "m1_rank": 32,
+        "m1_rank": 35,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "jacksonmerrill",
@@ -2934,7 +2978,7 @@
         "clv_sign": null,
         "consensus_price": "+653",
         "game_id": "mlb_823504",
-        "m1_rank": 33,
+        "m1_rank": 36,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "mickeygasper",
@@ -2951,7 +2995,7 @@
         "clv_sign": null,
         "consensus_price": "+528",
         "game_id": "mlb_823583",
-        "m1_rank": 34,
+        "m1_rank": 37,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "luisrobertjr",
@@ -2968,7 +3012,7 @@
         "clv_sign": null,
         "consensus_price": "+580",
         "game_id": "mlb_822935",
-        "m1_rank": 35,
+        "m1_rank": 38,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "tyfrance",
@@ -2985,7 +3029,7 @@
         "clv_sign": null,
         "consensus_price": "+447",
         "game_id": "mlb_823583",
-        "m1_rank": 36,
+        "m1_rank": 39,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "franciscolindor",
@@ -2998,11 +3042,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_172543Z.csv"
       },
       {
+        "book": "BetRivers",
+        "clv_sign": null,
+        "consensus_price": "+271",
+        "game_id": "mlb_824960",
+        "m1_rank": 40,
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "normalized_player": "cobymayo",
+        "plain": "BetRivers: Coby Mayo HR o0.5 +340, market +271, 16%",
+        "player": "Coby Mayo",
+        "point": 0.5,
+        "price": "+340",
+        "relative_divergence": 0.1558475065541991,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
         "book": "DraftKings",
         "clv_sign": null,
         "consensus_price": "+439",
         "game_id": "mlb_824396",
-        "m1_rank": 37,
+        "m1_rank": 41,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "carterjensen",
@@ -3017,9 +3078,26 @@
       {
         "book": "betPARX",
         "clv_sign": null,
+        "consensus_price": "+407",
+        "game_id": "mlb_823985",
+        "m1_rank": 42,
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "normalized_player": "zachneto",
+        "plain": "betPARX: Zach Neto HR o0.5 +500, market +407, 16%",
+        "player": "Zach Neto",
+        "point": 0.5,
+        "price": "+500",
+        "relative_divergence": 0.1551079764161149,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
+        "book": "betPARX",
+        "clv_sign": null,
         "consensus_price": "+290",
         "game_id": "mlb_823744",
-        "m1_rank": 38,
+        "m1_rank": 43,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "jocpederson",
@@ -3036,7 +3114,7 @@
         "clv_sign": null,
         "consensus_price": "+392",
         "game_id": "mlb_823013",
-        "m1_rank": 39,
+        "m1_rank": 44,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "esmerlynvaldez",
@@ -3053,7 +3131,7 @@
         "clv_sign": null,
         "consensus_price": "+375",
         "game_id": "mlb_824960",
-        "m1_rank": 40,
+        "m1_rank": 45,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "zackgelof",
@@ -3070,7 +3148,7 @@
         "clv_sign": null,
         "consensus_price": "+431",
         "game_id": "mlb_823666",
-        "m1_rank": 41,
+        "m1_rank": 46,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "roycelewis",
@@ -3087,7 +3165,7 @@
         "clv_sign": null,
         "consensus_price": "+329",
         "game_id": "mlb_823013",
-        "m1_rank": 42,
+        "m1_rank": 47,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "alecburleson",
@@ -3104,7 +3182,7 @@
         "clv_sign": null,
         "consensus_price": "+462",
         "game_id": "mlb_823504",
-        "m1_rank": 43,
+        "m1_rank": 48,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "trentgrisham",
@@ -3121,7 +3199,7 @@
         "clv_sign": null,
         "consensus_price": "+487",
         "game_id": "mlb_824638",
-        "m1_rank": 44,
+        "m1_rank": 49,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "mattmclain",
@@ -3138,7 +3216,7 @@
         "clv_sign": null,
         "consensus_price": "+536",
         "game_id": "mlb_822769",
-        "m1_rank": 45,
+        "m1_rank": 50,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "calraleigh",
@@ -3155,7 +3233,7 @@
         "clv_sign": null,
         "consensus_price": "+318",
         "game_id": "mlb_823666",
-        "m1_rank": 46,
+        "m1_rank": 51,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "miguelvargas",
@@ -3172,7 +3250,7 @@
         "clv_sign": null,
         "consensus_price": "+155",
         "game_id": "mlb_824638",
-        "m1_rank": 47,
+        "m1_rank": 52,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "jjbleday",
@@ -3189,7 +3267,7 @@
         "clv_sign": null,
         "consensus_price": "+363",
         "game_id": "mlb_823666",
-        "m1_rank": 48,
+        "m1_rank": 53,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "trevorlarnach",
@@ -3206,7 +3284,7 @@
         "clv_sign": null,
         "consensus_price": "+341",
         "game_id": "mlb_824231",
-        "m1_rank": 49,
+        "m1_rank": 54,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "mookiebetts",
@@ -3223,7 +3301,7 @@
         "clv_sign": null,
         "consensus_price": "+430",
         "game_id": "mlb_822691",
-        "m1_rank": 50,
+        "m1_rank": 55,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "bradyhouse",
@@ -3240,7 +3318,7 @@
         "clv_sign": null,
         "consensus_price": "+320",
         "game_id": "mlb_823666",
-        "m1_rank": 51,
+        "m1_rank": 56,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "kodyclemens",
@@ -3257,7 +3335,7 @@
         "clv_sign": null,
         "consensus_price": "+365",
         "game_id": "mlb_823985",
-        "m1_rank": 52,
+        "m1_rank": 57,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "bryceharper",
@@ -3274,7 +3352,7 @@
         "clv_sign": null,
         "consensus_price": "+321",
         "game_id": "mlb_822691",
-        "m1_rank": 53,
+        "m1_rank": 58,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "daylenlile",
@@ -3291,7 +3369,7 @@
         "clv_sign": null,
         "consensus_price": "+149",
         "game_id": "mlb_823583",
-        "m1_rank": 54,
+        "m1_rank": 59,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "luisrobertjr",
@@ -3308,7 +3386,7 @@
         "clv_sign": null,
         "consensus_price": "+303",
         "game_id": "mlb_823744",
-        "m1_rank": 55,
+        "m1_rank": 60,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "jacksonchourio",
@@ -3325,7 +3403,7 @@
         "clv_sign": null,
         "consensus_price": "+438",
         "game_id": "mlb_822935",
-        "m1_rank": 56,
+        "m1_rank": 61,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "tyfrance",
@@ -3342,7 +3420,7 @@
         "clv_sign": null,
         "consensus_price": "+147",
         "game_id": "mlb_822935",
-        "m1_rank": 57,
+        "m1_rank": 62,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "jacksonmerrill",
@@ -3355,11 +3433,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_162033Z.csv"
       },
       {
+        "book": "theScore Bet",
+        "clv_sign": null,
+        "consensus_price": "+349",
+        "game_id": "mlb_824396",
+        "m1_rank": 63,
+        "market_key": "batter_doubles",
+        "market_label": "doubles",
+        "normalized_player": "joadell",
+        "plain": "theScore Bet: Jo Adell doubles o0.5 +400, market +349, 10%",
+        "player": "Jo Adell",
+        "point": 0.5,
+        "price": "+400",
+        "relative_divergence": 0.1025724836103478,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
         "book": "Hard Rock Bet",
         "clv_sign": null,
         "consensus_price": "+372",
         "game_id": "mlb_824960",
-        "m1_rank": 58,
+        "m1_rank": 64,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "lawrencebutler",
@@ -3376,7 +3471,7 @@
         "clv_sign": null,
         "consensus_price": "+444",
         "game_id": "mlb_823744",
-        "m1_rank": 59,
+        "m1_rank": 65,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "brandonnimmo",
@@ -3393,7 +3488,7 @@
         "clv_sign": null,
         "consensus_price": "-169",
         "game_id": "mlb_823666",
-        "m1_rank": 60,
+        "m1_rank": 66,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "colsonmontgomery",
@@ -3410,7 +3505,7 @@
         "clv_sign": null,
         "consensus_price": "+350",
         "game_id": "mlb_823583",
-        "m1_rank": 61,
+        "m1_rank": 67,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "yordanalvarez",
@@ -3425,9 +3520,26 @@
       {
         "book": "theScore Bet",
         "clv_sign": null,
+        "consensus_price": "+440",
+        "game_id": "mlb_823504",
+        "m1_rank": 68,
+        "market_key": "batter_doubles",
+        "market_label": "doubles",
+        "normalized_player": "wilyerabreu",
+        "plain": "theScore Bet: Wilyer Abreu doubles o0.5 +500, market +440, 10%",
+        "player": "Wilyer Abreu",
+        "point": 0.5,
+        "price": "+500",
+        "relative_divergence": 0.1003502171109457,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
+        "book": "theScore Bet",
+        "clv_sign": null,
         "consensus_price": "+418",
         "game_id": "mlb_823583",
-        "m1_rank": 62,
+        "m1_rank": 69,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "daultonvarsho",
@@ -3444,7 +3556,7 @@
         "clv_sign": null,
         "consensus_price": "+431",
         "game_id": "mlb_824231",
-        "m1_rank": 63,
+        "m1_rank": 70,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "kevinmcgonigle",
@@ -3457,11 +3569,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_162033Z.csv"
       },
       {
+        "book": "theScore Bet",
+        "clv_sign": null,
+        "consensus_price": "+395",
+        "game_id": "mlb_824396",
+        "m1_rank": 71,
+        "market_key": "batter_doubles",
+        "market_label": "doubles",
+        "normalized_player": "nathaniellowe",
+        "plain": "theScore Bet: Nathaniel Lowe doubles o0.5 +450, market +395, 10%",
+        "player": "Nathaniel Lowe",
+        "point": 0.5,
+        "price": "+450",
+        "relative_divergence": 0.0992038369002811,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
         "book": "DraftKings",
         "clv_sign": null,
         "consensus_price": "+429",
         "game_id": "mlb_824231",
-        "m1_rank": 64,
+        "m1_rank": 72,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "dillondingler",
@@ -3478,7 +3607,7 @@
         "clv_sign": null,
         "consensus_price": "+283",
         "game_id": "mlb_824638",
-        "m1_rank": 65,
+        "m1_rank": 73,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "petecrowarmstrong",
@@ -3495,7 +3624,7 @@
         "clv_sign": null,
         "consensus_price": "+374",
         "game_id": "mlb_824638",
-        "m1_rank": 66,
+        "m1_rank": 74,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "ianhapp",
@@ -3512,7 +3641,7 @@
         "clv_sign": null,
         "consensus_price": "+374",
         "game_id": "mlb_823178",
-        "m1_rank": 67,
+        "m1_rank": 75,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "rafaeldevers",
@@ -3529,7 +3658,7 @@
         "clv_sign": null,
         "consensus_price": "+352",
         "game_id": "mlb_824638",
-        "m1_rank": 68,
+        "m1_rank": 76,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "michaelbusch",
@@ -3546,7 +3675,7 @@
         "clv_sign": null,
         "consensus_price": "+307",
         "game_id": "mlb_823178",
-        "m1_rank": 69,
+        "m1_rank": 77,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "corbincarroll",
@@ -3563,7 +3692,7 @@
         "clv_sign": null,
         "consensus_price": "+400",
         "game_id": "mlb_823744",
-        "m1_rank": 70,
+        "m1_rank": 78,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "briceturang",
@@ -3580,7 +3709,7 @@
         "clv_sign": null,
         "consensus_price": "+332",
         "game_id": "mlb_823744",
-        "m1_rank": 71,
+        "m1_rank": 79,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "williamcontreras",
@@ -3597,7 +3726,7 @@
         "clv_sign": null,
         "consensus_price": "-167",
         "game_id": "mlb_823504",
-        "m1_rank": 72,
+        "m1_rank": 80,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "trentgrisham",
@@ -3614,7 +3743,7 @@
         "clv_sign": null,
         "consensus_price": "+153",
         "game_id": "mlb_822935",
-        "m1_rank": 73,
+        "m1_rank": 81,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "tyfrance",
@@ -3631,7 +3760,7 @@
         "clv_sign": null,
         "consensus_price": "+113",
         "game_id": "mlb_823985",
-        "m1_rank": 74,
+        "m1_rank": 82,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "treaturner",
@@ -3648,7 +3777,7 @@
         "clv_sign": null,
         "consensus_price": "+168",
         "game_id": "mlb_824638",
-        "m1_rank": 75,
+        "m1_rank": 83,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "petecrowarmstrong",
@@ -3665,7 +3794,7 @@
         "clv_sign": null,
         "consensus_price": "-150",
         "game_id": "mlb_823583",
-        "m1_rank": 76,
+        "m1_rank": 84,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "camsmith",
@@ -3682,7 +3811,7 @@
         "clv_sign": null,
         "consensus_price": "+169",
         "game_id": "mlb_823583",
-        "m1_rank": 77,
+        "m1_rank": 85,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "camsmith",
@@ -3699,7 +3828,7 @@
         "clv_sign": null,
         "consensus_price": "+175",
         "game_id": "mlb_823178",
-        "m1_rank": 78,
+        "m1_rank": 86,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "timtawa",
@@ -3716,7 +3845,7 @@
         "clv_sign": null,
         "consensus_price": "+135",
         "game_id": "mlb_823583",
-        "m1_rank": 79,
+        "m1_rank": 87,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "franciscolindor",
@@ -3733,7 +3862,7 @@
         "clv_sign": null,
         "consensus_price": "+119",
         "game_id": "mlb_824396",
-        "m1_rank": 80,
+        "m1_rank": 88,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "joadell",
@@ -3750,7 +3879,7 @@
         "clv_sign": null,
         "consensus_price": "+138",
         "game_id": "mlb_823666",
-        "m1_rank": 81,
+        "m1_rank": 89,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "roycelewis",
@@ -3767,7 +3896,7 @@
         "clv_sign": null,
         "consensus_price": "+127",
         "game_id": "mlb_823744",
-        "m1_rank": 82,
+        "m1_rank": 90,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "coreyseager",
@@ -3784,7 +3913,7 @@
         "clv_sign": null,
         "consensus_price": "+162",
         "game_id": "mlb_823013",
-        "m1_rank": 83,
+        "m1_rank": 91,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "brandonlowe",
@@ -3801,7 +3930,7 @@
         "clv_sign": null,
         "consensus_price": "+200",
         "game_id": "mlb_824638",
-        "m1_rank": 84,
+        "m1_rank": 92,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "mattmclain",
@@ -3818,7 +3947,7 @@
         "clv_sign": null,
         "consensus_price": "-132",
         "game_id": "mlb_824960",
-        "m1_rank": 85,
+        "m1_rank": 93,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "dylanbeavers",
@@ -3835,7 +3964,7 @@
         "clv_sign": null,
         "consensus_price": "+116",
         "game_id": "mlb_824960",
-        "m1_rank": 86,
+        "m1_rank": 94,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "henrybolte",
@@ -3852,7 +3981,7 @@
         "clv_sign": null,
         "consensus_price": "+158",
         "game_id": "mlb_823013",
-        "m1_rank": 87,
+        "m1_rank": 95,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "jjwetherholt",
@@ -3869,7 +3998,7 @@
         "clv_sign": null,
         "consensus_price": "-114",
         "game_id": "mlb_822769",
-        "m1_rank": 88,
+        "m1_rank": 96,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "calraleigh",
@@ -3886,7 +4015,7 @@
         "clv_sign": null,
         "consensus_price": "+116",
         "game_id": "mlb_823666",
-        "m1_rank": 89,
+        "m1_rank": 97,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "kodyclemens",
@@ -3903,7 +4032,7 @@
         "clv_sign": null,
         "consensus_price": "+173",
         "game_id": "mlb_823666",
-        "m1_rank": 90,
+        "m1_rank": 98,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "trevorlarnach",
@@ -3920,7 +4049,7 @@
         "clv_sign": null,
         "consensus_price": "+155",
         "game_id": "mlb_823504",
-        "m1_rank": 91,
+        "m1_rank": 99,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "amedrosario",
@@ -3937,7 +4066,7 @@
         "clv_sign": null,
         "consensus_price": "-126",
         "game_id": "mlb_824638",
-        "m1_rank": 92,
+        "m1_rank": 100,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "petecrowarmstrong",
@@ -3954,7 +4083,7 @@
         "clv_sign": null,
         "consensus_price": "-170",
         "game_id": "mlb_824231",
-        "m1_rank": 93,
+        "m1_rank": 101,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "maxmuncy",
@@ -3971,7 +4100,7 @@
         "clv_sign": null,
         "consensus_price": "+102",
         "game_id": "mlb_824396",
-        "m1_rank": 94,
+        "m1_rank": 102,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "bobbywittjr",
@@ -3988,7 +4117,7 @@
         "clv_sign": null,
         "consensus_price": "-205",
         "game_id": "mlb_823504",
-        "m1_rank": 95,
+        "m1_rank": 103,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "amedrosario",
@@ -4005,7 +4134,7 @@
         "clv_sign": null,
         "consensus_price": "+126",
         "game_id": "mlb_823504",
-        "m1_rank": 96,
+        "m1_rank": 104,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "codybellinger",
@@ -4022,7 +4151,7 @@
         "clv_sign": null,
         "consensus_price": "-100",
         "game_id": "mlb_823583",
-        "m1_rank": 97,
+        "m1_rank": 105,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "taylortrammell",
@@ -4035,11 +4164,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_172543Z.csv"
       },
       {
+        "book": "theScore Bet",
+        "clv_sign": null,
+        "consensus_price": "+183",
+        "game_id": "mlb_823744",
+        "m1_rank": 106,
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "normalized_player": "jacksonchourio",
+        "plain": "theScore Bet: Jackson Chourio hits o1.5 +200, market +183, 6%",
+        "player": "Jackson Chourio",
+        "point": 1.5,
+        "price": "+200",
+        "relative_divergence": 0.0566226925478663,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
         "book": "Bally Bet",
         "clv_sign": null,
         "consensus_price": "+131",
         "game_id": "mlb_823985",
-        "m1_rank": 98,
+        "m1_rank": 107,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "zachneto",
@@ -4056,7 +4202,7 @@
         "clv_sign": null,
         "consensus_price": "-102",
         "game_id": "mlb_823583",
-        "m1_rank": 99,
+        "m1_rank": 108,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "yordanalvarez",
@@ -4073,7 +4219,7 @@
         "clv_sign": null,
         "consensus_price": "+174",
         "game_id": "mlb_824638",
-        "m1_rank": 100,
+        "m1_rank": 109,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "michaelconforto",
@@ -4090,7 +4236,7 @@
         "clv_sign": null,
         "consensus_price": "+164",
         "game_id": "mlb_824877",
-        "m1_rank": 101,
+        "m1_rank": 110,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "drakebaldwin",
@@ -4107,7 +4253,7 @@
         "clv_sign": null,
         "consensus_price": "-187",
         "game_id": "mlb_824396",
-        "m1_rank": 102,
+        "m1_rank": 111,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "vinniepasquantino",
@@ -4122,9 +4268,26 @@
       {
         "book": "Bally Bet",
         "clv_sign": null,
+        "consensus_price": "+130",
+        "game_id": "mlb_824638",
+        "m1_rank": 112,
+        "market_key": "batter_total_bases",
+        "market_label": "total bases",
+        "normalized_player": "michaelbusch",
+        "plain": "Bally Bet: Michael Busch total bases o1.5 +143, market +130, 6%",
+        "player": "Michael Busch",
+        "point": 1.5,
+        "price": "+143",
+        "relative_divergence": 0.0553327305145253,
+        "settled": null,
+        "source_snapshot_path": "clv1_lane_medium_filtered_2026-08-28_mlb_824638_per_game_close_2026-08-28_180048Z.csv"
+      },
+      {
+        "book": "Bally Bet",
+        "clv_sign": null,
         "consensus_price": "+119",
         "game_id": "mlb_823666",
-        "m1_rank": 103,
+        "m1_rank": 113,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "joshbell",
@@ -4141,7 +4304,7 @@
         "clv_sign": null,
         "consensus_price": "-161",
         "game_id": "mlb_824396",
-        "m1_rank": 104,
+        "m1_rank": 114,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "carterjensen",
@@ -4158,7 +4321,7 @@
         "clv_sign": null,
         "consensus_price": "+165",
         "game_id": "mlb_824877",
-        "m1_rank": 105,
+        "m1_rank": 115,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "connornorby",
@@ -4175,7 +4338,7 @@
         "clv_sign": null,
         "consensus_price": "-162",
         "game_id": "mlb_822769",
-        "m1_rank": 106,
+        "m1_rank": 116,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "randyarozarena",
@@ -4192,7 +4355,7 @@
         "clv_sign": null,
         "consensus_price": "+130",
         "game_id": "mlb_824638",
-        "m1_rank": 107,
+        "m1_rank": 117,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "ianhapp",
@@ -4209,7 +4372,7 @@
         "clv_sign": null,
         "consensus_price": "-129",
         "game_id": "mlb_823744",
-        "m1_rank": 108,
+        "m1_rank": 118,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "jakeburger",
@@ -4226,7 +4389,7 @@
         "clv_sign": null,
         "consensus_price": "-123",
         "game_id": "mlb_823583",
-        "m1_rank": 109,
+        "m1_rank": 119,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "franciscoalvarez",
@@ -4243,7 +4406,7 @@
         "clv_sign": null,
         "consensus_price": "-224",
         "game_id": "mlb_823985",
-        "m1_rank": 110,
+        "m1_rank": 120,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "bryceharper",
@@ -4260,7 +4423,7 @@
         "clv_sign": null,
         "consensus_price": "-237",
         "game_id": "mlb_824396",
-        "m1_rank": 111,
+        "m1_rank": 121,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "joadell",
@@ -4277,7 +4440,7 @@
         "clv_sign": null,
         "consensus_price": "+123",
         "game_id": "mlb_823744",
-        "m1_rank": 112,
+        "m1_rank": 122,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "briceturang",
@@ -4290,11 +4453,45 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_162033Z.csv"
       },
       {
+        "book": "Bally Bet",
+        "clv_sign": null,
+        "consensus_price": "+131",
+        "game_id": "mlb_822935",
+        "m1_rank": 123,
+        "market_key": "batter_total_bases",
+        "market_label": "total bases",
+        "normalized_player": "jonathanaranda",
+        "plain": "Bally Bet: Jonathan Aranda total bases o1.5 +143, market +131, 5%",
+        "player": "Jonathan Aranda",
+        "point": 1.5,
+        "price": "+143",
+        "relative_divergence": 0.0512747121763971,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
+        "book": "BetOnline.ag",
+        "clv_sign": null,
+        "consensus_price": "+122",
+        "game_id": "mlb_822691",
+        "m1_rank": 124,
+        "market_key": "batter_total_bases",
+        "market_label": "total bases",
+        "normalized_player": "kylestowers",
+        "plain": "BetOnline.ag: Kyle Stowers total bases o1.5 +134, market +122, 5%",
+        "player": "Kyle Stowers",
+        "point": 1.5,
+        "price": "+134",
+        "relative_divergence": 0.0508421794293311,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
         "book": "theScore Bet",
         "clv_sign": null,
         "consensus_price": "-159",
         "game_id": "mlb_824877",
-        "m1_rank": 113,
+        "m1_rank": 125,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "mikeyastrzemski",
@@ -4311,7 +4508,7 @@
         "clv_sign": null,
         "consensus_price": "+128",
         "game_id": "mlb_824231",
-        "m1_rank": 114,
+        "m1_rank": 126,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "maxmuncy",
@@ -4328,7 +4525,7 @@
         "clv_sign": null,
         "consensus_price": "-268",
         "game_id": "mlb_823744",
-        "m1_rank": 115,
+        "m1_rank": 127,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "briceturang",
@@ -4345,7 +4542,7 @@
         "clv_sign": null,
         "consensus_price": "-190",
         "game_id": "mlb_824638",
-        "m1_rank": 116,
+        "m1_rank": 128,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "ianhapp",
@@ -4362,7 +4559,7 @@
         "clv_sign": null,
         "consensus_price": "-141",
         "game_id": "mlb_823583",
-        "m1_rank": 117,
+        "m1_rank": 129,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "camsmith",
@@ -4379,7 +4576,7 @@
         "clv_sign": null,
         "consensus_price": "-198",
         "game_id": "mlb_823583",
-        "m1_rank": 118,
+        "m1_rank": 130,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "carsonbenge",
@@ -4396,7 +4593,7 @@
         "clv_sign": null,
         "consensus_price": "-100",
         "game_id": "mlb_823178",
-        "m1_rank": 119,
+        "m1_rank": 131,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "corbincarroll",
@@ -4413,7 +4610,7 @@
         "clv_sign": null,
         "consensus_price": "+125",
         "game_id": "mlb_823985",
-        "m1_rank": 120,
+        "m1_rank": 132,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "bryceharper",
@@ -4430,7 +4627,7 @@
         "clv_sign": null,
         "consensus_price": "-221",
         "game_id": "mlb_823666",
-        "m1_rank": 121,
+        "m1_rank": 133,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "kodyclemens",
@@ -4447,7 +4644,7 @@
         "clv_sign": null,
         "consensus_price": "-158",
         "game_id": "mlb_824877",
-        "m1_rank": 122,
+        "m1_rank": 134,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "mickeymoniak",
@@ -4464,7 +4661,7 @@
         "clv_sign": null,
         "consensus_price": "+124",
         "game_id": "mlb_823013",
-        "m1_rank": 123,
+        "m1_rank": 135,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "alecburleson",
@@ -4481,7 +4678,7 @@
         "clv_sign": null,
         "consensus_price": "+124",
         "game_id": "mlb_824960",
-        "m1_rank": 124,
+        "m1_rank": 136,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "lawrencebutler",
@@ -4498,7 +4695,7 @@
         "clv_sign": null,
         "consensus_price": "-152",
         "game_id": "mlb_823504",
-        "m1_rank": 125,
+        "m1_rank": 137,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "trentgrisham",
@@ -4515,7 +4712,7 @@
         "clv_sign": null,
         "consensus_price": "+119",
         "game_id": "mlb_823666",
-        "m1_rank": 126,
+        "m1_rank": 138,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "miguelvargas",
@@ -4532,7 +4729,7 @@
         "clv_sign": null,
         "consensus_price": "-151",
         "game_id": "mlb_824638",
-        "m1_rank": 127,
+        "m1_rank": 139,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "jjbleday",
@@ -4549,7 +4746,7 @@
         "clv_sign": null,
         "consensus_price": "-169",
         "game_id": "mlb_823583",
-        "m1_rank": 128,
+        "m1_rank": 140,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "daultonvarsho",
@@ -4566,7 +4763,7 @@
         "clv_sign": null,
         "consensus_price": "+115",
         "game_id": "mlb_824960",
-        "m1_rank": 129,
+        "m1_rank": 141,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "zackgelof",
@@ -4583,7 +4780,7 @@
         "clv_sign": null,
         "consensus_price": "+120",
         "game_id": "mlb_822935",
-        "m1_rank": 130,
+        "m1_rank": 142,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "fernandotatisjr",
@@ -4600,7 +4797,7 @@
         "clv_sign": null,
         "consensus_price": "-189",
         "game_id": "mlb_823013",
-        "m1_rank": 131,
+        "m1_rank": 143,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "jjwetherholt",
@@ -4617,7 +4814,7 @@
         "clv_sign": null,
         "consensus_price": "-168",
         "game_id": "mlb_822691",
-        "m1_rank": 132,
+        "m1_rank": 144,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "abimelecortiz",
@@ -4630,11 +4827,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_162033Z.csv"
       },
       {
+        "book": "BetMGM",
+        "clv_sign": null,
+        "consensus_price": "-109",
+        "game_id": "mlb_824877",
+        "m1_rank": 145,
+        "market_key": "batter_total_bases",
+        "market_label": "total bases",
+        "normalized_player": "michaelharrisii",
+        "plain": "BetMGM: Michael Harris II total bases o1.5 +100, market -109, 4%",
+        "player": "Michael Harris II",
+        "point": 1.5,
+        "price": "+100",
+        "relative_divergence": 0.0432059240496956,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
         "book": "theScore Bet",
         "clv_sign": null,
         "consensus_price": "-156",
         "game_id": "mlb_824877",
-        "m1_rank": 133,
+        "m1_rank": 146,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "mikeyastrzemski",
@@ -4651,7 +4865,7 @@
         "clv_sign": null,
         "consensus_price": "-127",
         "game_id": "mlb_824960",
-        "m1_rank": 134,
+        "m1_rank": 147,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "dylanbeavers",
@@ -4668,7 +4882,7 @@
         "clv_sign": null,
         "consensus_price": "-168",
         "game_id": "mlb_823744",
-        "m1_rank": 135,
+        "m1_rank": 148,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "wyattlangford",
@@ -4685,7 +4899,7 @@
         "clv_sign": null,
         "consensus_price": "-261",
         "game_id": "mlb_823985",
-        "m1_rank": 136,
+        "m1_rank": 149,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "treaturner",
@@ -4702,7 +4916,7 @@
         "clv_sign": null,
         "consensus_price": "-198",
         "game_id": "mlb_823666",
-        "m1_rank": 137,
+        "m1_rank": 150,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "roycelewis",
@@ -4719,7 +4933,7 @@
         "clv_sign": null,
         "consensus_price": "-106",
         "game_id": "mlb_823744",
-        "m1_rank": 138,
+        "m1_rank": 151,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "jacksonchourio",
@@ -4732,11 +4946,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_162033Z.csv"
       },
       {
+        "book": "Bally Bet",
+        "clv_sign": null,
+        "consensus_price": "-130",
+        "game_id": "mlb_824396",
+        "m1_rank": 152,
+        "market_key": "batter_total_bases",
+        "market_label": "total bases",
+        "normalized_player": "patrickbailey",
+        "plain": "Bally Bet: Patrick Bailey total bases o0.5 -118, market -130, 4%",
+        "player": "Patrick Bailey",
+        "point": 0.5,
+        "price": "-118",
+        "relative_divergence": 0.0416480892047658,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
         "book": "DraftKings",
         "clv_sign": null,
         "consensus_price": "-203",
         "game_id": "mlb_823583",
-        "m1_rank": 139,
+        "m1_rank": 153,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "franciscolindor",
@@ -4753,7 +4984,7 @@
         "clv_sign": null,
         "consensus_price": "-240",
         "game_id": "mlb_823504",
-        "m1_rank": 140,
+        "m1_rank": 154,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "codybellinger",
@@ -4770,7 +5001,7 @@
         "clv_sign": null,
         "consensus_price": "-120",
         "game_id": "mlb_823583",
-        "m1_rank": 141,
+        "m1_rank": 155,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "brettbaty",
@@ -4787,7 +5018,7 @@
         "clv_sign": null,
         "consensus_price": "-184",
         "game_id": "mlb_823583",
-        "m1_rank": 142,
+        "m1_rank": 156,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "luisrobertjr",
@@ -4804,7 +5035,7 @@
         "clv_sign": null,
         "consensus_price": "-240",
         "game_id": "mlb_824960",
-        "m1_rank": 143,
+        "m1_rank": 157,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "zackgelof",
@@ -4821,7 +5052,7 @@
         "clv_sign": null,
         "consensus_price": "-158",
         "game_id": "mlb_822769",
-        "m1_rank": 144,
+        "m1_rank": 158,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "kazumaokamoto",
@@ -4834,11 +5065,45 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_172543Z.csv"
       },
       {
+        "book": "betPARX",
+        "clv_sign": null,
+        "consensus_price": "-177",
+        "game_id": "mlb_823985",
+        "m1_rank": 159,
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "normalized_player": "miketrout",
+        "plain": "betPARX: Mike Trout hits o0.5 -159, market -177, 4%",
+        "player": "Mike Trout",
+        "point": 0.5,
+        "price": "-159",
+        "relative_divergence": 0.039178592103223,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
+        "book": "DraftKings",
+        "clv_sign": null,
+        "consensus_price": "-122",
+        "game_id": "mlb_823504",
+        "m1_rank": 160,
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "normalized_player": "mickeygasper",
+        "plain": "DraftKings: Mickey Gasper hits o0.5 -112, market -122, 4%",
+        "player": "Mickey Gasper",
+        "point": 0.5,
+        "price": "-112",
+        "relative_divergence": 0.0389308726227695,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
         "book": "BetMGM",
         "clv_sign": null,
         "consensus_price": "-154",
         "game_id": "mlb_823583",
-        "m1_rank": 145,
+        "m1_rank": 161,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "christianwalker",
@@ -4855,7 +5120,7 @@
         "clv_sign": null,
         "consensus_price": "-226",
         "game_id": "mlb_824960",
-        "m1_rank": 146,
+        "m1_rank": 162,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "lawrencebutler",
@@ -4872,7 +5137,7 @@
         "clv_sign": null,
         "consensus_price": "-226",
         "game_id": "mlb_823666",
-        "m1_rank": 147,
+        "m1_rank": 163,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "miguelvargas",
@@ -4885,11 +5150,45 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_162033Z.csv"
       },
       {
+        "book": "BetOnline.ag",
+        "clv_sign": null,
+        "consensus_price": "-253",
+        "game_id": "mlb_822935",
+        "m1_rank": 164,
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "normalized_player": "fernandotatisjr",
+        "plain": "BetOnline.ag: Fernando Tatis Jr. hits o0.5 -222, market -253, 4%",
+        "player": "Fernando Tatis Jr.",
+        "point": 0.5,
+        "price": "-222",
+        "relative_divergence": 0.037707204764734,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
+        "book": "DraftKings",
+        "clv_sign": null,
+        "consensus_price": "-201",
+        "game_id": "mlb_823178",
+        "m1_rank": 165,
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "normalized_player": "rafaeldevers",
+        "plain": "DraftKings: Rafael Devers hits o0.5 -180, market -201, 4%",
+        "player": "Rafael Devers",
+        "point": 0.5,
+        "price": "-180",
+        "relative_divergence": 0.0374211242519841,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
         "book": "DraftKings",
         "clv_sign": null,
         "consensus_price": "-159",
         "game_id": "mlb_823504",
-        "m1_rank": 148,
+        "m1_rank": 166,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "wilyerabreu",
@@ -4906,7 +5205,7 @@
         "clv_sign": null,
         "consensus_price": "-127",
         "game_id": "mlb_823504",
-        "m1_rank": 149,
+        "m1_rank": 167,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "jarrenduran",
@@ -4921,9 +5220,26 @@
       {
         "book": "Bally Bet",
         "clv_sign": null,
+        "consensus_price": "-128",
+        "game_id": "mlb_824396",
+        "m1_rank": 168,
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "normalized_player": "patrickbailey",
+        "plain": "Bally Bet: Patrick Bailey hits o0.5 -118, market -128, 4%",
+        "player": "Patrick Bailey",
+        "point": 0.5,
+        "price": "-118",
+        "relative_divergence": 0.035690160321339,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
+        "book": "Bally Bet",
+        "clv_sign": null,
         "consensus_price": "-157",
         "game_id": "mlb_822691",
-        "m1_rank": 150,
+        "m1_rank": 169,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "abimelecortiz",
@@ -4936,11 +5252,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_open_172543Z.csv"
       },
       {
+        "book": "theScore Bet",
+        "clv_sign": null,
+        "consensus_price": "-224",
+        "game_id": "mlb_822691",
+        "m1_rank": 170,
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "normalized_player": "kylestowers",
+        "plain": "theScore Bet: Kyle Stowers hits o0.5 -200, market -224, 4%",
+        "player": "Kyle Stowers",
+        "point": 0.5,
+        "price": "-200",
+        "relative_divergence": 0.0354114713213942,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv"
+      },
+      {
         "book": "DraftKings",
         "clv_sign": null,
         "consensus_price": "-156",
         "game_id": "mlb_823013",
-        "m1_rank": 151,
+        "m1_rank": 171,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "brandonlowe",
@@ -4964,7 +5297,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "2026-08-28T18:20:00Z",
-    "generated_at": "2026-08-28T17:26:30Z",
+    "generated_at": "2026-08-28T19:06:23Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -4975,15 +5308,15 @@
       "lane2_fa_coverage_shadow_2026-08-28_2026-08-28_155109Z.csv",
       "lane2_fa_predictions_2026-08-28_2026-08-28_155109Z.csv",
       "m1_phase_c_pick_ledger.csv",
-      "market_mispricing_phase0_snapshot_2026-08-28_open_172543Z.csv",
-      "phase0_raw_payloads_2026-08-28_open_172543Z.json",
+      "market_mispricing_phase0_snapshot_2026-08-28_mid_190558Z.csv",
+      "phase0_raw_payloads_2026-08-28_mid_190558Z.json",
       "pa_sim_v0_lite_predictions_2026-08-28_2026-08-28_155115Z_LOCKED_RUN.csv",
-      "scored_rows_2026-08-28_2026-08-28_154529Z.csv",
+      "scored_rows_2026-08-28_2026-08-28_183121Z.csv",
       "top5_operational_2026-08-28_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_D_PROJECTED_ALLOWED_2026-08-28_154529Z.csv",
       "top5_operational_2026-08-28_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ADDITIVE_CONTEXT_SHADOW_TOP5_2026-08-28_154529Z.csv",
       "top5_operational_2026-08-28_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ELITE_POWER_EXCEPTION_CANDIDATES_2026-08-28_154529Z.csv",
-      "top5_operational_2026-08-28_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_FULL_CONVICTION_CANDIDATES_2026-08-28_154529Z.csv",
       "top5_operational_2026-08-28_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_F_PROJECTED_ALLOWED_2026-08-28_154529Z.csv",
+      "top5_operational_2026-08-28_NEAR_CLOSE_LIVE_REOBSERVATION_SYSTEM_E_FULL_CONVICTION_CANDIDATES_2026-08-28_183121Z.csv",
       "vnext_v3_shadow_candidates_2026-08-28_VNEXT_V3_SHADOW_CANDIDATES_ALL_AXES_2026-08-28_154529Z.csv",
       "project_homer_descriptive_census_2026-07-28.json",
       "portfolio-sim-v0-2026-08-28.json"
@@ -4992,13 +5325,13 @@
   "players": [
     {
       "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+300",
+      "best_hr_odds": "+450",
       "convergence_count": 6,
       "countdown": "",
       "game_id": "mlb_824638",
       "game_start_utc": "2026-08-28T18:20:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "2:20 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/691718/headshot/67/current",
       "id": "petecrowarmstrong|mlb_824638",
@@ -5153,7 +5486,7 @@
     },
     {
       "best_hr_book": "betPARX",
-      "best_hr_odds": "+360",
+      "best_hr_odds": "+330",
       "convergence_count": 5,
       "countdown": "",
       "game_id": "mlb_824877",
@@ -5432,8 +5765,133 @@
       "validated_price_flag": null
     },
     {
-      "best_hr_book": "BetRivers",
-      "best_hr_odds": "+525",
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+800",
+      "convergence_count": 3,
+      "countdown": "",
+      "game_id": "mlb_824638",
+      "game_start_utc": "2026-08-28T18:20:00Z",
+      "game_started": true,
+      "game_state": "LIVE",
+      "game_time_et": "2:20 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/683737/headshot/67/current",
+      "id": "michaelbusch|mlb_824638",
+      "markets": [
+        {
+          "book": "Fanatics",
+          "consensus_price": "+469",
+          "market_key": "batter_home_runs",
+          "market_label": "HR",
+          "plain": "Fanatics · HR o0.5 · +600 · mkt +469",
+          "point": 0.5,
+          "price": "+600",
+          "relative_divergence": 0.1865567645468829
+        },
+        {
+          "book": "theScore Bet",
+          "consensus_price": "+352",
+          "market_key": "batter_doubles",
+          "market_label": "doubles",
+          "plain": "theScore Bet · doubles o0.5 · +400 · mkt +352",
+          "point": 0.5,
+          "price": "+400",
+          "relative_divergence": 0.0958262706645024
+        },
+        {
+          "book": "Bally Bet",
+          "consensus_price": "+130",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "Bally Bet · total bases o1.5 · +143 · mkt +130",
+          "point": 1.5,
+          "price": "+143",
+          "relative_divergence": 0.0553327305145253
+        }
+      ],
+      "opponent": "CIN",
+      "player": "Michael Busch",
+      "player_id": 683737,
+      "sort": {
+        "m1_relative_divergence": 0.1865567645468829,
+        "player": "Michael Busch",
+        "primary": 3
+      },
+      "system_keys": [
+        "system_f",
+        "system_d",
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "F #2 · score 88.8",
+          "hr": false,
+          "label": "F",
+          "market_key": null,
+          "rank": 2,
+          "relative_divergence": null,
+          "score": 88.84,
+          "source_view": "F",
+          "system": "system_f"
+        },
+        {
+          "clv_sign": null,
+          "detail": "D #2 · score 79.3",
+          "hr": false,
+          "label": "D",
+          "market_key": null,
+          "rank": 2,
+          "relative_divergence": null,
+          "score": 79.26,
+          "source_view": "D",
+          "system": "system_d"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 19%",
+          "hr": true,
+          "label": "M-1",
+          "market_key": "batter_home_runs",
+          "rank": null,
+          "relative_divergence": 0.1865567645468829,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 10%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_doubles",
+          "rank": null,
+          "relative_divergence": 0.0958262706645024,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 6%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0553327305145253,
+          "system": "m1"
+        }
+      ],
+      "team": "CHC",
+      "validated_price_flag": {
+        "book": "Fanatics",
+        "label": "M-1 price",
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "market_price": "+469",
+        "plain": "Fanatics +600 vs market +469",
+        "point": 0.5,
+        "price": "+600"
+      }
+    },
+    {
+      "best_hr_book": "betPARX",
+      "best_hr_odds": "+510",
       "convergence_count": 3,
       "countdown": "",
       "game_id": "mlb_823178",
@@ -5453,6 +5911,16 @@
           "point": 0.5,
           "price": "+425",
           "relative_divergence": 0.0975085288966492
+        },
+        {
+          "book": "DraftKings",
+          "consensus_price": "-201",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "DraftKings · hits o0.5 · -180 · mkt -201",
+          "point": 0.5,
+          "price": "-180",
+          "relative_divergence": 0.0374211242519841
         }
       ],
       "opponent": "AZ",
@@ -5500,6 +5968,16 @@
           "rank": null,
           "relative_divergence": 0.0975085288966492,
           "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0374211242519841,
+          "system": "m1"
         }
       ],
       "team": "SF",
@@ -5512,91 +5990,6 @@
         "plain": "theScore Bet +425 vs market +374",
         "point": 0.5,
         "price": "+425"
-      }
-    },
-    {
-      "best_hr_book": "BetRivers",
-      "best_hr_odds": "+550",
-      "convergence_count": 3,
-      "countdown": "",
-      "game_id": "mlb_824638",
-      "game_start_utc": "2026-08-28T18:20:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "2:20 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/683737/headshot/67/current",
-      "id": "michaelbusch|mlb_824638",
-      "markets": [
-        {
-          "book": "theScore Bet",
-          "consensus_price": "+352",
-          "market_key": "batter_doubles",
-          "market_label": "doubles",
-          "plain": "theScore Bet · doubles o0.5 · +400 · mkt +352",
-          "point": 0.5,
-          "price": "+400",
-          "relative_divergence": 0.0958262706645024
-        }
-      ],
-      "opponent": "CIN",
-      "player": "Michael Busch",
-      "player_id": 683737,
-      "sort": {
-        "m1_relative_divergence": 0.0958262706645024,
-        "player": "Michael Busch",
-        "primary": 3
-      },
-      "system_keys": [
-        "system_f",
-        "system_d",
-        "m1"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "F #2 · score 88.8",
-          "hr": false,
-          "label": "F",
-          "market_key": null,
-          "rank": 2,
-          "relative_divergence": null,
-          "score": 88.84,
-          "source_view": "F",
-          "system": "system_f"
-        },
-        {
-          "clv_sign": null,
-          "detail": "D #2 · score 79.3",
-          "hr": false,
-          "label": "D",
-          "market_key": null,
-          "rank": 2,
-          "relative_divergence": null,
-          "score": 79.26,
-          "source_view": "D",
-          "system": "system_d"
-        },
-        {
-          "clv_sign": null,
-          "detail": "M-1 10%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_doubles",
-          "rank": null,
-          "relative_divergence": 0.0958262706645024,
-          "system": "m1"
-        }
-      ],
-      "team": "CHC",
-      "validated_price_flag": {
-        "book": "theScore Bet",
-        "label": "M-1 price",
-        "market_key": "batter_doubles",
-        "market_label": "doubles",
-        "market_price": "+352",
-        "plain": "theScore Bet +400 vs market +352",
-        "point": 0.5,
-        "price": "+400"
       }
     },
     {
@@ -5841,8 +6234,8 @@
       }
     },
     {
-      "best_hr_book": "Caesars",
-      "best_hr_odds": "+500",
+      "best_hr_book": "BetRivers",
+      "best_hr_odds": "+525",
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_824877",
@@ -5931,8 +6324,8 @@
       }
     },
     {
-      "best_hr_book": "Caesars",
-      "best_hr_odds": "+700",
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+800",
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_823504",
@@ -5952,6 +6345,16 @@
           "point": 0.5,
           "price": "+800",
           "relative_divergence": 0.1629533827800039
+        },
+        {
+          "book": "DraftKings",
+          "consensus_price": "-122",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "DraftKings · hits o0.5 · -112 · mkt -122",
+          "point": 0.5,
+          "price": "-112",
+          "relative_divergence": 0.0389308726227695
         }
       ],
       "opponent": "NYY",
@@ -5987,6 +6390,16 @@
           "market_key": "batter_home_runs",
           "rank": null,
           "relative_divergence": 0.1629533827800039,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0389308726227695,
           "system": "m1"
         }
       ],
@@ -6628,7 +7041,7 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
+      "best_hr_book": "Hard Rock Bet",
       "best_hr_odds": "+400",
       "convergence_count": 2,
       "countdown": "",
@@ -6649,6 +7062,16 @@
           "point": 0.5,
           "price": "+350",
           "relative_divergence": 0.1042775599497755
+        },
+        {
+          "book": "theScore Bet",
+          "consensus_price": "+183",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "theScore Bet · hits o1.5 · +200 · mkt +183",
+          "point": 1.5,
+          "price": "+200",
+          "relative_divergence": 0.0566226925478663
         },
         {
           "book": "BetOnline.ag",
@@ -6697,6 +7120,16 @@
         },
         {
           "clv_sign": null,
+          "detail": "M-1 6%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0566226925478663,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
           "detail": "M-1 4%",
           "hr": false,
           "label": "M-1",
@@ -6719,7 +7152,7 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
+      "best_hr_book": "Hard Rock Bet",
       "best_hr_odds": "+475",
       "convergence_count": 2,
       "countdown": "",
@@ -6831,7 +7264,7 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
+      "best_hr_book": "Hard Rock Bet",
       "best_hr_odds": "+275",
       "convergence_count": 2,
       "countdown": "",
@@ -6918,6 +7351,97 @@
         "plain": "theScore Bet +400 vs market +350",
         "point": 0.5,
         "price": "+400"
+      }
+    },
+    {
+      "best_hr_book": "Hard Rock Bet",
+      "best_hr_odds": "+425",
+      "convergence_count": 2,
+      "countdown": "",
+      "game_id": "mlb_823504",
+      "game_start_utc": "2026-08-28T23:15:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:15 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/677800/headshot/67/current",
+      "id": "wilyerabreu|mlb_823504",
+      "markets": [
+        {
+          "book": "theScore Bet",
+          "consensus_price": "+440",
+          "market_key": "batter_doubles",
+          "market_label": "doubles",
+          "plain": "theScore Bet · doubles o0.5 · +500 · mkt +440",
+          "point": 0.5,
+          "price": "+500",
+          "relative_divergence": 0.1003502171109457
+        },
+        {
+          "book": "DraftKings",
+          "consensus_price": "-159",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "DraftKings · hits o0.5 · -145 · mkt -159",
+          "point": 0.5,
+          "price": "-145",
+          "relative_divergence": 0.0367117785857729
+        }
+      ],
+      "opponent": "NYY",
+      "player": "Wilyer Abreu",
+      "player_id": 677800,
+      "sort": {
+        "m1_relative_divergence": 0.1003502171109457,
+        "player": "Wilyer Abreu",
+        "primary": 2
+      },
+      "system_keys": [
+        "scout",
+        "m1"
+      ],
+      "systems": [
+        {
+          "adaptive_scout_score": 73.64227272727271,
+          "clv_sign": null,
+          "detail": "Scout #11 · score 73.6",
+          "hr": false,
+          "label": "Scout",
+          "market_key": null,
+          "rank": 11,
+          "relative_divergence": null,
+          "system": "scout"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 10%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_doubles",
+          "rank": null,
+          "relative_divergence": 0.1003502171109457,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0367117785857729,
+          "system": "m1"
+        }
+      ],
+      "team": "BOS",
+      "validated_price_flag": {
+        "book": "theScore Bet",
+        "label": "M-1 price",
+        "market_key": "batter_doubles",
+        "market_label": "doubles",
+        "market_price": "+440",
+        "plain": "theScore Bet +500 vs market +440",
+        "point": 0.5,
+        "price": "+500"
       }
     },
     {
@@ -7085,6 +7609,76 @@
       }
     },
     {
+      "best_hr_book": "Hard Rock Bet",
+      "best_hr_odds": "+550",
+      "convergence_count": 2,
+      "countdown": "",
+      "game_id": "mlb_822935",
+      "game_start_utc": "2026-08-28T23:10:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:10 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/666018/headshot/67/current",
+      "id": "jonathanaranda|mlb_822935",
+      "markets": [
+        {
+          "book": "Bally Bet",
+          "consensus_price": "+131",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "Bally Bet · total bases o1.5 · +143 · mkt +131",
+          "point": 1.5,
+          "price": "+143",
+          "relative_divergence": 0.0512747121763971
+        }
+      ],
+      "opponent": "SD",
+      "player": "Jonathan Aranda",
+      "player_id": 666018,
+      "sort": {
+        "m1_relative_divergence": 0.0512747121763971,
+        "player": "Jonathan Aranda",
+        "primary": 2
+      },
+      "system_keys": [
+        "shadow",
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Lane shadow #9",
+          "hr": false,
+          "label": "Lane shadow",
+          "market_key": null,
+          "rank": 9,
+          "relative_divergence": null,
+          "system": "shadow"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 5%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0512747121763971,
+          "system": "m1"
+        }
+      ],
+      "team": "TB",
+      "validated_price_flag": {
+        "book": "Bally Bet",
+        "label": "M-1 price",
+        "market_key": "batter_total_bases",
+        "market_label": "total bases",
+        "market_price": "+131",
+        "plain": "Bally Bet +143 vs market +131",
+        "point": 1.5,
+        "price": "+143"
+      }
+    },
+    {
       "best_hr_book": "theScore Bet",
       "best_hr_odds": "+425",
       "convergence_count": 2,
@@ -7106,6 +7700,16 @@
           "point": 1.5,
           "price": "+130",
           "relative_divergence": 0.0447186126416903
+        },
+        {
+          "book": "BetOnline.ag",
+          "consensus_price": "-253",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "BetOnline.ag · hits o0.5 · -222 · mkt -253",
+          "point": 0.5,
+          "price": "-222",
+          "relative_divergence": 0.037707204764734
         }
       ],
       "opponent": "TB",
@@ -7141,6 +7745,16 @@
           "market_key": "batter_total_bases",
           "rank": null,
           "relative_divergence": 0.0447186126416903,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.037707204764734,
           "system": "m1"
         }
       ],
@@ -7229,52 +7843,51 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+450",
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+400",
       "convergence_count": 2,
       "countdown": "",
-      "game_id": "mlb_823504",
-      "game_start_utc": "2026-08-28T23:15:00Z",
+      "game_id": "mlb_823985",
+      "game_start_utc": "2026-08-29T01:38:00Z",
       "game_started": false,
       "game_state": "NOT_STARTED",
-      "game_time_et": "7:15 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/677800/headshot/67/current",
-      "id": "wilyerabreu|mlb_823504",
+      "game_time_et": "9:38 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/545361/headshot/67/current",
+      "id": "miketrout|mlb_823985",
       "markets": [
         {
-          "book": "DraftKings",
-          "consensus_price": "-159",
+          "book": "betPARX",
+          "consensus_price": "-177",
           "market_key": "batter_hits",
           "market_label": "hits",
-          "plain": "DraftKings · hits o0.5 · -145 · mkt -159",
+          "plain": "betPARX · hits o0.5 · -159 · mkt -177",
           "point": 0.5,
-          "price": "-145",
-          "relative_divergence": 0.0367117785857729
+          "price": "-159",
+          "relative_divergence": 0.039178592103223
         }
       ],
-      "opponent": "NYY",
-      "player": "Wilyer Abreu",
-      "player_id": 677800,
+      "opponent": "PHI",
+      "player": "Mike Trout",
+      "player_id": 545361,
       "sort": {
-        "m1_relative_divergence": 0.0367117785857729,
-        "player": "Wilyer Abreu",
+        "m1_relative_divergence": 0.039178592103223,
+        "player": "Mike Trout",
         "primary": 2
       },
       "system_keys": [
-        "scout",
+        "shadow",
         "m1"
       ],
       "systems": [
         {
-          "adaptive_scout_score": 73.64227272727271,
           "clv_sign": null,
-          "detail": "Scout #11 · score 73.6",
+          "detail": "Lane shadow #10",
           "hr": false,
-          "label": "Scout",
+          "label": "Lane shadow",
           "market_key": null,
-          "rank": 11,
+          "rank": 10,
           "relative_divergence": null,
-          "system": "scout"
+          "system": "shadow"
         },
         {
           "clv_sign": null,
@@ -7283,20 +7896,20 @@
           "label": "M-1",
           "market_key": "batter_hits",
           "rank": null,
-          "relative_divergence": 0.0367117785857729,
+          "relative_divergence": 0.039178592103223,
           "system": "m1"
         }
       ],
-      "team": "BOS",
+      "team": "LAA",
       "validated_price_flag": {
-        "book": "DraftKings",
+        "book": "betPARX",
         "label": "M-1 price",
         "market_key": "batter_hits",
         "market_label": "hits",
-        "market_price": "-159",
-        "plain": "DraftKings -145 vs market -159",
+        "market_price": "-177",
+        "plain": "betPARX -159 vs market -177",
         "point": 0.5,
-        "price": "-145"
+        "price": "-159"
       }
     },
     {
@@ -7353,7 +7966,7 @@
       "validated_price_flag": null
     },
     {
-      "best_hr_book": "BetRivers",
+      "best_hr_book": "betPARX",
       "best_hr_odds": "+280",
       "convergence_count": 2,
       "countdown": "",
@@ -7511,7 +8124,7 @@
     },
     {
       "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+850",
+      "best_hr_odds": "+800",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824231",
@@ -7688,7 +8301,7 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
+      "best_hr_book": "Caesars",
       "best_hr_odds": "+575",
       "convergence_count": 1,
       "countdown": "",
@@ -7808,7 +8421,7 @@
     },
     {
       "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+800",
+      "best_hr_odds": "+850",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823583",
@@ -7886,7 +8499,7 @@
       }
     },
     {
-      "best_hr_book": "Caesars",
+      "best_hr_book": "Hard Rock Bet",
       "best_hr_odds": "+575",
       "convergence_count": 1,
       "countdown": "",
@@ -7907,6 +8520,16 @@
           "point": 0.5,
           "price": "+750",
           "relative_divergence": 0.2383739312361836
+        },
+        {
+          "book": "theScore Bet",
+          "consensus_price": "+395",
+          "market_key": "batter_doubles",
+          "market_label": "doubles",
+          "plain": "theScore Bet · doubles o0.5 · +450 · mkt +395",
+          "point": 0.5,
+          "price": "+450",
+          "relative_divergence": 0.0992038369002811
         }
       ],
       "opponent": "",
@@ -7930,6 +8553,16 @@
           "rank": null,
           "relative_divergence": 0.2383739312361836,
           "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 10%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_doubles",
+          "rank": null,
+          "relative_divergence": 0.0992038369002811,
+          "system": "m1"
         }
       ],
       "team": "",
@@ -7945,7 +8578,7 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
+      "best_hr_book": "Caesars",
       "best_hr_odds": "+750",
       "convergence_count": 1,
       "countdown": "",
@@ -7966,6 +8599,26 @@
           "point": 0.5,
           "price": "+900",
           "relative_divergence": 0.2356044437283397
+        },
+        {
+          "book": "Bally Bet",
+          "consensus_price": "-130",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "Bally Bet · total bases o0.5 · -118 · mkt -130",
+          "point": 0.5,
+          "price": "-118",
+          "relative_divergence": 0.0416480892047658
+        },
+        {
+          "book": "Bally Bet",
+          "consensus_price": "-128",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "Bally Bet · hits o0.5 · -118 · mkt -128",
+          "point": 0.5,
+          "price": "-118",
+          "relative_divergence": 0.035690160321339
         }
       ],
       "opponent": "",
@@ -7988,6 +8641,26 @@
           "market_key": "batter_home_runs",
           "rank": null,
           "relative_divergence": 0.2356044437283397,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0416480892047658,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.035690160321339,
           "system": "m1"
         }
       ],
@@ -8360,7 +9033,7 @@
       }
     },
     {
-      "best_hr_book": "Caesars",
+      "best_hr_book": "Hard Rock Bet",
       "best_hr_odds": "+500",
       "convergence_count": 1,
       "countdown": "",
@@ -8459,7 +9132,7 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
+      "best_hr_book": "BetRivers",
       "best_hr_odds": "+600",
       "convergence_count": 1,
       "countdown": "",
@@ -8558,14 +9231,14 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+650",
+      "best_hr_book": "betPARX",
+      "best_hr_odds": "+800",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824638",
       "game_start_utc": "2026-08-28T18:20:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "2:20 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/663886/headshot/67/current",
       "id": "tylerstephenson|mlb_824638",
@@ -8736,14 +9409,14 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+475",
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+600",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824638",
       "game_start_utc": "2026-08-28T18:20:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "2:20 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/673548/headshot/67/current",
       "id": "seiyasuzuki|mlb_824638",
@@ -8795,7 +9468,7 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
+      "best_hr_book": "Bally Bet",
       "best_hr_odds": "+650",
       "convergence_count": 1,
       "countdown": "",
@@ -9230,7 +9903,7 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
+      "best_hr_book": "betPARX",
       "best_hr_odds": "+650",
       "convergence_count": 1,
       "countdown": "",
@@ -9447,14 +10120,14 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+800",
+      "best_hr_book": "betPARX",
+      "best_hr_odds": "+1050",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824638",
       "game_start_utc": "2026-08-28T18:20:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "2:20 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/680574/headshot/67/current",
       "id": "mattmclain|mlb_824638",
@@ -9543,6 +10216,105 @@
         "plain": "DraftKings +800 vs market +642",
         "point": 0.5,
         "price": "+800"
+      }
+    },
+    {
+      "best_hr_book": "Hard Rock Bet",
+      "best_hr_odds": "+475",
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_822769",
+      "game_start_utc": "2026-08-28T23:15:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:15 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/663728/headshot/67/current",
+      "id": "calraleigh|mlb_822769",
+      "markets": [
+        {
+          "book": "Fanatics",
+          "consensus_price": "+416",
+          "market_key": "batter_home_runs",
+          "market_label": "HR",
+          "plain": "Fanatics · HR o0.5 · +525 · mkt +416",
+          "point": 0.5,
+          "price": "+525",
+          "relative_divergence": 0.1750679339331176
+        },
+        {
+          "book": "BetMGM",
+          "consensus_price": "+536",
+          "market_key": "batter_doubles",
+          "market_label": "doubles",
+          "plain": "BetMGM · doubles o0.5 · +625 · mkt +536",
+          "point": 0.5,
+          "price": "+625",
+          "relative_divergence": 0.1223604081999538
+        },
+        {
+          "book": "BetMGM",
+          "consensus_price": "-114",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "BetMGM · hits o0.5 · +100 · mkt -114",
+          "point": 0.5,
+          "price": "+100",
+          "relative_divergence": 0.0602871508076664
+        }
+      ],
+      "opponent": "",
+      "player": "Cal Raleigh",
+      "player_id": 663728,
+      "sort": {
+        "m1_relative_divergence": 0.1750679339331176,
+        "player": "Cal Raleigh",
+        "primary": 1
+      },
+      "system_keys": [
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "M-1 18%",
+          "hr": true,
+          "label": "M-1",
+          "market_key": "batter_home_runs",
+          "rank": null,
+          "relative_divergence": 0.1750679339331176,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 12%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_doubles",
+          "rank": null,
+          "relative_divergence": 0.1223604081999538,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 6%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0602871508076664,
+          "system": "m1"
+        }
+      ],
+      "team": "",
+      "validated_price_flag": {
+        "book": "Fanatics",
+        "label": "M-1 price",
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "market_price": "+416",
+        "plain": "Fanatics +525 vs market +416",
+        "point": 0.5,
+        "price": "+525"
       }
     },
     {
@@ -9748,6 +10520,125 @@
       "best_hr_odds": "+600",
       "convergence_count": 1,
       "countdown": "",
+      "game_id": "mlb_824638",
+      "game_start_utc": "2026-08-28T18:20:00Z",
+      "game_started": true,
+      "game_state": "LIVE",
+      "game_time_et": "2:20 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/664023/headshot/67/current",
+      "id": "ianhapp|mlb_824638",
+      "markets": [
+        {
+          "book": "Fanatics",
+          "consensus_price": "+401",
+          "market_key": "batter_home_runs",
+          "market_label": "HR",
+          "plain": "Fanatics · HR o0.5 · +500 · mkt +401",
+          "point": 0.5,
+          "price": "+500",
+          "relative_divergence": 0.165149256940558
+        },
+        {
+          "book": "theScore Bet",
+          "consensus_price": "+374",
+          "market_key": "batter_doubles",
+          "market_label": "doubles",
+          "plain": "theScore Bet · doubles o0.5 · +425 · mkt +374",
+          "point": 0.5,
+          "price": "+425",
+          "relative_divergence": 0.0977791421403821
+        },
+        {
+          "book": "Bally Bet",
+          "consensus_price": "+130",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "Bally Bet · total bases o1.5 · +143 · mkt +130",
+          "point": 1.5,
+          "price": "+143",
+          "relative_divergence": 0.0522933911140221
+        },
+        {
+          "book": "BetMGM",
+          "consensus_price": "-190",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "BetMGM · hits o0.5 · -165 · mkt -190",
+          "point": 0.5,
+          "price": "-165",
+          "relative_divergence": 0.0496842767100177
+        }
+      ],
+      "opponent": "",
+      "player": "Ian Happ",
+      "player_id": 664023,
+      "sort": {
+        "m1_relative_divergence": 0.165149256940558,
+        "player": "Ian Happ",
+        "primary": 1
+      },
+      "system_keys": [
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "M-1 17%",
+          "hr": true,
+          "label": "M-1",
+          "market_key": "batter_home_runs",
+          "rank": null,
+          "relative_divergence": 0.165149256940558,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 10%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_doubles",
+          "rank": null,
+          "relative_divergence": 0.0977791421403821,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 5%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0522933911140221,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 5%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0496842767100177,
+          "system": "m1"
+        }
+      ],
+      "team": "",
+      "validated_price_flag": {
+        "book": "Fanatics",
+        "label": "M-1 price",
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "market_price": "+401",
+        "plain": "Fanatics +500 vs market +401",
+        "point": 0.5,
+        "price": "+500"
+      }
+    },
+    {
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+600",
+      "convergence_count": 1,
+      "countdown": "",
       "game_id": "mlb_824877",
       "game_start_utc": "2026-08-28T23:15:00Z",
       "game_started": false,
@@ -9823,7 +10714,7 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
+      "best_hr_book": "BetRivers",
       "best_hr_odds": "+525",
       "convergence_count": 1,
       "countdown": "",
@@ -9902,7 +10793,7 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
+      "best_hr_book": "Bally Bet",
       "best_hr_odds": "+750",
       "convergence_count": 1,
       "countdown": "",
@@ -9981,7 +10872,7 @@
       }
     },
     {
-      "best_hr_book": "Bally Bet",
+      "best_hr_book": "betPARX",
       "best_hr_odds": "+650",
       "convergence_count": 1,
       "countdown": "",
@@ -10080,6 +10971,65 @@
       }
     },
     {
+      "best_hr_book": "BetRivers",
+      "best_hr_odds": "+340",
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_824960",
+      "game_start_utc": "2026-08-29T01:40:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "9:40 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/691723/headshot/67/current",
+      "id": "cobymayo|mlb_824960",
+      "markets": [
+        {
+          "book": "BetRivers",
+          "consensus_price": "+271",
+          "market_key": "batter_home_runs",
+          "market_label": "HR",
+          "plain": "BetRivers · HR o0.5 · +340 · mkt +271",
+          "point": 0.5,
+          "price": "+340",
+          "relative_divergence": 0.1558475065541991
+        }
+      ],
+      "opponent": "",
+      "player": "Coby Mayo",
+      "player_id": 691723,
+      "sort": {
+        "m1_relative_divergence": 0.1558475065541991,
+        "player": "Coby Mayo",
+        "primary": 1
+      },
+      "system_keys": [
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "M-1 16%",
+          "hr": true,
+          "label": "M-1",
+          "market_key": "batter_home_runs",
+          "rank": null,
+          "relative_divergence": 0.1558475065541991,
+          "system": "m1"
+        }
+      ],
+      "team": "",
+      "validated_price_flag": {
+        "book": "BetRivers",
+        "label": "M-1 price",
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "market_price": "+271",
+        "plain": "BetRivers +340 vs market +271",
+        "point": 0.5,
+        "price": "+340"
+      }
+    },
+    {
       "best_hr_book": "theScore Bet",
       "best_hr_odds": "+475",
       "convergence_count": 1,
@@ -10160,6 +11110,85 @@
     },
     {
       "best_hr_book": "betPARX",
+      "best_hr_odds": "+500",
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_823985",
+      "game_start_utc": "2026-08-29T01:38:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "9:38 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/687263/headshot/67/current",
+      "id": "zachneto|mlb_823985",
+      "markets": [
+        {
+          "book": "betPARX",
+          "consensus_price": "+407",
+          "market_key": "batter_home_runs",
+          "market_label": "HR",
+          "plain": "betPARX · HR o0.5 · +500 · mkt +407",
+          "point": 0.5,
+          "price": "+500",
+          "relative_divergence": 0.1551079764161149
+        },
+        {
+          "book": "Bally Bet",
+          "consensus_price": "+131",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "Bally Bet · total bases o1.5 · +145 · mkt +131",
+          "point": 1.5,
+          "price": "+145",
+          "relative_divergence": 0.0565325359988591
+        }
+      ],
+      "opponent": "",
+      "player": "Zach Neto",
+      "player_id": 687263,
+      "sort": {
+        "m1_relative_divergence": 0.1551079764161149,
+        "player": "Zach Neto",
+        "primary": 1
+      },
+      "system_keys": [
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "M-1 16%",
+          "hr": true,
+          "label": "M-1",
+          "market_key": "batter_home_runs",
+          "rank": null,
+          "relative_divergence": 0.1551079764161149,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 6%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0565325359988591,
+          "system": "m1"
+        }
+      ],
+      "team": "",
+      "validated_price_flag": {
+        "book": "betPARX",
+        "label": "M-1 price",
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "market_price": "+407",
+        "plain": "betPARX +500 vs market +407",
+        "point": 0.5,
+        "price": "+500"
+      }
+    },
+    {
+      "best_hr_book": "betPARX",
       "best_hr_odds": "+480",
       "convergence_count": 1,
       "countdown": "",
@@ -10219,7 +11248,7 @@
     },
     {
       "best_hr_book": "betPARX",
-      "best_hr_odds": "+460",
+      "best_hr_odds": "+450",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824960",
@@ -10317,7 +11346,7 @@
       }
     },
     {
-      "best_hr_book": "Bally Bet",
+      "best_hr_book": "BetRivers",
       "best_hr_odds": "+480",
       "convergence_count": 1,
       "countdown": "",
@@ -10416,93 +11445,14 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+475",
-      "convergence_count": 1,
-      "countdown": "",
-      "game_id": "mlb_822769",
-      "game_start_utc": "2026-08-28T23:15:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "7:15 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/663728/headshot/67/current",
-      "id": "calraleigh|mlb_822769",
-      "markets": [
-        {
-          "book": "BetMGM",
-          "consensus_price": "+536",
-          "market_key": "batter_doubles",
-          "market_label": "doubles",
-          "plain": "BetMGM · doubles o0.5 · +625 · mkt +536",
-          "point": 0.5,
-          "price": "+625",
-          "relative_divergence": 0.1223604081999538
-        },
-        {
-          "book": "BetMGM",
-          "consensus_price": "-114",
-          "market_key": "batter_hits",
-          "market_label": "hits",
-          "plain": "BetMGM · hits o0.5 · +100 · mkt -114",
-          "point": 0.5,
-          "price": "+100",
-          "relative_divergence": 0.0602871508076664
-        }
-      ],
-      "opponent": "",
-      "player": "Cal Raleigh",
-      "player_id": 663728,
-      "sort": {
-        "m1_relative_divergence": 0.1223604081999538,
-        "player": "Cal Raleigh",
-        "primary": 1
-      },
-      "system_keys": [
-        "m1"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "M-1 12%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_doubles",
-          "rank": null,
-          "relative_divergence": 0.1223604081999538,
-          "system": "m1"
-        },
-        {
-          "clv_sign": null,
-          "detail": "M-1 6%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_hits",
-          "rank": null,
-          "relative_divergence": 0.0602871508076664,
-          "system": "m1"
-        }
-      ],
-      "team": "",
-      "validated_price_flag": {
-        "book": "BetMGM",
-        "label": "M-1 price",
-        "market_key": "batter_doubles",
-        "market_label": "doubles",
-        "market_price": "+536",
-        "plain": "BetMGM +625 vs market +536",
-        "point": 0.5,
-        "price": "+625"
-      }
-    },
-    {
       "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+525",
+      "best_hr_odds": "+700",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824638",
       "game_start_utc": "2026-08-28T18:20:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "2:20 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/668709/headshot/67/current",
       "id": "jjbleday|mlb_824638",
@@ -10574,8 +11524,8 @@
       }
     },
     {
-      "best_hr_book": "Caesars",
-      "best_hr_odds": "+700",
+      "best_hr_book": "betPARX",
+      "best_hr_odds": "+750",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_822691",
@@ -10733,7 +11683,106 @@
     },
     {
       "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+400",
+      "best_hr_odds": "+425",
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_824396",
+      "game_start_utc": "2026-08-28T23:10:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:10 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/666176/headshot/67/current",
+      "id": "joadell|mlb_824396",
+      "markets": [
+        {
+          "book": "theScore Bet",
+          "consensus_price": "+349",
+          "market_key": "batter_doubles",
+          "market_label": "doubles",
+          "plain": "theScore Bet · doubles o0.5 · +400 · mkt +349",
+          "point": 0.5,
+          "price": "+400",
+          "relative_divergence": 0.1025724836103478
+        },
+        {
+          "book": "BetMGM",
+          "consensus_price": "+119",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "BetMGM · total bases o1.5 · +135 · mkt +119",
+          "point": 1.5,
+          "price": "+135",
+          "relative_divergence": 0.0664769195498894
+        },
+        {
+          "book": "BetMGM",
+          "consensus_price": "-237",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "BetMGM · hits o0.5 · -200 · mkt -237",
+          "point": 0.5,
+          "price": "-200",
+          "relative_divergence": 0.0517336083257375
+        }
+      ],
+      "opponent": "",
+      "player": "Jo Adell",
+      "player_id": 666176,
+      "sort": {
+        "m1_relative_divergence": 0.1025724836103478,
+        "player": "Jo Adell",
+        "primary": 1
+      },
+      "system_keys": [
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "M-1 10%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_doubles",
+          "rank": null,
+          "relative_divergence": 0.1025724836103478,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 7%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0664769195498894,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 5%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0517336083257375,
+          "system": "m1"
+        }
+      ],
+      "team": "",
+      "validated_price_flag": {
+        "book": "theScore Bet",
+        "label": "M-1 price",
+        "market_key": "batter_doubles",
+        "market_label": "doubles",
+        "market_price": "+349",
+        "plain": "theScore Bet +400 vs market +349",
+        "point": 0.5,
+        "price": "+400"
+      }
+    },
+    {
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+375",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823666",
@@ -10850,106 +11899,7 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+425",
-      "convergence_count": 1,
-      "countdown": "",
-      "game_id": "mlb_824638",
-      "game_start_utc": "2026-08-28T18:20:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "2:20 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/664023/headshot/67/current",
-      "id": "ianhapp|mlb_824638",
-      "markets": [
-        {
-          "book": "theScore Bet",
-          "consensus_price": "+374",
-          "market_key": "batter_doubles",
-          "market_label": "doubles",
-          "plain": "theScore Bet · doubles o0.5 · +425 · mkt +374",
-          "point": 0.5,
-          "price": "+425",
-          "relative_divergence": 0.0977791421403821
-        },
-        {
-          "book": "Bally Bet",
-          "consensus_price": "+130",
-          "market_key": "batter_total_bases",
-          "market_label": "total bases",
-          "plain": "Bally Bet · total bases o1.5 · +143 · mkt +130",
-          "point": 1.5,
-          "price": "+143",
-          "relative_divergence": 0.0522933911140221
-        },
-        {
-          "book": "BetMGM",
-          "consensus_price": "-190",
-          "market_key": "batter_hits",
-          "market_label": "hits",
-          "plain": "BetMGM · hits o0.5 · -165 · mkt -190",
-          "point": 0.5,
-          "price": "-165",
-          "relative_divergence": 0.0496842767100177
-        }
-      ],
-      "opponent": "",
-      "player": "Ian Happ",
-      "player_id": 664023,
-      "sort": {
-        "m1_relative_divergence": 0.0977791421403821,
-        "player": "Ian Happ",
-        "primary": 1
-      },
-      "system_keys": [
-        "m1"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "M-1 10%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_doubles",
-          "rank": null,
-          "relative_divergence": 0.0977791421403821,
-          "system": "m1"
-        },
-        {
-          "clv_sign": null,
-          "detail": "M-1 5%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_total_bases",
-          "rank": null,
-          "relative_divergence": 0.0522933911140221,
-          "system": "m1"
-        },
-        {
-          "clv_sign": null,
-          "detail": "M-1 5%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_hits",
-          "rank": null,
-          "relative_divergence": 0.0496842767100177,
-          "system": "m1"
-        }
-      ],
-      "team": "",
-      "validated_price_flag": {
-        "book": "theScore Bet",
-        "label": "M-1 price",
-        "market_key": "batter_doubles",
-        "market_label": "doubles",
-        "market_price": "+374",
-        "plain": "theScore Bet +425 vs market +374",
-        "point": 0.5,
-        "price": "+425"
-      }
-    },
-    {
-      "best_hr_book": "Hard Rock Bet",
+      "best_hr_book": "theScore Bet",
       "best_hr_odds": "+450",
       "convergence_count": 1,
       "countdown": "",
@@ -11087,7 +12037,7 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
+      "best_hr_book": "betPARX",
       "best_hr_odds": "+900",
       "convergence_count": 1,
       "countdown": "",
@@ -11143,85 +12093,6 @@
         "plain": "Hard Rock Bet +195 vs market +175",
         "point": 1.5,
         "price": "+195"
-      }
-    },
-    {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+425",
-      "convergence_count": 1,
-      "countdown": "",
-      "game_id": "mlb_824396",
-      "game_start_utc": "2026-08-28T23:10:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "7:10 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/666176/headshot/67/current",
-      "id": "joadell|mlb_824396",
-      "markets": [
-        {
-          "book": "BetMGM",
-          "consensus_price": "+119",
-          "market_key": "batter_total_bases",
-          "market_label": "total bases",
-          "plain": "BetMGM · total bases o1.5 · +135 · mkt +119",
-          "point": 1.5,
-          "price": "+135",
-          "relative_divergence": 0.0664769195498894
-        },
-        {
-          "book": "BetMGM",
-          "consensus_price": "-237",
-          "market_key": "batter_hits",
-          "market_label": "hits",
-          "plain": "BetMGM · hits o0.5 · -200 · mkt -237",
-          "point": 0.5,
-          "price": "-200",
-          "relative_divergence": 0.0517336083257375
-        }
-      ],
-      "opponent": "",
-      "player": "Jo Adell",
-      "player_id": 666176,
-      "sort": {
-        "m1_relative_divergence": 0.0664769195498894,
-        "player": "Jo Adell",
-        "primary": 1
-      },
-      "system_keys": [
-        "m1"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "M-1 7%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_total_bases",
-          "rank": null,
-          "relative_divergence": 0.0664769195498894,
-          "system": "m1"
-        },
-        {
-          "clv_sign": null,
-          "detail": "M-1 5%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_hits",
-          "rank": null,
-          "relative_divergence": 0.0517336083257375,
-          "system": "m1"
-        }
-      ],
-      "team": "",
-      "validated_price_flag": {
-        "book": "BetMGM",
-        "label": "M-1 price",
-        "market_key": "batter_total_bases",
-        "market_label": "total bases",
-        "market_price": "+119",
-        "plain": "BetMGM +135 vs market +119",
-        "point": 1.5,
-        "price": "+135"
       }
     },
     {
@@ -11384,7 +12255,7 @@
     },
     {
       "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+600",
+      "best_hr_odds": "+700",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823583",
@@ -11442,73 +12313,14 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+475",
-      "convergence_count": 1,
-      "countdown": "",
-      "game_id": "mlb_823985",
-      "game_start_utc": "2026-08-29T01:38:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "9:38 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/687263/headshot/67/current",
-      "id": "zachneto|mlb_823985",
-      "markets": [
-        {
-          "book": "Bally Bet",
-          "consensus_price": "+131",
-          "market_key": "batter_total_bases",
-          "market_label": "total bases",
-          "plain": "Bally Bet · total bases o1.5 · +145 · mkt +131",
-          "point": 1.5,
-          "price": "+145",
-          "relative_divergence": 0.0565325359988591
-        }
-      ],
-      "opponent": "",
-      "player": "Zach Neto",
-      "player_id": 687263,
-      "sort": {
-        "m1_relative_divergence": 0.0565325359988591,
-        "player": "Zach Neto",
-        "primary": 1
-      },
-      "system_keys": [
-        "m1"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "M-1 6%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_total_bases",
-          "rank": null,
-          "relative_divergence": 0.0565325359988591,
-          "system": "m1"
-        }
-      ],
-      "team": "",
-      "validated_price_flag": {
-        "book": "Bally Bet",
-        "label": "M-1 price",
-        "market_key": "batter_total_bases",
-        "market_label": "total bases",
-        "market_price": "+131",
-        "plain": "Bally Bet +145 vs market +131",
-        "point": 1.5,
-        "price": "+145"
-      }
-    },
-    {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+500",
+      "best_hr_book": "Hard Rock Bet",
+      "best_hr_odds": "+750",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824638",
       "game_start_utc": "2026-08-28T18:20:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
+      "game_started": true,
+      "game_state": "LIVE",
       "game_time_et": "2:20 PM",
       "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/624424/headshot/67/current",
       "id": "michaelconforto|mlb_824638",
@@ -11679,6 +12491,144 @@
     },
     {
       "best_hr_book": "Hard Rock Bet",
+      "best_hr_odds": "+475",
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_822691",
+      "game_start_utc": "2026-08-28T22:45:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "6:45 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/669065/headshot/67/current",
+      "id": "kylestowers|mlb_822691",
+      "markets": [
+        {
+          "book": "BetOnline.ag",
+          "consensus_price": "+122",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "BetOnline.ag · total bases o1.5 · +134 · mkt +122",
+          "point": 1.5,
+          "price": "+134",
+          "relative_divergence": 0.0508421794293311
+        },
+        {
+          "book": "theScore Bet",
+          "consensus_price": "-224",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "theScore Bet · hits o0.5 · -200 · mkt -224",
+          "point": 0.5,
+          "price": "-200",
+          "relative_divergence": 0.0354114713213942
+        }
+      ],
+      "opponent": "",
+      "player": "Kyle Stowers",
+      "player_id": 669065,
+      "sort": {
+        "m1_relative_divergence": 0.0508421794293311,
+        "player": "Kyle Stowers",
+        "primary": 1
+      },
+      "system_keys": [
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "M-1 5%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0508421794293311,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0354114713213942,
+          "system": "m1"
+        }
+      ],
+      "team": "",
+      "validated_price_flag": {
+        "book": "BetOnline.ag",
+        "label": "M-1 price",
+        "market_key": "batter_total_bases",
+        "market_label": "total bases",
+        "market_price": "+122",
+        "plain": "BetOnline.ag +134 vs market +122",
+        "point": 1.5,
+        "price": "+134"
+      }
+    },
+    {
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+400",
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_824877",
+      "game_start_utc": "2026-08-28T23:15:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:15 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/671739/headshot/67/current",
+      "id": "michaelharrisii|mlb_824877",
+      "markets": [
+        {
+          "book": "BetMGM",
+          "consensus_price": "-109",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "BetMGM · total bases o1.5 · +100 · mkt -109",
+          "point": 1.5,
+          "price": "+100",
+          "relative_divergence": 0.0432059240496956
+        }
+      ],
+      "opponent": "",
+      "player": "Michael Harris II",
+      "player_id": 671739,
+      "sort": {
+        "m1_relative_divergence": 0.0432059240496956,
+        "player": "Michael Harris II",
+        "primary": 1
+      },
+      "system_keys": [
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0432059240496956,
+          "system": "m1"
+        }
+      ],
+      "team": "",
+      "validated_price_flag": {
+        "book": "BetMGM",
+        "label": "M-1 price",
+        "market_key": "batter_total_bases",
+        "market_label": "total bases",
+        "market_price": "-109",
+        "plain": "BetMGM +100 vs market -109",
+        "point": 1.5,
+        "price": "+100"
+      }
+    },
+    {
+      "best_hr_book": "betPARX",
       "best_hr_odds": "+750",
       "convergence_count": 1,
       "countdown": "",
@@ -11796,8 +12746,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+650",
+      "best_hr_book": "Bally Bet",
+      "best_hr_odds": "+575",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823504",
@@ -11856,7 +12806,7 @@
     },
     {
       "best_hr_book": "betPARX",
-      "best_hr_odds": "+510",
+      "best_hr_odds": "+500",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_823178",
@@ -11932,84 +12882,6 @@
         }
       ],
       "team": "BAL",
-      "validated_price_flag": null
-    },
-    {
-      "best_hr_book": "Hard Rock Bet",
-      "best_hr_odds": "+550",
-      "convergence_count": 1,
-      "countdown": "",
-      "game_id": "mlb_822935",
-      "game_start_utc": "2026-08-28T23:10:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "7:10 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/666018/headshot/67/current",
-      "id": "jonathanaranda|mlb_822935",
-      "markets": [],
-      "opponent": "SD",
-      "player": "Jonathan Aranda",
-      "player_id": 666018,
-      "sort": {
-        "m1_relative_divergence": 0.0,
-        "player": "Jonathan Aranda",
-        "primary": 1
-      },
-      "system_keys": [
-        "shadow"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "Lane shadow #9",
-          "hr": false,
-          "label": "Lane shadow",
-          "market_key": null,
-          "rank": 9,
-          "relative_divergence": null,
-          "system": "shadow"
-        }
-      ],
-      "team": "TB",
-      "validated_price_flag": null
-    },
-    {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+375",
-      "convergence_count": 1,
-      "countdown": "",
-      "game_id": "mlb_823985",
-      "game_start_utc": "2026-08-29T01:38:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "9:38 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/545361/headshot/67/current",
-      "id": "miketrout|mlb_823985",
-      "markets": [],
-      "opponent": "PHI",
-      "player": "Mike Trout",
-      "player_id": 545361,
-      "sort": {
-        "m1_relative_divergence": 0.0,
-        "player": "Mike Trout",
-        "primary": 1
-      },
-      "system_keys": [
-        "shadow"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "Lane shadow #10",
-          "hr": false,
-          "label": "Lane shadow",
-          "market_key": null,
-          "rank": 10,
-          "relative_divergence": null,
-          "system": "shadow"
-        }
-      ],
-      "team": "LAA",
       "validated_price_flag": null
     },
     {
@@ -13513,28 +14385,28 @@
         "market_table": [
           {
             "market": "HR",
-            "picks": 2167,
+            "picks": 2172,
             "status": "measured against market expectations"
           },
           {
             "market": "doubles",
-            "picks": 2301,
+            "picks": 2304,
             "status": "measured against market expectations"
           },
           {
             "market": "hits",
-            "picks": 2914,
+            "picks": 2921,
             "status": "measured against market expectations"
           },
           {
             "market": "total bases",
-            "picks": 3818,
+            "picks": 3823,
             "status": "measured against market expectations"
           }
         ],
         "name": "M-1",
         "rate": 0,
-        "rate_label": "observational (11200)",
+        "rate_label": "observational (11220)",
         "status_label": "M-1 Phase C preliminary read PASS · artifact 04e9c2bb876473139d76bb05c28c796c2e74d3e3610723cfd851ff892489000a"
       }
     ]
