@@ -136,14 +136,16 @@
     "market_data_used": false,
     "not_evidence": true,
     "phase0_price_source": {
-      "capture_timestamp": "2026-09-03T15:05:55Z",
-      "source_path": "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-09-03_early-sweep_150555Z.json",
+      "capture_timestamp": "2026-09-03T15:40:15Z",
+      "source_path": "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-09-03_open_154015Z.json",
       "source_paths": [
-        "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-09-03_early-sweep_150555Z.json"
+        "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-09-03_early-sweep_150555Z.json",
+        "data/experiments/market_mispricing_phase0/raw_payloads/phase0_raw_payloads_2026-09-03_open_154015Z.json"
       ],
-      "source_sha256": "82340e502f90d77106e8fea99f46e69881e7cee99e0ec2efb7e6f971be131d06",
+      "source_sha256": "a50226b30ac719d40b99741028de60d4ef36d365e9dcfef426c45a9f7564ed76",
       "source_sha256s": [
-        "82340e502f90d77106e8fea99f46e69881e7cee99e0ec2efb7e6f971be131d06"
+        "82340e502f90d77106e8fea99f46e69881e7cee99e0ec2efb7e6f971be131d06",
+        "a50226b30ac719d40b99741028de60d4ef36d365e9dcfef426c45a9f7564ed76"
       ]
     },
     "provider_credits_used": 0,
@@ -163,12 +165,1229 @@
     "status": "UNAVAILABLE"
   },
   "fuse_layer": {
-    "availability": "UNAVAILABLE",
+    "availability": "AVAILABLE",
     "error": null,
-    "latest": null,
+    "latest": {
+      "candidates": [
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 800,
+          "fanduel_relative_divergence_vs_median": 0.22222222222222193,
+          "game_id": "mlb_823095",
+          "informed_minority_gap": 0.03724053724053719,
+          "non_fanduel_book_count": 7,
+          "non_fanduel_median_prob": 0.1428571428571428,
+          "non_fanduel_second_shortest_price": 600,
+          "non_fanduel_shortest_price": 550,
+          "paper_only": true,
+          "player": "Brian Serven",
+          "rank": 1,
+          "record_id": "4a9a76026dbdba253a8b84b531db769002a834ba4a434b958aaf458e1ff07113",
+          "scheduled_first_pitch_utc": "2026-09-04T01:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "ATH"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 820,
+          "fanduel_relative_divergence_vs_median": 0.18478260869565233,
+          "game_id": "mlb_824144",
+          "informed_minority_gap": 0.0434153946739759,
+          "non_fanduel_book_count": 14,
+          "non_fanduel_median_prob": 0.1333333333333333,
+          "non_fanduel_second_shortest_price": 565,
+          "non_fanduel_shortest_price": 550,
+          "paper_only": true,
+          "player": "Andrew Benintendi",
+          "rank": 2,
+          "record_id": "deb6c119d41a0fcdbd5e942c8b606f7ec4890b25b3d87f49e94d16baa5cee037",
+          "scheduled_first_pitch_utc": "2026-09-03T18:10:00Z",
+          "slate_date": "2026-09-03",
+          "team": "CWS"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 750,
+          "fanduel_relative_divergence_vs_median": 0.1470588235294117,
+          "game_id": "mlb_822853",
+          "informed_minority_gap": 0.06254774637127573,
+          "non_fanduel_book_count": 9,
+          "non_fanduel_median_prob": 0.1379310344827586,
+          "non_fanduel_second_shortest_price": 460,
+          "non_fanduel_shortest_price": 450,
+          "paper_only": true,
+          "player": "Justin Foscue",
+          "rank": 3,
+          "record_id": "d02b922f09e4d8eaf08995320f1b76ad83aee47e16e6c92af5a7aab38ddf8fff",
+          "scheduled_first_pitch_utc": "2026-09-04T00:05:00Z",
+          "slate_date": "2026-09-03",
+          "team": "TEX"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 830,
+          "fanduel_relative_divergence_vs_median": 0.12655086848635247,
+          "game_id": "mlb_824388",
+          "informed_minority_gap": 0.023734953363061,
+          "non_fanduel_book_count": 14,
+          "non_fanduel_median_prob": 0.12310606060606061,
+          "non_fanduel_second_shortest_price": 685,
+          "non_fanduel_shortest_price": 640,
+          "paper_only": true,
+          "player": "Nathaniel Lowe",
+          "rank": 4,
+          "record_id": "e0ab966a333a7393c1ba9a62c690d38ae7dae1b0adaddf87d660c5a27e198787",
+          "scheduled_first_pitch_utc": "2026-09-03T17:10:00Z",
+          "slate_date": "2026-09-03",
+          "team": "CLE"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 360,
+          "fanduel_relative_divergence_vs_median": 0.10869565217391329,
+          "game_id": "mlb_824069",
+          "informed_minority_gap": 0.040942028985507306,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.2439024390243902,
+          "non_fanduel_second_shortest_price": 300,
+          "non_fanduel_shortest_price": 275,
+          "paper_only": true,
+          "player": "Griffin Conine",
+          "rank": 5,
+          "record_id": "1443524c8b84c08671599a2037d62c8cea0b4271a4c9ef51f19c9f1a08a5d3bc",
+          "scheduled_first_pitch_utc": "2026-09-03T23:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "MIA"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 750,
+          "fanduel_relative_divergence_vs_median": 0.09472880061115341,
+          "game_id": "mlb_823095",
+          "informed_minority_gap": 0.0307045895281189,
+          "non_fanduel_book_count": 14,
+          "non_fanduel_median_prob": 0.12995780590717296,
+          "non_fanduel_second_shortest_price": 600,
+          "non_fanduel_shortest_price": 550,
+          "paper_only": true,
+          "player": "Lawrence Butler",
+          "rank": 6,
+          "record_id": "a60760c6b768f823436123524ef83cb86ead1777143bf67b691e26f03d741487",
+          "scheduled_first_pitch_utc": "2026-09-04T01:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "ATH"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 750,
+          "fanduel_relative_divergence_vs_median": 0.06918238993710675,
+          "game_id": "mlb_824632",
+          "informed_minority_gap": 0.07130124777183598,
+          "non_fanduel_book_count": 14,
+          "non_fanduel_median_prob": 0.12639109697933223,
+          "non_fanduel_second_shortest_price": 450,
+          "non_fanduel_shortest_price": 410,
+          "paper_only": true,
+          "player": "Christian Yelich",
+          "rank": 7,
+          "record_id": "9520f870a771383825be3888987c7e8ba167d91d7dfc63f2e5a5b50fbcb1477c",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "MIL"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 750,
+          "fanduel_relative_divergence_vs_median": 0.05882352941176483,
+          "game_id": "mlb_823907",
+          "informed_minority_gap": 0.0565953654188948,
+          "non_fanduel_book_count": 14,
+          "non_fanduel_median_prob": 0.125,
+          "non_fanduel_second_shortest_price": 500,
+          "non_fanduel_shortest_price": 450,
+          "paper_only": true,
+          "player": "Alec Burleson",
+          "rank": 8,
+          "record_id": "225a6629e62d05513e29d21955340cdd940fd20cf39392969c2825650f93f5b6",
+          "scheduled_first_pitch_utc": "2026-09-04T02:10:00Z",
+          "slate_date": "2026-09-03",
+          "team": "STL"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 750,
+          "fanduel_relative_divergence_vs_median": 0.05882352941176483,
+          "game_id": "mlb_823095",
+          "informed_minority_gap": 0.022747029846421282,
+          "non_fanduel_book_count": 14,
+          "non_fanduel_median_prob": 0.125,
+          "non_fanduel_second_shortest_price": 625,
+          "non_fanduel_shortest_price": 600,
+          "paper_only": true,
+          "player": "Henry Bolte",
+          "rank": 9,
+          "record_id": "dd250c7eaf2df400bb15c638ee434d60e66eadd6f333a0ed4cca553705fdd240",
+          "scheduled_first_pitch_utc": "2026-09-04T01:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "ATH"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 320,
+          "fanduel_relative_divergence_vs_median": 0.047619047619048005,
+          "game_id": "mlb_822853",
+          "informed_minority_gap": 0.061402609824417614,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.25,
+          "non_fanduel_second_shortest_price": 240,
+          "non_fanduel_shortest_price": 228,
+          "paper_only": true,
+          "player": "Junior Caminero",
+          "rank": 10,
+          "record_id": "e64bdacadbec6809774f65a21188aa3e3abd859f2edba159b67a6d2982fb549c",
+          "scheduled_first_pitch_utc": "2026-09-04T00:05:00Z",
+          "slate_date": "2026-09-03",
+          "team": "TB"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 500,
+          "fanduel_relative_divergence_vs_median": 0.03333333333333377,
+          "game_id": "mlb_823095",
+          "informed_minority_gap": 0.047292143401983205,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1724137931034483,
+          "non_fanduel_second_shortest_price": 375,
+          "non_fanduel_shortest_price": 360,
+          "paper_only": true,
+          "player": "Randy Arozarena",
+          "rank": 11,
+          "record_id": "82704a32126c3c7bfbba117328e4206f6b4357160a5b244b281c78b6b7cff53b",
+          "scheduled_first_pitch_utc": "2026-09-04T01:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "SEA"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 520,
+          "fanduel_relative_divergence_vs_median": 0.03225806451612902,
+          "game_id": "mlb_824796",
+          "informed_minority_gap": 0.027657984014720277,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1666666666666666,
+          "non_fanduel_second_shortest_price": 450,
+          "non_fanduel_shortest_price": 410,
+          "paper_only": true,
+          "player": "Jarren Duran",
+          "rank": 12,
+          "record_id": "2babef7a8dc6b96e39ca32362f800606e4e34a05945f247f98d3efcef096900e",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "BOS"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 490,
+          "fanduel_relative_divergence_vs_median": 0.027118644067796255,
+          "game_id": "mlb_824144",
+          "informed_minority_gap": 0.0392041267501842,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1742160278745644,
+          "non_fanduel_second_shortest_price": 400,
+          "non_fanduel_shortest_price": 360,
+          "paper_only": true,
+          "player": "Colson Montgomery",
+          "rank": 13,
+          "record_id": "5da8c1ca5a808e62433270bbf003b2ed601e2ab54bb3c5c43b393ce64f87647b",
+          "scheduled_first_pitch_utc": "2026-09-03T18:10:00Z",
+          "slate_date": "2026-09-03",
+          "team": "CWS"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 310,
+          "fanduel_relative_divergence_vs_median": 0.024390243902439157,
+          "game_id": "mlb_823095",
+          "informed_minority_gap": 0.05139372822299651,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.25,
+          "non_fanduel_second_shortest_price": 250,
+          "non_fanduel_shortest_price": 228,
+          "paper_only": true,
+          "player": "Cal Raleigh",
+          "rank": 14,
+          "record_id": "64df0ed061f615b2cd38e17cd70d20b418e1c312bd4ad242880e666322b55c4e",
+          "scheduled_first_pitch_utc": "2026-09-04T01:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "SEA"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 400,
+          "fanduel_relative_divergence_vs_median": 0.019999999999999834,
+          "game_id": "mlb_824632",
+          "informed_minority_gap": 0.03268398268398259,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.2040816326530612,
+          "non_fanduel_second_shortest_price": 340,
+          "non_fanduel_shortest_price": 320,
+          "paper_only": true,
+          "player": "Jake Bauers",
+          "rank": 15,
+          "record_id": "f5af66ce6aabd4816ba6648e028cd0ad97d8ac0e7fb4d7d0b185449b755ad1bb",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "MIL"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 360,
+          "fanduel_relative_divergence_vs_median": 0.01956521739130455,
+          "game_id": "mlb_824632",
+          "informed_minority_gap": 0.042743830787309145,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.2217294900221729,
+          "non_fanduel_second_shortest_price": 300,
+          "non_fanduel_shortest_price": 270,
+          "paper_only": true,
+          "player": "Jackson Chourio",
+          "rank": 16,
+          "record_id": "d85147d8b16588101159c4c769fa957cb921d83051a432b0aa071bbc41117f31",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "MIL"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 470,
+          "fanduel_relative_divergence_vs_median": 0.01578947368421074,
+          "game_id": "mlb_823907",
+          "informed_minority_gap": 0.01605856312028009,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.17825311942959,
+          "non_fanduel_second_shortest_price": 435,
+          "non_fanduel_shortest_price": 410,
+          "paper_only": true,
+          "player": "Mookie Betts",
+          "rank": 17,
+          "record_id": "1f2e356c9274e38be07b0665872315061d0ff3a0e18a40161a100342f4c06696",
+          "scheduled_first_pitch_utc": "2026-09-04T02:10:00Z",
+          "slate_date": "2026-09-03",
+          "team": "LAD"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 420,
+          "fanduel_relative_divergence_vs_median": 0.013461538461538495,
+          "game_id": "mlb_824632",
+          "informed_minority_gap": 0.03785103785103783,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1949317738791423,
+          "non_fanduel_second_shortest_price": 350,
+          "non_fanduel_shortest_price": 320,
+          "paper_only": true,
+          "player": "Seiya Suzuki",
+          "rank": 18,
+          "record_id": "04254e5ea31cbdf22aa6fbaa51311739ca938b6c7eb8fb1887b101cecc37a5c3",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "CHC"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 480,
+          "fanduel_relative_divergence_vs_median": 0.008620689655172004,
+          "game_id": "mlb_822853",
+          "informed_minority_gap": 0.01996504522433562,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1739130434782608,
+          "non_fanduel_second_shortest_price": 430,
+          "non_fanduel_shortest_price": 410,
+          "paper_only": true,
+          "player": "Jonathan Aranda",
+          "rank": 19,
+          "record_id": "67439d59b60f1b0b8b7de1120c1a8dcd737119c1fa1132491b6089c068bce9da",
+          "scheduled_first_pitch_utc": "2026-09-04T00:05:00Z",
+          "slate_date": "2026-09-03",
+          "team": "TB"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 630,
+          "fanduel_relative_divergence_vs_median": 0.0068493150684929924,
+          "game_id": "mlb_824796",
+          "informed_minority_gap": 0.03725612287256119,
+          "non_fanduel_book_count": 14,
+          "non_fanduel_median_prob": 0.1379310344827586,
+          "non_fanduel_second_shortest_price": 500,
+          "non_fanduel_shortest_price": 450,
+          "paper_only": true,
+          "player": "Gunnar Henderson",
+          "rank": 20,
+          "record_id": "ce5ea86570b45f41e6fa608123b34deabba1a852145960959cdd84d9c49e3874",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "BAL"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 600,
+          "fanduel_relative_divergence_vs_median": 0.0007147962830596939,
+          "game_id": "mlb_824632",
+          "informed_minority_gap": 0.031385281385281405,
+          "non_fanduel_book_count": 14,
+          "non_fanduel_median_prob": 0.1429593296546086,
+          "non_fanduel_second_shortest_price": 500,
+          "non_fanduel_shortest_price": 450,
+          "paper_only": true,
+          "player": "Garrett Mitchell",
+          "rank": 21,
+          "record_id": "e045e2280271ae1488abda7bc073dc7c911a6324f69022649351be2e2cfd4361",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "MIL"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 450,
+          "fanduel_relative_divergence_vs_median": 0.0,
+          "game_id": "mlb_823095",
+          "informed_minority_gap": 0.03104413702239786,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1818181818181818,
+          "non_fanduel_second_shortest_price": 380,
+          "non_fanduel_shortest_price": 360,
+          "paper_only": true,
+          "player": "Dominic Canzone",
+          "rank": 22,
+          "record_id": "6ce06c7402540a671db641c016cd5880cdd1615a30c7aa84c4420eea4604fbd2",
+          "scheduled_first_pitch_utc": "2026-09-04T01:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "SEA"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 400,
+          "fanduel_relative_divergence_vs_median": 0.0,
+          "game_id": "mlb_822853",
+          "informed_minority_gap": 0.030158730158730107,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.2,
+          "non_fanduel_second_shortest_price": 350,
+          "non_fanduel_shortest_price": 320,
+          "paper_only": true,
+          "player": "Jake Burger",
+          "rank": 23,
+          "record_id": "8251f2eff490a029a132062315376756699cdeaa5f7d35706892a3b4c1a69299",
+          "scheduled_first_pitch_utc": "2026-09-04T00:05:00Z",
+          "slate_date": "2026-09-03",
+          "team": "TEX"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 600,
+          "fanduel_relative_divergence_vs_median": 0.0,
+          "game_id": "mlb_824388",
+          "informed_minority_gap": 0.029761904761904767,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1428571428571428,
+          "non_fanduel_second_shortest_price": 500,
+          "non_fanduel_shortest_price": 460,
+          "paper_only": true,
+          "player": "Jo Adell",
+          "rank": 24,
+          "record_id": "0396840190b11c8aed7ddc303de8c5bdb04de0b70dc5a88ffa4bd274a0bf3e9c",
+          "scheduled_first_pitch_utc": "2026-09-03T17:10:00Z",
+          "slate_date": "2026-09-03",
+          "team": "CLE"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 390,
+          "fanduel_relative_divergence_vs_median": 0.0,
+          "game_id": "mlb_824796",
+          "informed_minority_gap": 0.026077097505668917,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.2040816326530612,
+          "non_fanduel_second_shortest_price": 350,
+          "non_fanduel_shortest_price": 320,
+          "paper_only": true,
+          "player": "Christian Encarnacion-Strand",
+          "rank": 25,
+          "record_id": "cc17174dcc28adf6573258801616293d00e5e0717ee33808e1729647fb630633",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "BAL"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 430,
+          "fanduel_relative_divergence_vs_median": 0.0,
+          "game_id": "mlb_824632",
+          "informed_minority_gap": 0.02527956478563101,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1886792452830188,
+          "non_fanduel_second_shortest_price": 375,
+          "non_fanduel_shortest_price": 360,
+          "paper_only": true,
+          "player": "Michael Busch",
+          "rank": 26,
+          "record_id": "25a51140f04be06a3778ce1246631a2bf9dd9ab0e877e8e63d84e5337b809e77",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "CHC"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 500,
+          "fanduel_relative_divergence_vs_median": 0.0,
+          "game_id": "mlb_824796",
+          "informed_minority_gap": 0.022281639928698777,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1666666666666666,
+          "non_fanduel_second_shortest_price": 450,
+          "non_fanduel_shortest_price": 410,
+          "paper_only": true,
+          "player": "Mickey Gasper",
+          "rank": 27,
+          "record_id": "5ef625a3ef7e05f7c7960c424dd54e0b363ceb149239e1ccb811efaa128b0291",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "BOS"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 350,
+          "fanduel_relative_divergence_vs_median": 0.0,
+          "game_id": "mlb_824069",
+          "informed_minority_gap": 0.01587301587301579,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.2222222222222222,
+          "non_fanduel_second_shortest_price": 320,
+          "non_fanduel_shortest_price": 320,
+          "paper_only": true,
+          "player": "Jac Caglianone",
+          "rank": 28,
+          "record_id": "4d2b4959967a096dda4ec3d958223e00ea2c0abaf9aec0e56fa325c5b4554d0c",
+          "scheduled_first_pitch_utc": "2026-09-03T23:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "KC"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 300,
+          "fanduel_relative_divergence_vs_median": 0.0,
+          "game_id": "mlb_824796",
+          "informed_minority_gap": 0.014912280701754321,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.25,
+          "non_fanduel_second_shortest_price": 280,
+          "non_fanduel_shortest_price": 275,
+          "paper_only": true,
+          "player": "Wilyer Abreu",
+          "rank": 29,
+          "record_id": "6a117d3e4106f6daeb38155a3a4a2355153ab78c3cf0bb178c5955654bedc572",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "BOS"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 300,
+          "fanduel_relative_divergence_vs_median": 0.0,
+          "game_id": "mlb_823337",
+          "informed_minority_gap": 0.014912280701754321,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.25,
+          "non_fanduel_second_shortest_price": 280,
+          "non_fanduel_shortest_price": 275,
+          "paper_only": true,
+          "player": "Brandon Lowe",
+          "rank": 30,
+          "record_id": "718c7855ac20c8e445f2c72b6c53ff4c56caa03709c1f1548759bf1ebe99dceb",
+          "scheduled_first_pitch_utc": "2026-09-03T16:35:00Z",
+          "slate_date": "2026-09-03",
+          "team": "PIT"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 400,
+          "fanduel_relative_divergence_vs_median": -0.005999999999999992,
+          "game_id": "mlb_824632",
+          "informed_minority_gap": 0.015078630897317258,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1988071570576541,
+          "non_fanduel_second_shortest_price": 370,
+          "non_fanduel_shortest_price": 360,
+          "paper_only": true,
+          "player": "Ian Happ",
+          "rank": 31,
+          "record_id": "de05e997a57fc725ebbb26171b2c81a99bc5561925a88a97eff69ffe58fc4020",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "CHC"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 450,
+          "fanduel_relative_divergence_vs_median": -0.007272727272727547,
+          "game_id": "mlb_824069",
+          "informed_minority_gap": 0.015230934858191686,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1805054151624548,
+          "non_fanduel_second_shortest_price": 410,
+          "non_fanduel_shortest_price": 405,
+          "paper_only": true,
+          "player": "Owen Caissie",
+          "rank": 32,
+          "record_id": "b6ba49af7ecb050bb43572e4069af35a3757cf6d3436d2cccdb60c7ef21c43d2",
+          "scheduled_first_pitch_utc": "2026-09-03T23:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "MIA"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 520,
+          "fanduel_relative_divergence_vs_median": -0.008064516129031862,
+          "game_id": "mlb_824388",
+          "informed_minority_gap": 0.013465477175154589,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.16,
+          "non_fanduel_second_shortest_price": 485,
+          "non_fanduel_shortest_price": 460,
+          "paper_only": true,
+          "player": "Vladimir Guerrero Jr.",
+          "rank": 33,
+          "record_id": "39cb4b13a5b37c6a2d583daed7cf5208ff6d8341d5fb3e331e2e9e1e66cd5bf5",
+          "scheduled_first_pitch_utc": "2026-09-03T17:10:00Z",
+          "slate_date": "2026-09-03",
+          "team": "TOR"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 470,
+          "fanduel_relative_divergence_vs_median": -0.008771929824561379,
+          "game_id": "mlb_822853",
+          "informed_minority_gap": 0.020639834881320984,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1739130434782608,
+          "non_fanduel_second_shortest_price": 410,
+          "non_fanduel_shortest_price": 410,
+          "paper_only": true,
+          "player": "Victor Mesa Jr.",
+          "rank": 34,
+          "record_id": "8b0cb53ca161c0cd08ebf5588ee925f6984cf01d515f75f72bab604ea9eb0207",
+          "scheduled_first_pitch_utc": "2026-09-04T00:05:00Z",
+          "slate_date": "2026-09-03",
+          "team": "TB"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 440,
+          "fanduel_relative_divergence_vs_median": -0.012962962962962777,
+          "game_id": "mlb_823907",
+          "informed_minority_gap": 0.04749879749879751,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1828153564899451,
+          "non_fanduel_second_shortest_price": 340,
+          "non_fanduel_shortest_price": 320,
+          "paper_only": true,
+          "player": "Jordan Walker",
+          "rank": 35,
+          "record_id": "c2d1f9e891e058e42d7414781c1d4fb2c5e7f799a70363d9579c161f5dda8348",
+          "scheduled_first_pitch_utc": "2026-09-04T02:10:00Z",
+          "slate_date": "2026-09-03",
+          "team": "STL"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 440,
+          "fanduel_relative_divergence_vs_median": -0.016666666666666368,
+          "game_id": "mlb_824632",
+          "informed_minority_gap": 0.023510466988727913,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1821493624772313,
+          "non_fanduel_second_shortest_price": 400,
+          "non_fanduel_shortest_price": 360,
+          "paper_only": true,
+          "player": "William Contreras",
+          "rank": 36,
+          "record_id": "c7cc38c7b28ad0cdecce1530b89cae4d220b3e02f23ae8ea9fb96983163f4a83",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "MIL"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 490,
+          "fanduel_relative_divergence_vs_median": -0.01694915254237323,
+          "game_id": "mlb_824144",
+          "informed_minority_gap": 0.04124494307671478,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1666666666666666,
+          "non_fanduel_second_shortest_price": 390,
+          "non_fanduel_shortest_price": 360,
+          "paper_only": true,
+          "player": "Christian Walker",
+          "rank": 37,
+          "record_id": "f9dd27607a75567b237d84328848dec2f2171e7a73e573e26fbb729b2398df22",
+          "scheduled_first_pitch_utc": "2026-09-03T18:10:00Z",
+          "slate_date": "2026-09-03",
+          "team": "HOU"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 440,
+          "fanduel_relative_divergence_vs_median": -0.018518518518518132,
+          "game_id": "mlb_824144",
+          "informed_minority_gap": 0.009941409141866114,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1818181818181818,
+          "non_fanduel_second_shortest_price": 415,
+          "non_fanduel_shortest_price": 410,
+          "paper_only": true,
+          "player": "Miguel Vargas",
+          "rank": 38,
+          "record_id": "4edb45e9666bd056b578b3e88b96fe7aa647d48aa7308221482417fe3d3fe410",
+          "scheduled_first_pitch_utc": "2026-09-03T18:10:00Z",
+          "slate_date": "2026-09-03",
+          "team": "CWS"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 370,
+          "fanduel_relative_divergence_vs_median": -0.021276595744681086,
+          "game_id": "mlb_824069",
+          "informed_minority_gap": 0.017392772711921606,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.2083333333333333,
+          "non_fanduel_second_shortest_price": 350,
+          "non_fanduel_shortest_price": 320,
+          "paper_only": true,
+          "player": "Bobby Witt Jr.",
+          "rank": 39,
+          "record_id": "5f6eab2d373404ab703266ec4e88bd5386534d460a52ff9b0bb8e4f087caf030",
+          "scheduled_first_pitch_utc": "2026-09-03T23:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "KC"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 300,
+          "fanduel_relative_divergence_vs_median": -0.02500000000000014,
+          "game_id": "mlb_823337",
+          "informed_minority_gap": 0.014912280701754321,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.2439024390243902,
+          "non_fanduel_second_shortest_price": 280,
+          "non_fanduel_shortest_price": 275,
+          "paper_only": true,
+          "player": "Rafael Devers",
+          "rank": 40,
+          "record_id": "6a892254e81375d942a293e5f85ce1bf7a6d943c5e93d2de4182e103d1840433",
+          "scheduled_first_pitch_utc": "2026-09-03T16:35:00Z",
+          "slate_date": "2026-09-03",
+          "team": "SF"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 480,
+          "fanduel_relative_divergence_vs_median": -0.03448275862069013,
+          "game_id": "mlb_824069",
+          "informed_minority_gap": 0.03628185907046472,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1666666666666666,
+          "non_fanduel_second_shortest_price": 400,
+          "non_fanduel_shortest_price": 360,
+          "paper_only": true,
+          "player": "Vinnie Pasquantino",
+          "rank": 41,
+          "record_id": "25fd03917d9836350d8629624b437cea814bbbfa8caf37789f464204824f36f3",
+          "scheduled_first_pitch_utc": "2026-09-03T23:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "KC"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 310,
+          "fanduel_relative_divergence_vs_median": -0.036585365853658534,
+          "game_id": "mlb_824796",
+          "informed_minority_gap": 0.02100984167736411,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.2352941176470588,
+          "non_fanduel_second_shortest_price": 280,
+          "non_fanduel_shortest_price": 275,
+          "paper_only": true,
+          "player": "Coby Mayo",
+          "rank": 42,
+          "record_id": "7385ba56582e838a6d54e1c10db7fa64640b2bb794e5ca3046b692d040ad32da",
+          "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+          "slate_date": "2026-09-03",
+          "team": "BAL"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 400,
+          "fanduel_relative_divergence_vs_median": -0.040000000000000153,
+          "game_id": "mlb_823337",
+          "informed_minority_gap": 0.010528646063933333,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1923076923076923,
+          "non_fanduel_second_shortest_price": 391,
+          "non_fanduel_shortest_price": 360,
+          "paper_only": true,
+          "player": "Bryce Eldridge",
+          "rank": 43,
+          "record_id": "649e066d6178e911fdc27a00bab595f29feedde0ba87d9f892022260040ad758",
+          "scheduled_first_pitch_utc": "2026-09-03T16:35:00Z",
+          "slate_date": "2026-09-03",
+          "team": "SF"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 450,
+          "fanduel_relative_divergence_vs_median": -0.045454545454545685,
+          "game_id": "mlb_824069",
+          "informed_minority_gap": 0.011459129106187904,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1739130434782608,
+          "non_fanduel_second_shortest_price": 425,
+          "non_fanduel_shortest_price": 410,
+          "paper_only": true,
+          "player": "Salvador Perez",
+          "rank": 44,
+          "record_id": "c88a79a3365b6e2977939523bd212408fc87c3993a3d4b4c1ad3d4d5ca5107c9",
+          "scheduled_first_pitch_utc": "2026-09-03T23:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "KC"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 520,
+          "fanduel_relative_divergence_vs_median": -0.04838709677419348,
+          "game_id": "mlb_822853",
+          "informed_minority_gap": 0.014202288256793288,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1538461538461538,
+          "non_fanduel_second_shortest_price": 480,
+          "non_fanduel_shortest_price": 460,
+          "paper_only": true,
+          "player": "Brandon Nimmo",
+          "rank": 45,
+          "record_id": "550bfc680abc771de61cbba365ec9ae0fa30db398c64c4bb44c16febbd70ec2f",
+          "scheduled_first_pitch_utc": "2026-09-04T00:05:00Z",
+          "slate_date": "2026-09-03",
+          "team": "TEX"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 350,
+          "fanduel_relative_divergence_vs_median": -0.055555555555555976,
+          "game_id": "mlb_824069",
+          "informed_minority_gap": 0.01730732453624012,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.2105263157894736,
+          "non_fanduel_second_shortest_price": 320,
+          "non_fanduel_shortest_price": 315,
+          "paper_only": true,
+          "player": "Carter Jensen",
+          "rank": 46,
+          "record_id": "5d27441bd01f72188b4244faaa2283016d7e2e97e1b4c6096287d633b1613d01",
+          "scheduled_first_pitch_utc": "2026-09-03T23:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "KC"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 340,
+          "fanduel_relative_divergence_vs_median": -0.06818181818181787,
+          "game_id": "mlb_822853",
+          "informed_minority_gap": 0.0054112554112553946,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.2127659574468085,
+          "non_fanduel_second_shortest_price": 340,
+          "non_fanduel_shortest_price": 320,
+          "paper_only": true,
+          "player": "Corey Seager",
+          "rank": 47,
+          "record_id": "5c4e6e01a51fc10f0bcdc326eae72c94787eb429cfae10ff8a30264eb72b790a",
+          "scheduled_first_pitch_utc": "2026-09-04T00:05:00Z",
+          "slate_date": "2026-09-03",
+          "team": "TEX"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 410,
+          "fanduel_relative_divergence_vs_median": -0.07843137254901958,
+          "game_id": "mlb_824144",
+          "informed_minority_gap": 0.012617220801364015,
+          "non_fanduel_book_count": 13,
+          "non_fanduel_median_prob": 0.1818181818181818,
+          "non_fanduel_second_shortest_price": 400,
+          "non_fanduel_shortest_price": 360,
+          "paper_only": true,
+          "player": "Taylor Trammell",
+          "rank": 48,
+          "record_id": "6359aae1e0e89425ee3371b62042e503e373933201b0da8facbee0c2d0ef8a15",
+          "scheduled_first_pitch_utc": "2026-09-03T18:10:00Z",
+          "slate_date": "2026-09-03",
+          "team": "HOU"
+        },
+        {
+          "capture_time_utc": "2026-09-03T15:40:15Z",
+          "fanduel_price": 560,
+          "fanduel_relative_divergence_vs_median": -0.07921318447634267,
+          "game_id": "mlb_823095",
+          "informed_minority_gap": 0.02110389610389607,
+          "non_fanduel_book_count": 14,
+          "non_fanduel_median_prob": 0.14039408866995068,
+          "non_fanduel_second_shortest_price": 500,
+          "non_fanduel_shortest_price": 460,
+          "paper_only": true,
+          "player": "Zack Gelof",
+          "rank": 49,
+          "record_id": "841d7152738684e2d034a76825d97141d87d9daea269190ca621d462c206eb9b",
+          "scheduled_first_pitch_utc": "2026-09-04T01:40:00Z",
+          "slate_date": "2026-09-03",
+          "team": "ATH"
+        }
+      ],
+      "capture_time_utc": "2026-09-03T15:40:15Z",
+      "card_abstentions": [],
+      "cards": [
+        {
+          "actual_fanduel_parlay_quote_status": "UNAVAILABLE",
+          "independence_estimated_net_payout_usd": 6544.34,
+          "leg_count": 4,
+          "legs": [
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 800,
+              "fanduel_relative_divergence_vs_median": 0.22222222222222193,
+              "game_id": "mlb_823095",
+              "informed_minority_gap": 0.03724053724053719,
+              "non_fanduel_book_count": 7,
+              "non_fanduel_median_prob": 0.1428571428571428,
+              "non_fanduel_second_shortest_price": 600,
+              "non_fanduel_shortest_price": 550,
+              "paper_only": true,
+              "player": "Brian Serven",
+              "rank": 1,
+              "scheduled_first_pitch_utc": "2026-09-04T01:40:00Z",
+              "slate_date": "2026-09-03",
+              "team": "ATH"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 820,
+              "fanduel_relative_divergence_vs_median": 0.18478260869565233,
+              "game_id": "mlb_824144",
+              "informed_minority_gap": 0.0434153946739759,
+              "non_fanduel_book_count": 14,
+              "non_fanduel_median_prob": 0.1333333333333333,
+              "non_fanduel_second_shortest_price": 565,
+              "non_fanduel_shortest_price": 550,
+              "paper_only": true,
+              "player": "Andrew Benintendi",
+              "rank": 2,
+              "scheduled_first_pitch_utc": "2026-09-03T18:10:00Z",
+              "slate_date": "2026-09-03",
+              "team": "CWS"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 750,
+              "fanduel_relative_divergence_vs_median": 0.1470588235294117,
+              "game_id": "mlb_822853",
+              "informed_minority_gap": 0.06254774637127573,
+              "non_fanduel_book_count": 9,
+              "non_fanduel_median_prob": 0.1379310344827586,
+              "non_fanduel_second_shortest_price": 460,
+              "non_fanduel_shortest_price": 450,
+              "paper_only": true,
+              "player": "Justin Foscue",
+              "rank": 3,
+              "scheduled_first_pitch_utc": "2026-09-04T00:05:00Z",
+              "slate_date": "2026-09-03",
+              "team": "TEX"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 830,
+              "fanduel_relative_divergence_vs_median": 0.12655086848635247,
+              "game_id": "mlb_824388",
+              "informed_minority_gap": 0.023734953363061,
+              "non_fanduel_book_count": 14,
+              "non_fanduel_median_prob": 0.12310606060606061,
+              "non_fanduel_second_shortest_price": 685,
+              "non_fanduel_shortest_price": 640,
+              "paper_only": true,
+              "player": "Nathaniel Lowe",
+              "rank": 4,
+              "scheduled_first_pitch_utc": "2026-09-03T17:10:00Z",
+              "slate_date": "2026-09-03",
+              "team": "CLE"
+            }
+          ],
+          "retained_despite_large_estimated_payout": true,
+          "target_payout_band": false
+        },
+        {
+          "actual_fanduel_parlay_quote_status": "UNAVAILABLE",
+          "independence_estimated_net_payout_usd": 30107.564,
+          "leg_count": 5,
+          "legs": [
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 800,
+              "fanduel_relative_divergence_vs_median": 0.22222222222222193,
+              "game_id": "mlb_823095",
+              "informed_minority_gap": 0.03724053724053719,
+              "non_fanduel_book_count": 7,
+              "non_fanduel_median_prob": 0.1428571428571428,
+              "non_fanduel_second_shortest_price": 600,
+              "non_fanduel_shortest_price": 550,
+              "paper_only": true,
+              "player": "Brian Serven",
+              "rank": 1,
+              "scheduled_first_pitch_utc": "2026-09-04T01:40:00Z",
+              "slate_date": "2026-09-03",
+              "team": "ATH"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 820,
+              "fanduel_relative_divergence_vs_median": 0.18478260869565233,
+              "game_id": "mlb_824144",
+              "informed_minority_gap": 0.0434153946739759,
+              "non_fanduel_book_count": 14,
+              "non_fanduel_median_prob": 0.1333333333333333,
+              "non_fanduel_second_shortest_price": 565,
+              "non_fanduel_shortest_price": 550,
+              "paper_only": true,
+              "player": "Andrew Benintendi",
+              "rank": 2,
+              "scheduled_first_pitch_utc": "2026-09-03T18:10:00Z",
+              "slate_date": "2026-09-03",
+              "team": "CWS"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 750,
+              "fanduel_relative_divergence_vs_median": 0.1470588235294117,
+              "game_id": "mlb_822853",
+              "informed_minority_gap": 0.06254774637127573,
+              "non_fanduel_book_count": 9,
+              "non_fanduel_median_prob": 0.1379310344827586,
+              "non_fanduel_second_shortest_price": 460,
+              "non_fanduel_shortest_price": 450,
+              "paper_only": true,
+              "player": "Justin Foscue",
+              "rank": 3,
+              "scheduled_first_pitch_utc": "2026-09-04T00:05:00Z",
+              "slate_date": "2026-09-03",
+              "team": "TEX"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 830,
+              "fanduel_relative_divergence_vs_median": 0.12655086848635247,
+              "game_id": "mlb_824388",
+              "informed_minority_gap": 0.023734953363061,
+              "non_fanduel_book_count": 14,
+              "non_fanduel_median_prob": 0.12310606060606061,
+              "non_fanduel_second_shortest_price": 685,
+              "non_fanduel_shortest_price": 640,
+              "paper_only": true,
+              "player": "Nathaniel Lowe",
+              "rank": 4,
+              "scheduled_first_pitch_utc": "2026-09-03T17:10:00Z",
+              "slate_date": "2026-09-03",
+              "team": "CLE"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 360,
+              "fanduel_relative_divergence_vs_median": 0.10869565217391329,
+              "game_id": "mlb_824069",
+              "informed_minority_gap": 0.040942028985507306,
+              "non_fanduel_book_count": 13,
+              "non_fanduel_median_prob": 0.2439024390243902,
+              "non_fanduel_second_shortest_price": 300,
+              "non_fanduel_shortest_price": 275,
+              "paper_only": true,
+              "player": "Griffin Conine",
+              "rank": 5,
+              "scheduled_first_pitch_utc": "2026-09-03T23:40:00Z",
+              "slate_date": "2026-09-03",
+              "team": "MIA"
+            }
+          ],
+          "retained_despite_large_estimated_payout": true,
+          "target_payout_band": false
+        },
+        {
+          "actual_fanduel_parlay_quote_status": "UNAVAILABLE",
+          "independence_estimated_net_payout_usd": 255921.794,
+          "leg_count": 6,
+          "legs": [
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 800,
+              "fanduel_relative_divergence_vs_median": 0.22222222222222193,
+              "game_id": "mlb_823095",
+              "informed_minority_gap": 0.03724053724053719,
+              "non_fanduel_book_count": 7,
+              "non_fanduel_median_prob": 0.1428571428571428,
+              "non_fanduel_second_shortest_price": 600,
+              "non_fanduel_shortest_price": 550,
+              "paper_only": true,
+              "player": "Brian Serven",
+              "rank": 1,
+              "scheduled_first_pitch_utc": "2026-09-04T01:40:00Z",
+              "slate_date": "2026-09-03",
+              "team": "ATH"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 820,
+              "fanduel_relative_divergence_vs_median": 0.18478260869565233,
+              "game_id": "mlb_824144",
+              "informed_minority_gap": 0.0434153946739759,
+              "non_fanduel_book_count": 14,
+              "non_fanduel_median_prob": 0.1333333333333333,
+              "non_fanduel_second_shortest_price": 565,
+              "non_fanduel_shortest_price": 550,
+              "paper_only": true,
+              "player": "Andrew Benintendi",
+              "rank": 2,
+              "scheduled_first_pitch_utc": "2026-09-03T18:10:00Z",
+              "slate_date": "2026-09-03",
+              "team": "CWS"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 750,
+              "fanduel_relative_divergence_vs_median": 0.1470588235294117,
+              "game_id": "mlb_822853",
+              "informed_minority_gap": 0.06254774637127573,
+              "non_fanduel_book_count": 9,
+              "non_fanduel_median_prob": 0.1379310344827586,
+              "non_fanduel_second_shortest_price": 460,
+              "non_fanduel_shortest_price": 450,
+              "paper_only": true,
+              "player": "Justin Foscue",
+              "rank": 3,
+              "scheduled_first_pitch_utc": "2026-09-04T00:05:00Z",
+              "slate_date": "2026-09-03",
+              "team": "TEX"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 830,
+              "fanduel_relative_divergence_vs_median": 0.12655086848635247,
+              "game_id": "mlb_824388",
+              "informed_minority_gap": 0.023734953363061,
+              "non_fanduel_book_count": 14,
+              "non_fanduel_median_prob": 0.12310606060606061,
+              "non_fanduel_second_shortest_price": 685,
+              "non_fanduel_shortest_price": 640,
+              "paper_only": true,
+              "player": "Nathaniel Lowe",
+              "rank": 4,
+              "scheduled_first_pitch_utc": "2026-09-03T17:10:00Z",
+              "slate_date": "2026-09-03",
+              "team": "CLE"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 360,
+              "fanduel_relative_divergence_vs_median": 0.10869565217391329,
+              "game_id": "mlb_824069",
+              "informed_minority_gap": 0.040942028985507306,
+              "non_fanduel_book_count": 13,
+              "non_fanduel_median_prob": 0.2439024390243902,
+              "non_fanduel_second_shortest_price": 300,
+              "non_fanduel_shortest_price": 275,
+              "paper_only": true,
+              "player": "Griffin Conine",
+              "rank": 5,
+              "scheduled_first_pitch_utc": "2026-09-03T23:40:00Z",
+              "slate_date": "2026-09-03",
+              "team": "MIA"
+            },
+            {
+              "capture_time_utc": "2026-09-03T15:40:15Z",
+              "fanduel_price": 750,
+              "fanduel_relative_divergence_vs_median": 0.06918238993710675,
+              "game_id": "mlb_824632",
+              "informed_minority_gap": 0.07130124777183598,
+              "non_fanduel_book_count": 14,
+              "non_fanduel_median_prob": 0.12639109697933223,
+              "non_fanduel_second_shortest_price": 450,
+              "non_fanduel_shortest_price": 410,
+              "paper_only": true,
+              "player": "Christian Yelich",
+              "rank": 7,
+              "scheduled_first_pitch_utc": "2026-09-03T23:15:00Z",
+              "slate_date": "2026-09-03",
+              "team": "MIL"
+            }
+          ],
+          "retained_despite_large_estimated_payout": true,
+          "target_payout_band": false
+        }
+      ],
+      "package": "open_154015Z",
+      "run_artifact": "run.json",
+      "run_sha256": "538afb2e95a00c38dc2e3ddaf668a449d7930f1f677aeb848279e5f58cb3d448"
+    },
+    "near_miss_distribution": {
+      "card_relationship": "NESTED_ONE_OBSERVATION_PER_SLATE",
+      "effective_card_size_counts": {},
+      "expected_method": "POISSON_BINOMIAL_FROM_LOCKED_FANDUEL_LEG_PRICES_INDEPENDENCE_ASSUMPTION",
+      "independent_observations_per_slate": 1,
+      "paper_only": true,
+      "reduced_slate_count": 0,
+      "schema": "fuse-near-miss-cumulative-v2",
+      "settled_slate_count": 0,
+      "status": "AWAITING_SETTLEMENTS",
+      "thresholds": {
+        "3_plus": {
+          "expected_count": 0.0,
+          "expected_rate": null,
+          "observed_count": 0,
+          "observed_rate": null
+        },
+        "4_plus": {
+          "expected_count": 0.0,
+          "expected_rate": null,
+          "observed_count": 0,
+          "observed_rate": null
+        },
+        "5_plus": {
+          "expected_count": 0.0,
+          "expected_rate": null,
+          "observed_count": 0,
+          "observed_rate": null
+        }
+      },
+      "total_voided_leg_count": 0,
+      "void_unavailable_count": 0
+    },
     "posture": "PAPER_RESEARCH_ONLY_NO_STAKING",
-    "status": "NO_COMPLETED_PACKAGES",
-    "update_history": []
+    "status": "PUBLISHED",
+    "update_history": [
+      {
+        "abstention_count": 0,
+        "candidate_count": 49,
+        "capture_time_utc": "2026-09-03T15:40:15Z",
+        "card_count": 3,
+        "package": "open_154015Z",
+        "run_artifact": "run.json",
+        "run_sha256": "538afb2e95a00c38dc2e3ddaf668a449d7930f1f677aeb848279e5f58cb3d448"
+      }
+    ]
   },
   "games": [
     {
@@ -330,11 +1549,11 @@
     "laggard_books": [
       {
         "book": "Bally Bet",
-        "count": 30
+        "count": 32
       },
       {
         "book": "theScore Bet",
-        "count": 15
+        "count": 17
       },
       {
         "book": "BetMGM",
@@ -342,15 +1561,15 @@
       },
       {
         "book": "betPARX",
-        "count": 10
+        "count": 11
       },
       {
         "book": "Fanatics",
-        "count": 9
+        "count": 10
       },
       {
         "book": "DraftKings",
-        "count": 6
+        "count": 8
       },
       {
         "book": "BetRivers",
@@ -507,11 +1726,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_early-sweep_150555Z.csv"
       },
       {
+        "book": "betPARX",
+        "clv_sign": null,
+        "consensus_price": "+441",
+        "game_id": "mlb_824144",
+        "m1_rank": 9,
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "normalized_player": "taylortrammell",
+        "plain": "betPARX: Taylor Trammell HR o0.5 +575, market +441, 20%",
+        "player": "Taylor Trammell",
+        "point": 0.5,
+        "price": "+575",
+        "relative_divergence": 0.1985365132611489,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_open_154015Z.csv"
+      },
+      {
         "book": "Fanatics",
         "clv_sign": null,
         "consensus_price": "+750",
         "game_id": "mlb_824388",
-        "m1_rank": 9,
+        "m1_rank": 10,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "nathaniellowe",
@@ -528,7 +1764,7 @@
         "clv_sign": null,
         "consensus_price": "+552",
         "game_id": "mlb_824388",
-        "m1_rank": 10,
+        "m1_rank": 11,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "joadell",
@@ -545,7 +1781,7 @@
         "clv_sign": null,
         "consensus_price": "+473",
         "game_id": "mlb_824796",
-        "m1_rank": 11,
+        "m1_rank": 12,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "jarrenduran",
@@ -562,7 +1798,7 @@
         "clv_sign": null,
         "consensus_price": "+475",
         "game_id": "mlb_824069",
-        "m1_rank": 12,
+        "m1_rank": 13,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "vinniepasquantino",
@@ -579,7 +1815,7 @@
         "clv_sign": null,
         "consensus_price": "+477",
         "game_id": "mlb_824796",
-        "m1_rank": 13,
+        "m1_rank": 14,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "mickeygasper",
@@ -596,7 +1832,7 @@
         "clv_sign": null,
         "consensus_price": "+602",
         "game_id": "mlb_824144",
-        "m1_rank": 14,
+        "m1_rank": 15,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "camsmith",
@@ -613,7 +1849,7 @@
         "clv_sign": null,
         "consensus_price": "+662",
         "game_id": "mlb_824144",
-        "m1_rank": 15,
+        "m1_rank": 16,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "andrewbenintendi",
@@ -630,7 +1866,7 @@
         "clv_sign": null,
         "consensus_price": "+444",
         "game_id": "mlb_824632",
-        "m1_rank": 16,
+        "m1_rank": 17,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "williamcontreras",
@@ -647,7 +1883,7 @@
         "clv_sign": null,
         "consensus_price": "+570",
         "game_id": "mlb_823095",
-        "m1_rank": 17,
+        "m1_rank": 18,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "zackgelof",
@@ -660,11 +1896,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_early-sweep_150555Z.csv"
       },
       {
+        "book": "Fanatics",
+        "clv_sign": null,
+        "consensus_price": "+445",
+        "game_id": "mlb_823095",
+        "m1_rank": 19,
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "normalized_player": "randyarozarena",
+        "plain": "Fanatics: Randy Arozarena HR o0.5 +550, market +445, 16%",
+        "player": "Randy Arozarena",
+        "point": 0.5,
+        "price": "+550",
+        "relative_divergence": 0.16181854401731,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_open_154015Z.csv"
+      },
+      {
         "book": "Bally Bet",
         "clv_sign": null,
         "consensus_price": "+363",
         "game_id": "mlb_824632",
-        "m1_rank": 18,
+        "m1_rank": 20,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "jacksonchourio",
@@ -681,7 +1934,7 @@
         "clv_sign": null,
         "consensus_price": "+365",
         "game_id": "mlb_824069",
-        "m1_rank": 19,
+        "m1_rank": 21,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "bobbywittjr",
@@ -698,7 +1951,7 @@
         "clv_sign": null,
         "consensus_price": "+315",
         "game_id": "mlb_824796",
-        "m1_rank": 20,
+        "m1_rank": 22,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "cobymayo",
@@ -711,11 +1964,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_early-sweep_150555Z.csv"
       },
       {
+        "book": "Bally Bet",
+        "clv_sign": null,
+        "consensus_price": "+579",
+        "game_id": "mlb_824632",
+        "m1_rank": 23,
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "normalized_player": "garrettmitchell",
+        "plain": "Bally Bet: Garrett Mitchell HR o0.5 +700, market +579, 15%",
+        "player": "Garrett Mitchell",
+        "point": 0.5,
+        "price": "+700",
+        "relative_divergence": 0.1512559471229702,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_open_154015Z.csv"
+      },
+      {
         "book": "DraftKings",
         "clv_sign": null,
         "consensus_price": "+393",
         "game_id": "mlb_824632",
-        "m1_rank": 21,
+        "m1_rank": 24,
         "market_key": "batter_home_runs",
         "market_label": "HR",
         "normalized_player": "seiyasuzuki",
@@ -732,7 +2002,7 @@
         "clv_sign": null,
         "consensus_price": "+487",
         "game_id": "mlb_824144",
-        "m1_rank": 22,
+        "m1_rank": 25,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "camsmith",
@@ -749,7 +2019,7 @@
         "clv_sign": null,
         "consensus_price": "+122",
         "game_id": "mlb_824069",
-        "m1_rank": 23,
+        "m1_rank": 26,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "griffinconine",
@@ -766,7 +2036,7 @@
         "clv_sign": null,
         "consensus_price": "+400",
         "game_id": "mlb_824632",
-        "m1_rank": 24,
+        "m1_rank": 27,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "christianyelich",
@@ -783,7 +2053,7 @@
         "clv_sign": null,
         "consensus_price": "+381",
         "game_id": "mlb_824632",
-        "m1_rank": 25,
+        "m1_rank": 28,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "seiyasuzuki",
@@ -800,7 +2070,7 @@
         "clv_sign": null,
         "consensus_price": "+145",
         "game_id": "mlb_824632",
-        "m1_rank": 26,
+        "m1_rank": 29,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "seiyasuzuki",
@@ -817,7 +2087,7 @@
         "clv_sign": null,
         "consensus_price": "+384",
         "game_id": "mlb_824632",
-        "m1_rank": 27,
+        "m1_rank": 30,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "petecrowarmstrong",
@@ -834,7 +2104,7 @@
         "clv_sign": null,
         "consensus_price": "+320",
         "game_id": "mlb_824632",
-        "m1_rank": 28,
+        "m1_rank": 31,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "jacksonchourio",
@@ -851,7 +2121,7 @@
         "clv_sign": null,
         "consensus_price": "+106",
         "game_id": "mlb_823337",
-        "m1_rank": 29,
+        "m1_rank": 32,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "brandonlowe",
@@ -868,7 +2138,7 @@
         "clv_sign": null,
         "consensus_price": "+411",
         "game_id": "mlb_824632",
-        "m1_rank": 30,
+        "m1_rank": 33,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "michaelbusch",
@@ -881,11 +2151,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_early-sweep_150555Z.csv"
       },
       {
+        "book": "DraftKings",
+        "clv_sign": null,
+        "consensus_price": "+395",
+        "game_id": "mlb_824632",
+        "m1_rank": 34,
+        "market_key": "batter_doubles",
+        "market_label": "doubles",
+        "normalized_player": "williamcontreras",
+        "plain": "DraftKings: William Contreras doubles o0.5 +456, market +395, 11%",
+        "player": "William Contreras",
+        "point": 0.5,
+        "price": "+456",
+        "relative_divergence": 0.1103548489196296,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_open_154015Z.csv"
+      },
+      {
         "book": "theScore Bet",
         "clv_sign": null,
         "consensus_price": "+434",
         "game_id": "mlb_824796",
-        "m1_rank": 31,
+        "m1_rank": 35,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "gunnarhenderson",
@@ -902,7 +2189,7 @@
         "clv_sign": null,
         "consensus_price": "+114",
         "game_id": "mlb_824388",
-        "m1_rank": 32,
+        "m1_rank": 36,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "vladimirguerrerojr",
@@ -919,7 +2206,7 @@
         "clv_sign": null,
         "consensus_price": "+421",
         "game_id": "mlb_822853",
-        "m1_rank": 33,
+        "m1_rank": 37,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "justinfoscue",
@@ -936,7 +2223,7 @@
         "clv_sign": null,
         "consensus_price": "+415",
         "game_id": "mlb_824144",
-        "m1_rank": 34,
+        "m1_rank": 38,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "andrewbenintendi",
@@ -953,7 +2240,7 @@
         "clv_sign": null,
         "consensus_price": "+155",
         "game_id": "mlb_824632",
-        "m1_rank": 35,
+        "m1_rank": 39,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "christianyelich",
@@ -970,7 +2257,7 @@
         "clv_sign": null,
         "consensus_price": "-103",
         "game_id": "mlb_824069",
-        "m1_rank": 36,
+        "m1_rank": 40,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "kylestowers",
@@ -987,7 +2274,7 @@
         "clv_sign": null,
         "consensus_price": "+325",
         "game_id": "mlb_824069",
-        "m1_rank": 37,
+        "m1_rank": 41,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "vinniepasquantino",
@@ -1004,7 +2291,7 @@
         "clv_sign": null,
         "consensus_price": "+129",
         "game_id": "mlb_824069",
-        "m1_rank": 38,
+        "m1_rank": 42,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "vinniepasquantino",
@@ -1017,11 +2304,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_early-sweep_150555Z.csv"
       },
       {
+        "book": "DraftKings",
+        "clv_sign": null,
+        "consensus_price": "+451",
+        "game_id": "mlb_824144",
+        "m1_rank": 43,
+        "market_key": "batter_doubles",
+        "market_label": "doubles",
+        "normalized_player": "taylortrammell",
+        "plain": "DraftKings: Taylor Trammell doubles o0.5 +515, market +451, 10%",
+        "player": "Taylor Trammell",
+        "point": 0.5,
+        "price": "+515",
+        "relative_divergence": 0.1036776692956177,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_open_154015Z.csv"
+      },
+      {
         "book": "BetRivers",
         "clv_sign": null,
         "consensus_price": "+165",
         "game_id": "mlb_824069",
-        "m1_rank": 39,
+        "m1_rank": 44,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "owencaissie",
@@ -1038,7 +2342,7 @@
         "clv_sign": null,
         "consensus_price": "-131",
         "game_id": "mlb_824144",
-        "m1_rank": 40,
+        "m1_rank": 45,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "colsonmontgomery",
@@ -1055,7 +2359,7 @@
         "clv_sign": null,
         "consensus_price": "-183",
         "game_id": "mlb_824069",
-        "m1_rank": 41,
+        "m1_rank": 46,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "griffinconine",
@@ -1068,11 +2372,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_early-sweep_150555Z.csv"
       },
       {
+        "book": "theScore Bet",
+        "clv_sign": null,
+        "consensus_price": "+398",
+        "game_id": "mlb_824632",
+        "m1_rank": 47,
+        "market_key": "batter_doubles",
+        "market_label": "doubles",
+        "normalized_player": "jakebauers",
+        "plain": "theScore Bet: Jake Bauers doubles o0.5 +450, market +398, 9%",
+        "player": "Jake Bauers",
+        "point": 0.5,
+        "price": "+450",
+        "relative_divergence": 0.0948941659218683,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_open_154015Z.csv"
+      },
+      {
         "book": "Bally Bet",
         "clv_sign": null,
         "consensus_price": "+113",
         "game_id": "mlb_824069",
-        "m1_rank": 42,
+        "m1_rank": 48,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "carterjensen",
@@ -1089,7 +2410,7 @@
         "clv_sign": null,
         "consensus_price": "+149",
         "game_id": "mlb_824796",
-        "m1_rank": 43,
+        "m1_rank": 49,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "gunnarhenderson",
@@ -1106,7 +2427,7 @@
         "clv_sign": null,
         "consensus_price": "+140",
         "game_id": "mlb_824796",
-        "m1_rank": 44,
+        "m1_rank": 50,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "cobymayo",
@@ -1123,7 +2444,7 @@
         "clv_sign": null,
         "consensus_price": "+136",
         "game_id": "mlb_824796",
-        "m1_rank": 45,
+        "m1_rank": 51,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "mickeygasper",
@@ -1140,7 +2461,7 @@
         "clv_sign": null,
         "consensus_price": "+399",
         "game_id": "mlb_822853",
-        "m1_rank": 46,
+        "m1_rank": 52,
         "market_key": "batter_doubles",
         "market_label": "doubles",
         "normalized_player": "coreyseager",
@@ -1157,7 +2478,7 @@
         "clv_sign": null,
         "consensus_price": "-175",
         "game_id": "mlb_824632",
-        "m1_rank": 47,
+        "m1_rank": 53,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "seiyasuzuki",
@@ -1174,7 +2495,7 @@
         "clv_sign": null,
         "consensus_price": "-147",
         "game_id": "mlb_823095",
-        "m1_rank": 48,
+        "m1_rank": 54,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "calraleigh",
@@ -1191,7 +2512,7 @@
         "clv_sign": null,
         "consensus_price": "+141",
         "game_id": "mlb_824796",
-        "m1_rank": 49,
+        "m1_rank": 55,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "christianencarnacionstrand",
@@ -1208,7 +2529,7 @@
         "clv_sign": null,
         "consensus_price": "+107",
         "game_id": "mlb_824632",
-        "m1_rank": 50,
+        "m1_rank": 56,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "petecrowarmstrong",
@@ -1225,7 +2546,7 @@
         "clv_sign": null,
         "consensus_price": "+195",
         "game_id": "mlb_823095",
-        "m1_rank": 51,
+        "m1_rank": 57,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "lawrencebutler",
@@ -1242,7 +2563,7 @@
         "clv_sign": null,
         "consensus_price": "+144",
         "game_id": "mlb_824796",
-        "m1_rank": 52,
+        "m1_rank": 58,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "jarrenduran",
@@ -1259,7 +2580,7 @@
         "clv_sign": null,
         "consensus_price": "+126",
         "game_id": "mlb_824632",
-        "m1_rank": 53,
+        "m1_rank": 59,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "williamcontreras",
@@ -1276,7 +2597,7 @@
         "clv_sign": null,
         "consensus_price": "+154",
         "game_id": "mlb_823095",
-        "m1_rank": 54,
+        "m1_rank": 60,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "henrybolte",
@@ -1293,7 +2614,7 @@
         "clv_sign": null,
         "consensus_price": "-171",
         "game_id": "mlb_824144",
-        "m1_rank": 55,
+        "m1_rank": 61,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "andrewbenintendi",
@@ -1310,7 +2631,7 @@
         "clv_sign": null,
         "consensus_price": "+178",
         "game_id": "mlb_822853",
-        "m1_rank": 56,
+        "m1_rank": 62,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "juniorcaminero",
@@ -1327,7 +2648,7 @@
         "clv_sign": null,
         "consensus_price": "+133",
         "game_id": "mlb_823095",
-        "m1_rank": 57,
+        "m1_rank": 63,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "dominiccanzone",
@@ -1344,7 +2665,7 @@
         "clv_sign": null,
         "consensus_price": "+142",
         "game_id": "mlb_824069",
-        "m1_rank": 58,
+        "m1_rank": 64,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "michaelmassey",
@@ -1361,7 +2682,7 @@
         "clv_sign": null,
         "consensus_price": "-110",
         "game_id": "mlb_824069",
-        "m1_rank": 59,
+        "m1_rank": 65,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "bobbywittjr",
@@ -1378,7 +2699,7 @@
         "clv_sign": null,
         "consensus_price": "+166",
         "game_id": "mlb_824144",
-        "m1_rank": 60,
+        "m1_rank": 66,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "andrewbenintendi",
@@ -1395,7 +2716,7 @@
         "clv_sign": null,
         "consensus_price": "+148",
         "game_id": "mlb_823095",
-        "m1_rank": 61,
+        "m1_rank": 67,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "calraleigh",
@@ -1412,7 +2733,7 @@
         "clv_sign": null,
         "consensus_price": "+181",
         "game_id": "mlb_824388",
-        "m1_rank": 62,
+        "m1_rank": 68,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "vladimirguerrerojr",
@@ -1429,7 +2750,7 @@
         "clv_sign": null,
         "consensus_price": "+125",
         "game_id": "mlb_822853",
-        "m1_rank": 63,
+        "m1_rank": 69,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "coreyseager",
@@ -1446,7 +2767,7 @@
         "clv_sign": null,
         "consensus_price": "-120",
         "game_id": "mlb_824144",
-        "m1_rank": 64,
+        "m1_rank": 70,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "colsonmontgomery",
@@ -1463,7 +2784,7 @@
         "clv_sign": null,
         "consensus_price": "-151",
         "game_id": "mlb_824069",
-        "m1_rank": 65,
+        "m1_rank": 71,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "owencaissie",
@@ -1480,7 +2801,7 @@
         "clv_sign": null,
         "consensus_price": "-243",
         "game_id": "mlb_824069",
-        "m1_rank": 66,
+        "m1_rank": 72,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "kylestowers",
@@ -1497,7 +2818,7 @@
         "clv_sign": null,
         "consensus_price": "-162",
         "game_id": "mlb_824632",
-        "m1_rank": 67,
+        "m1_rank": 73,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "michaelbusch",
@@ -1514,7 +2835,7 @@
         "clv_sign": null,
         "consensus_price": "-132",
         "game_id": "mlb_824632",
-        "m1_rank": 68,
+        "m1_rank": 74,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "ianhapp",
@@ -1531,7 +2852,7 @@
         "clv_sign": null,
         "consensus_price": "+141",
         "game_id": "mlb_823095",
-        "m1_rank": 69,
+        "m1_rank": 75,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "randyarozarena",
@@ -1548,7 +2869,7 @@
         "clv_sign": null,
         "consensus_price": "+100",
         "game_id": "mlb_824632",
-        "m1_rank": 70,
+        "m1_rank": 76,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "jacksonchourio",
@@ -1565,7 +2886,7 @@
         "clv_sign": null,
         "consensus_price": "-219",
         "game_id": "mlb_822853",
-        "m1_rank": 71,
+        "m1_rank": 77,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "brandonnimmo",
@@ -1582,7 +2903,7 @@
         "clv_sign": null,
         "consensus_price": "-266",
         "game_id": "mlb_823907",
-        "m1_rank": 72,
+        "m1_rank": 78,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "mookiebetts",
@@ -1599,7 +2920,7 @@
         "clv_sign": null,
         "consensus_price": "-105",
         "game_id": "mlb_824632",
-        "m1_rank": 73,
+        "m1_rank": 79,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "michaelconforto",
@@ -1616,7 +2937,7 @@
         "clv_sign": null,
         "consensus_price": "-145",
         "game_id": "mlb_823095",
-        "m1_rank": 74,
+        "m1_rank": 80,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "lawrencebutler",
@@ -1633,7 +2954,7 @@
         "clv_sign": null,
         "consensus_price": "+118",
         "game_id": "mlb_823907",
-        "m1_rank": 75,
+        "m1_rank": 81,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "mookiebetts",
@@ -1650,7 +2971,7 @@
         "clv_sign": null,
         "consensus_price": "+147",
         "game_id": "mlb_824632",
-        "m1_rank": 76,
+        "m1_rank": 82,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "jakebauers",
@@ -1667,7 +2988,7 @@
         "clv_sign": null,
         "consensus_price": "-201",
         "game_id": "mlb_824796",
-        "m1_rank": 77,
+        "m1_rank": 83,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "gunnarhenderson",
@@ -1684,7 +3005,7 @@
         "clv_sign": null,
         "consensus_price": "-198",
         "game_id": "mlb_823337",
-        "m1_rank": 78,
+        "m1_rank": 84,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "bryceeldridge",
@@ -1701,7 +3022,7 @@
         "clv_sign": null,
         "consensus_price": "-159",
         "game_id": "mlb_824632",
-        "m1_rank": 79,
+        "m1_rank": 85,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "garrettmitchell",
@@ -1718,7 +3039,7 @@
         "clv_sign": null,
         "consensus_price": "-188",
         "game_id": "mlb_824069",
-        "m1_rank": 80,
+        "m1_rank": 86,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "michaelmassey",
@@ -1735,7 +3056,7 @@
         "clv_sign": null,
         "consensus_price": "-200",
         "game_id": "mlb_824632",
-        "m1_rank": 81,
+        "m1_rank": 87,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "petecrowarmstrong",
@@ -1752,7 +3073,7 @@
         "clv_sign": null,
         "consensus_price": "-104",
         "game_id": "mlb_824632",
-        "m1_rank": 82,
+        "m1_rank": 88,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "michaelconforto",
@@ -1765,11 +3086,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_early-sweep_150555Z.csv"
       },
       {
+        "book": "theScore Bet",
+        "clv_sign": null,
+        "consensus_price": "-205",
+        "game_id": "mlb_824144",
+        "m1_rank": 89,
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "normalized_player": "miguelvargas",
+        "plain": "theScore Bet: Miguel Vargas hits o0.5 -180, market -205, 4%",
+        "player": "Miguel Vargas",
+        "point": 0.5,
+        "price": "-180",
+        "relative_divergence": 0.0431367887704682,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_open_154015Z.csv"
+      },
+      {
         "book": "Bally Bet",
         "clv_sign": null,
         "consensus_price": "-155",
         "game_id": "mlb_824632",
-        "m1_rank": 83,
+        "m1_rank": 90,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "garrettmitchell",
@@ -1786,7 +3124,7 @@
         "clv_sign": null,
         "consensus_price": "-216",
         "game_id": "mlb_822853",
-        "m1_rank": 84,
+        "m1_rank": 91,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "coreyseager",
@@ -1803,7 +3141,7 @@
         "clv_sign": null,
         "consensus_price": "-182",
         "game_id": "mlb_824796",
-        "m1_rank": 85,
+        "m1_rank": 92,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "christianencarnacionstrand",
@@ -1820,7 +3158,7 @@
         "clv_sign": null,
         "consensus_price": "-165",
         "game_id": "mlb_824796",
-        "m1_rank": 86,
+        "m1_rank": 93,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "cobymayo",
@@ -1837,7 +3175,7 @@
         "clv_sign": null,
         "consensus_price": "-104",
         "game_id": "mlb_822853",
-        "m1_rank": 87,
+        "m1_rank": 94,
         "market_key": "batter_total_bases",
         "market_label": "total bases",
         "normalized_player": "juniorcaminero",
@@ -1850,11 +3188,28 @@
         "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_early-sweep_150555Z.csv"
       },
       {
+        "book": "Bally Bet",
+        "clv_sign": null,
+        "consensus_price": "-196",
+        "game_id": "mlb_823095",
+        "m1_rank": 95,
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "normalized_player": "henrybolte",
+        "plain": "Bally Bet: Henry Bolte hits o0.5 -175, market -196, 4%",
+        "player": "Henry Bolte",
+        "point": 0.5,
+        "price": "-175",
+        "relative_divergence": 0.0391029993306039,
+        "settled": null,
+        "source_snapshot_path": "market_mispricing_phase0_snapshot_2026-09-03_open_154015Z.csv"
+      },
+      {
         "book": "betPARX",
         "clv_sign": null,
         "consensus_price": "-239",
         "game_id": "mlb_823337",
-        "m1_rank": 88,
+        "m1_rank": 96,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "brandonlowe",
@@ -1871,7 +3226,7 @@
         "clv_sign": null,
         "consensus_price": "-183",
         "game_id": "mlb_824069",
-        "m1_rank": 89,
+        "m1_rank": 97,
         "market_key": "batter_hits",
         "market_label": "hits",
         "normalized_player": "michaelmassey",
@@ -1895,7 +3250,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "2026-09-03T16:35:00Z",
-    "generated_at": "2026-09-03T15:15:14Z",
+    "generated_at": "2026-09-03T15:40:56Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -1905,8 +3260,8 @@
       "lane2_fa_coverage_shadow_2026-09-03_2026-09-03_150542Z.csv",
       "lane2_fa_predictions_2026-09-03_2026-09-03_150542Z.csv",
       "m1_phase_c_pick_ledger.csv",
-      "market_mispricing_phase0_snapshot_2026-09-03_early-sweep_150555Z.csv",
-      "phase0_raw_payloads_2026-09-03_early-sweep_150555Z.json",
+      "market_mispricing_phase0_snapshot_2026-09-03_open_154015Z.csv",
+      "phase0_raw_payloads_2026-09-03_open_154015Z.json",
       "pa_sim_v0_lite_predictions_2026-09-03_2026-09-03_150549Z_LOCKED_RUN.csv",
       "scored_rows_2026-09-03_2026-09-03_150009Z.csv",
       "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_D_PROJECTED_ALLOWED_2026-09-03_150009Z.csv",
@@ -1914,12 +3269,13 @@
       "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ELITE_POWER_EXCEPTION_CANDIDATES_2026-09-03_150009Z.csv",
       "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_FULL_CONVICTION_CANDIDATES_2026-09-03_150009Z.csv",
       "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_F_PROJECTED_ALLOWED_2026-09-03_150009Z.csv",
-      "project_homer_descriptive_census_2026-07-28.json"
+      "project_homer_descriptive_census_2026-07-28.json",
+      "portfolio-sim-v0-2026-09-03.json"
     ]
   },
   "players": [
     {
-      "best_hr_book": "Hard Rock Bet",
+      "best_hr_book": "theScore Bet",
       "best_hr_odds": "+275",
       "convergence_count": 5,
       "countdown": "",
@@ -2068,8 +3424,8 @@
       }
     },
     {
-      "best_hr_book": "BetRivers",
-      "best_hr_odds": "+360",
+      "best_hr_book": "theScore Bet",
+      "best_hr_odds": "+325",
       "convergence_count": 4,
       "countdown": "",
       "game_id": "mlb_823337",
@@ -2300,7 +3656,7 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
+      "best_hr_book": "theScore Bet",
       "best_hr_odds": "+350",
       "convergence_count": 4,
       "countdown": "",
@@ -2378,7 +3734,7 @@
       "validated_price_flag": null
     },
     {
-      "best_hr_book": "Bally Bet",
+      "best_hr_book": "betPARX",
       "best_hr_odds": "+450",
       "convergence_count": 3,
       "countdown": "",
@@ -2624,7 +3980,7 @@
       }
     },
     {
-      "best_hr_book": "Hard Rock Bet",
+      "best_hr_book": "BetRivers",
       "best_hr_odds": "+450",
       "convergence_count": 3,
       "countdown": "",
@@ -2707,8 +4063,8 @@
       }
     },
     {
-      "best_hr_book": "Fliff",
-      "best_hr_odds": "+610",
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+625",
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_823095",
@@ -2983,7 +4339,7 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
+      "best_hr_book": "Bally Bet",
       "best_hr_odds": "+575",
       "convergence_count": 2,
       "countdown": "",
@@ -3075,7 +4431,99 @@
       }
     },
     {
-      "best_hr_book": "Bally Bet",
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+500",
+      "convergence_count": 2,
+      "countdown": "",
+      "game_id": "mlb_823095",
+      "game_start_utc": "2026-09-04T01:40:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "9:40 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/668227/headshot/67/current",
+      "id": "randyarozarena|mlb_823095",
+      "markets": [
+        {
+          "book": "Fanatics",
+          "consensus_price": "+445",
+          "market_key": "batter_home_runs",
+          "market_label": "HR",
+          "plain": "Fanatics · HR o0.5 · +550 · mkt +445",
+          "point": 0.5,
+          "price": "+550",
+          "relative_divergence": 0.16181854401731
+        },
+        {
+          "book": "Bally Bet",
+          "consensus_price": "+141",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "Bally Bet · total bases o1.5 · +155 · mkt +141",
+          "point": 1.5,
+          "price": "+155",
+          "relative_divergence": 0.0560333665211053
+        }
+      ],
+      "opponent": "ATH",
+      "player": "Randy Arozarena",
+      "player_id": 668227,
+      "sort": {
+        "m1_relative_divergence": 0.16181854401731,
+        "player": "Randy Arozarena",
+        "primary": 2
+      },
+      "system_keys": [
+        "sim",
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Sim-1 #8 · sim score 0.27 (uncalibrated)",
+          "hr": false,
+          "label": "Sim-1",
+          "market_key": null,
+          "p_hr_sim": 0.2666,
+          "rank": 8,
+          "relative_divergence": null,
+          "sim_score_label": "sim score 0.27 (uncalibrated)",
+          "system": "sim"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 16%",
+          "hr": true,
+          "label": "M-1",
+          "market_key": "batter_home_runs",
+          "rank": null,
+          "relative_divergence": 0.16181854401731,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 6%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0560333665211053,
+          "system": "m1"
+        }
+      ],
+      "team": "SEA",
+      "validated_price_flag": {
+        "book": "Fanatics",
+        "label": "M-1 price",
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "market_price": "+445",
+        "plain": "Fanatics +550 vs market +445",
+        "point": 0.5,
+        "price": "+550"
+      }
+    },
+    {
+      "best_hr_book": "betPARX",
       "best_hr_odds": "+390",
       "convergence_count": 2,
       "countdown": "",
@@ -3275,8 +4723,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+600",
+      "best_hr_book": "Bally Bet",
+      "best_hr_odds": "+525",
       "convergence_count": 2,
       "countdown": "",
       "game_id": "mlb_824388",
@@ -3365,7 +4813,97 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
+      "best_hr_book": "Bally Bet",
+      "best_hr_odds": "+440",
+      "convergence_count": 2,
+      "countdown": "",
+      "game_id": "mlb_824632",
+      "game_start_utc": "2026-09-03T23:15:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:15 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/641343/headshot/67/current",
+      "id": "jakebauers|mlb_824632",
+      "markets": [
+        {
+          "book": "theScore Bet",
+          "consensus_price": "+398",
+          "market_key": "batter_doubles",
+          "market_label": "doubles",
+          "plain": "theScore Bet · doubles o0.5 · +450 · mkt +398",
+          "point": 0.5,
+          "price": "+450",
+          "relative_divergence": 0.0948941659218683
+        },
+        {
+          "book": "Bally Bet",
+          "consensus_price": "+147",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "Bally Bet · total bases o1.5 · +160 · mkt +147",
+          "point": 1.5,
+          "price": "+160",
+          "relative_divergence": 0.0495169214392258
+        }
+      ],
+      "opponent": "CHC",
+      "player": "Jake Bauers",
+      "player_id": 641343,
+      "sort": {
+        "m1_relative_divergence": 0.0948941659218683,
+        "player": "Jake Bauers",
+        "primary": 2
+      },
+      "system_keys": [
+        "shadow",
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Lane shadow #4",
+          "hr": false,
+          "label": "Lane shadow",
+          "market_key": null,
+          "rank": 4,
+          "relative_divergence": null,
+          "system": "shadow"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 9%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_doubles",
+          "rank": null,
+          "relative_divergence": 0.0948941659218683,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 5%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.0495169214392258,
+          "system": "m1"
+        }
+      ],
+      "team": "MIL",
+      "validated_price_flag": {
+        "book": "theScore Bet",
+        "label": "M-1 price",
+        "market_key": "batter_doubles",
+        "market_label": "doubles",
+        "market_price": "+398",
+        "plain": "theScore Bet +450 vs market +398",
+        "point": 0.5,
+        "price": "+450"
+      }
+    },
+    {
+      "best_hr_book": "Bally Bet",
       "best_hr_odds": "+340",
       "convergence_count": 2,
       "countdown": "",
@@ -3455,79 +4993,7 @@
       }
     },
     {
-      "best_hr_book": "theScore Bet",
-      "best_hr_odds": "+500",
-      "convergence_count": 2,
-      "countdown": "",
-      "game_id": "mlb_823095",
-      "game_start_utc": "2026-09-04T01:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "9:40 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/668227/headshot/67/current",
-      "id": "randyarozarena|mlb_823095",
-      "markets": [
-        {
-          "book": "Bally Bet",
-          "consensus_price": "+141",
-          "market_key": "batter_total_bases",
-          "market_label": "total bases",
-          "plain": "Bally Bet · total bases o1.5 · +155 · mkt +141",
-          "point": 1.5,
-          "price": "+155",
-          "relative_divergence": 0.0560333665211053
-        }
-      ],
-      "opponent": "ATH",
-      "player": "Randy Arozarena",
-      "player_id": 668227,
-      "sort": {
-        "m1_relative_divergence": 0.0560333665211053,
-        "player": "Randy Arozarena",
-        "primary": 2
-      },
-      "system_keys": [
-        "sim",
-        "m1"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "Sim-1 #8 · sim score 0.27 (uncalibrated)",
-          "hr": false,
-          "label": "Sim-1",
-          "market_key": null,
-          "p_hr_sim": 0.2666,
-          "rank": 8,
-          "relative_divergence": null,
-          "sim_score_label": "sim score 0.27 (uncalibrated)",
-          "system": "sim"
-        },
-        {
-          "clv_sign": null,
-          "detail": "M-1 6%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_total_bases",
-          "rank": null,
-          "relative_divergence": 0.0560333665211053,
-          "system": "m1"
-        }
-      ],
-      "team": "SEA",
-      "validated_price_flag": {
-        "book": "Bally Bet",
-        "label": "M-1 price",
-        "market_key": "batter_total_bases",
-        "market_label": "total bases",
-        "market_price": "+141",
-        "plain": "Bally Bet +155 vs market +141",
-        "point": 1.5,
-        "price": "+155"
-      }
-    },
-    {
-      "best_hr_book": "BetRivers",
+      "best_hr_book": "Caesars",
       "best_hr_odds": "+500",
       "convergence_count": 2,
       "countdown": "",
@@ -3616,76 +5082,6 @@
         "plain": "Bally Bet +106 vs market -105",
         "point": 0.5,
         "price": "+106"
-      }
-    },
-    {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+440",
-      "convergence_count": 2,
-      "countdown": "",
-      "game_id": "mlb_824632",
-      "game_start_utc": "2026-09-03T23:15:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "7:15 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/641343/headshot/67/current",
-      "id": "jakebauers|mlb_824632",
-      "markets": [
-        {
-          "book": "Bally Bet",
-          "consensus_price": "+147",
-          "market_key": "batter_total_bases",
-          "market_label": "total bases",
-          "plain": "Bally Bet · total bases o1.5 · +160 · mkt +147",
-          "point": 1.5,
-          "price": "+160",
-          "relative_divergence": 0.0495169214392258
-        }
-      ],
-      "opponent": "CHC",
-      "player": "Jake Bauers",
-      "player_id": 641343,
-      "sort": {
-        "m1_relative_divergence": 0.0495169214392258,
-        "player": "Jake Bauers",
-        "primary": 2
-      },
-      "system_keys": [
-        "shadow",
-        "m1"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "Lane shadow #4",
-          "hr": false,
-          "label": "Lane shadow",
-          "market_key": null,
-          "rank": 4,
-          "relative_divergence": null,
-          "system": "shadow"
-        },
-        {
-          "clv_sign": null,
-          "detail": "M-1 5%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_total_bases",
-          "rank": null,
-          "relative_divergence": 0.0495169214392258,
-          "system": "m1"
-        }
-      ],
-      "team": "MIL",
-      "validated_price_flag": {
-        "book": "Bally Bet",
-        "label": "M-1 price",
-        "market_key": "batter_total_bases",
-        "market_label": "total bases",
-        "market_price": "+147",
-        "plain": "Bally Bet +160 vs market +147",
-        "point": 1.5,
-        "price": "+160"
       }
     },
     {
@@ -3966,7 +5362,7 @@
       }
     },
     {
-      "best_hr_book": "BetRivers",
+      "best_hr_book": "Bally Bet",
       "best_hr_odds": "+800",
       "convergence_count": 1,
       "countdown": "",
@@ -4125,7 +5521,7 @@
     },
     {
       "best_hr_book": "BetRivers",
-      "best_hr_odds": "+575",
+      "best_hr_odds": "+550",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824144",
@@ -4180,6 +5576,85 @@
         "plain": "Fanatics +600 vs market +461",
         "point": 0.5,
         "price": "+600"
+      }
+    },
+    {
+      "best_hr_book": "betPARX",
+      "best_hr_odds": "+575",
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_824144",
+      "game_start_utc": "2026-09-03T18:10:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "2:10 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/666211/headshot/67/current",
+      "id": "taylortrammell|mlb_824144",
+      "markets": [
+        {
+          "book": "betPARX",
+          "consensus_price": "+441",
+          "market_key": "batter_home_runs",
+          "market_label": "HR",
+          "plain": "betPARX · HR o0.5 · +575 · mkt +441",
+          "point": 0.5,
+          "price": "+575",
+          "relative_divergence": 0.1985365132611489
+        },
+        {
+          "book": "DraftKings",
+          "consensus_price": "+451",
+          "market_key": "batter_doubles",
+          "market_label": "doubles",
+          "plain": "DraftKings · doubles o0.5 · +515 · mkt +451",
+          "point": 0.5,
+          "price": "+515",
+          "relative_divergence": 0.1036776692956177
+        }
+      ],
+      "opponent": "",
+      "player": "Taylor Trammell",
+      "player_id": 666211,
+      "sort": {
+        "m1_relative_divergence": 0.1985365132611489,
+        "player": "Taylor Trammell",
+        "primary": 1
+      },
+      "system_keys": [
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "M-1 20%",
+          "hr": true,
+          "label": "M-1",
+          "market_key": "batter_home_runs",
+          "rank": null,
+          "relative_divergence": 0.1985365132611489,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 10%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_doubles",
+          "rank": null,
+          "relative_divergence": 0.1036776692956177,
+          "system": "m1"
+        }
+      ],
+      "team": "",
+      "validated_price_flag": {
+        "book": "betPARX",
+        "label": "M-1 price",
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "market_price": "+441",
+        "plain": "betPARX +575 vs market +441",
+        "point": 0.5,
+        "price": "+575"
       }
     },
     {
@@ -4301,7 +5776,7 @@
       }
     },
     {
-      "best_hr_book": "BetRivers",
+      "best_hr_book": "Bally Bet",
       "best_hr_odds": "+600",
       "convergence_count": 1,
       "countdown": "",
@@ -4400,8 +5875,8 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
-      "best_hr_odds": "+700",
+      "best_hr_book": "",
+      "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824144",
@@ -4621,6 +6096,16 @@
           "relative_divergence": 0.1629480156722218
         },
         {
+          "book": "DraftKings",
+          "consensus_price": "+395",
+          "market_key": "batter_doubles",
+          "market_label": "doubles",
+          "plain": "DraftKings · doubles o0.5 · +456 · mkt +395",
+          "point": 0.5,
+          "price": "+456",
+          "relative_divergence": 0.1103548489196296
+        },
+        {
           "book": "betPARX",
           "consensus_price": "+126",
           "market_key": "batter_total_bases",
@@ -4651,6 +6136,16 @@
           "market_key": "batter_home_runs",
           "rank": null,
           "relative_divergence": 0.1629480156722218,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 11%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_doubles",
+          "rank": null,
+          "relative_divergence": 0.1103548489196296,
           "system": "m1"
         },
         {
@@ -4815,8 +6310,107 @@
       }
     },
     {
-      "best_hr_book": "Bally Bet",
-      "best_hr_odds": "+450",
+      "best_hr_book": "betPARX",
+      "best_hr_odds": "+700",
+      "convergence_count": 1,
+      "countdown": "",
+      "game_id": "mlb_824632",
+      "game_start_utc": "2026-09-03T23:15:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:15 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/669003/headshot/67/current",
+      "id": "garrettmitchell|mlb_824632",
+      "markets": [
+        {
+          "book": "Bally Bet",
+          "consensus_price": "+579",
+          "market_key": "batter_home_runs",
+          "market_label": "HR",
+          "plain": "Bally Bet · HR o0.5 · +700 · mkt +579",
+          "point": 0.5,
+          "price": "+700",
+          "relative_divergence": 0.1512559471229702
+        },
+        {
+          "book": "Bally Bet",
+          "consensus_price": "-159",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "Bally Bet · total bases o0.5 · -141 · mkt -159",
+          "point": 0.5,
+          "price": "-141",
+          "relative_divergence": 0.046789669463107
+        },
+        {
+          "book": "Bally Bet",
+          "consensus_price": "-155",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "Bally Bet · hits o0.5 · -139 · mkt -155",
+          "point": 0.5,
+          "price": "-139",
+          "relative_divergence": 0.0429981500009045
+        }
+      ],
+      "opponent": "",
+      "player": "Garrett Mitchell",
+      "player_id": 669003,
+      "sort": {
+        "m1_relative_divergence": 0.1512559471229702,
+        "player": "Garrett Mitchell",
+        "primary": 1
+      },
+      "system_keys": [
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "M-1 15%",
+          "hr": true,
+          "label": "M-1",
+          "market_key": "batter_home_runs",
+          "rank": null,
+          "relative_divergence": 0.1512559471229702,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 5%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.046789669463107,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0429981500009045,
+          "system": "m1"
+        }
+      ],
+      "team": "",
+      "validated_price_flag": {
+        "book": "Bally Bet",
+        "label": "M-1 price",
+        "market_key": "batter_home_runs",
+        "market_label": "HR",
+        "market_price": "+579",
+        "plain": "Bally Bet +700 vs market +579",
+        "point": 0.5,
+        "price": "+700"
+      }
+    },
+    {
+      "best_hr_book": "BetRivers",
+      "best_hr_odds": "+430",
       "convergence_count": 1,
       "countdown": "",
       "game_id": "mlb_824632",
@@ -5191,7 +6785,7 @@
       }
     },
     {
-      "best_hr_book": "betPARX",
+      "best_hr_book": "BetRivers",
       "best_hr_odds": "+475",
       "convergence_count": 1,
       "countdown": "",
@@ -5270,7 +6864,7 @@
       }
     },
     {
-      "best_hr_book": "BetRivers",
+      "best_hr_book": "Bally Bet",
       "best_hr_odds": "+410",
       "convergence_count": 1,
       "countdown": "",
@@ -5429,6 +7023,16 @@
           "point": 1.5,
           "price": "+175",
           "relative_divergence": 0.0758719750711167
+        },
+        {
+          "book": "Bally Bet",
+          "consensus_price": "-196",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "Bally Bet · hits o0.5 · -175 · mkt -196",
+          "point": 0.5,
+          "price": "-175",
+          "relative_divergence": 0.0391029993306039
         }
       ],
       "opponent": "",
@@ -5451,6 +7055,16 @@
           "market_key": "batter_total_bases",
           "rank": null,
           "relative_divergence": 0.0758719750711167,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 4%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0391029993306039,
           "system": "m1"
         }
       ],
@@ -5664,7 +7278,7 @@
       }
     },
     {
-      "best_hr_book": "BetRivers",
+      "best_hr_book": "betPARX",
       "best_hr_odds": "+525",
       "convergence_count": 1,
       "countdown": "",
@@ -5743,45 +7357,35 @@
       }
     },
     {
-      "best_hr_book": "BetRivers",
-      "best_hr_odds": "+700",
+      "best_hr_book": "Bally Bet",
+      "best_hr_odds": "+480",
       "convergence_count": 1,
       "countdown": "",
-      "game_id": "mlb_824632",
-      "game_start_utc": "2026-09-03T23:15:00Z",
+      "game_id": "mlb_824144",
+      "game_start_utc": "2026-09-03T18:10:00Z",
       "game_started": false,
       "game_state": "NOT_STARTED",
-      "game_time_et": "7:15 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/669003/headshot/67/current",
-      "id": "garrettmitchell|mlb_824632",
+      "game_time_et": "2:10 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/678246/headshot/67/current",
+      "id": "miguelvargas|mlb_824144",
       "markets": [
         {
-          "book": "Bally Bet",
-          "consensus_price": "-159",
-          "market_key": "batter_total_bases",
-          "market_label": "total bases",
-          "plain": "Bally Bet · total bases o0.5 · -141 · mkt -159",
-          "point": 0.5,
-          "price": "-141",
-          "relative_divergence": 0.046789669463107
-        },
-        {
-          "book": "Bally Bet",
-          "consensus_price": "-155",
+          "book": "theScore Bet",
+          "consensus_price": "-205",
           "market_key": "batter_hits",
           "market_label": "hits",
-          "plain": "Bally Bet · hits o0.5 · -139 · mkt -155",
+          "plain": "theScore Bet · hits o0.5 · -180 · mkt -205",
           "point": 0.5,
-          "price": "-139",
-          "relative_divergence": 0.0429981500009045
+          "price": "-180",
+          "relative_divergence": 0.0431367887704682
         }
       ],
       "opponent": "",
-      "player": "Garrett Mitchell",
-      "player_id": 669003,
+      "player": "Miguel Vargas",
+      "player_id": 678246,
       "sort": {
-        "m1_relative_divergence": 0.046789669463107,
-        "player": "Garrett Mitchell",
+        "m1_relative_divergence": 0.0431367887704682,
+        "player": "Miguel Vargas",
         "primary": 1
       },
       "system_keys": [
@@ -5790,35 +7394,25 @@
       "systems": [
         {
           "clv_sign": null,
-          "detail": "M-1 5%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_total_bases",
-          "rank": null,
-          "relative_divergence": 0.046789669463107,
-          "system": "m1"
-        },
-        {
-          "clv_sign": null,
           "detail": "M-1 4%",
           "hr": false,
           "label": "M-1",
           "market_key": "batter_hits",
           "rank": null,
-          "relative_divergence": 0.0429981500009045,
+          "relative_divergence": 0.0431367887704682,
           "system": "m1"
         }
       ],
       "team": "",
       "validated_price_flag": {
-        "book": "Bally Bet",
+        "book": "theScore Bet",
         "label": "M-1 price",
-        "market_key": "batter_total_bases",
-        "market_label": "total bases",
-        "market_price": "-159",
-        "plain": "Bally Bet -141 vs market -159",
+        "market_key": "batter_hits",
+        "market_label": "hits",
+        "market_price": "-205",
+        "plain": "theScore Bet -180 vs market -205",
         "point": 0.5,
-        "price": "-141"
+        "price": "-180"
       }
     },
     {
@@ -6107,6 +7701,817 @@
       "validated_price_flag": null
     }
   ],
+  "portfolio_sim_v0_layer": {
+    "artifact_sha256": "427661a0ad4802686ca52568e0cd5131ac21633fbd6c3abc01bf8b858e79aae9",
+    "availability": "AVAILABLE",
+    "candidate_count": 49,
+    "cards": [
+      {
+        "card_number": 1,
+        "diagnostic_net_payout_on_1": 6395.406720000007,
+        "joint_model_probability": 0.00014847651211704585,
+        "lane": "most_likely",
+        "leg_count": 6,
+        "legs": [
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_823095",
+            "player": "Cal Raleigh",
+            "team": "SEA"
+          },
+          {
+            "fanduel_price": 360.0,
+            "game_id": "mlb_824632",
+            "player": "Jackson Chourio",
+            "team": "MIL"
+          },
+          {
+            "fanduel_price": 370.0,
+            "game_id": "mlb_824069",
+            "player": "Bobby Witt Jr.",
+            "team": "KC"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Rafael Devers",
+            "team": "SF"
+          },
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_824796",
+            "player": "Coby Mayo",
+            "team": "BAL"
+          },
+          {
+            "fanduel_price": 340.0,
+            "game_id": "mlb_822853",
+            "player": "Corey Seager",
+            "team": "TEX"
+          }
+        ],
+        "simulated_win_rate": 0.00011
+      },
+      {
+        "card_number": 2,
+        "diagnostic_net_payout_on_1": 1456.5008000000023,
+        "joint_model_probability": 0.000738687829038484,
+        "lane": "most_likely",
+        "leg_count": 5,
+        "legs": [
+          {
+            "fanduel_price": 360.0,
+            "game_id": "mlb_824069",
+            "player": "Griffin Conine",
+            "team": "MIA"
+          },
+          {
+            "fanduel_price": 320.0,
+            "game_id": "mlb_822853",
+            "player": "Junior Caminero",
+            "team": "TB"
+          },
+          {
+            "fanduel_price": 360.0,
+            "game_id": "mlb_824632",
+            "player": "Jackson Chourio",
+            "team": "MIL"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Brandon Lowe",
+            "team": "PIT"
+          },
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_824796",
+            "player": "Coby Mayo",
+            "team": "BAL"
+          }
+        ],
+        "simulated_win_rate": 0.00083
+      },
+      {
+        "card_number": 3,
+        "diagnostic_net_payout_on_1": 6753.176000000003,
+        "joint_model_probability": 0.00014212465060347895,
+        "lane": "most_likely",
+        "leg_count": 6,
+        "legs": [
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_823095",
+            "player": "Cal Raleigh",
+            "team": "SEA"
+          },
+          {
+            "fanduel_price": 420.0,
+            "game_id": "mlb_824632",
+            "player": "Seiya Suzuki",
+            "team": "CHC"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_824796",
+            "player": "Wilyer Abreu",
+            "team": "BOS"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Brandon Lowe",
+            "team": "PIT"
+          },
+          {
+            "fanduel_price": 350.0,
+            "game_id": "mlb_824069",
+            "player": "Carter Jensen",
+            "team": "KC"
+          },
+          {
+            "fanduel_price": 340.0,
+            "game_id": "mlb_822853",
+            "player": "Corey Seager",
+            "team": "TEX"
+          }
+        ],
+        "simulated_win_rate": 0.00011
+      },
+      {
+        "card_number": 4,
+        "diagnostic_net_payout_on_1": 300.7600000000002,
+        "joint_model_probability": 0.0035101470964824986,
+        "lane": "most_likely",
+        "leg_count": 4,
+        "legs": [
+          {
+            "fanduel_price": 360.0,
+            "game_id": "mlb_824069",
+            "player": "Griffin Conine",
+            "team": "MIA"
+          },
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_823095",
+            "player": "Cal Raleigh",
+            "team": "SEA"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_824796",
+            "player": "Wilyer Abreu",
+            "team": "BOS"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Rafael Devers",
+            "team": "SF"
+          }
+        ],
+        "simulated_win_rate": 0.00344
+      },
+      {
+        "card_number": 5,
+        "diagnostic_net_payout_on_1": 1517.804000000001,
+        "joint_model_probability": 0.0006566778526436276,
+        "lane": "most_likely",
+        "leg_count": 5,
+        "legs": [
+          {
+            "fanduel_price": 320.0,
+            "game_id": "mlb_822853",
+            "player": "Junior Caminero",
+            "team": "TB"
+          },
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_823095",
+            "player": "Cal Raleigh",
+            "team": "SEA"
+          },
+          {
+            "fanduel_price": 390.0,
+            "game_id": "mlb_824796",
+            "player": "Christian Encarnacion-Strand",
+            "team": "BAL"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Rafael Devers",
+            "team": "SF"
+          },
+          {
+            "fanduel_price": 350.0,
+            "game_id": "mlb_824069",
+            "player": "Carter Jensen",
+            "team": "KC"
+          }
+        ],
+        "simulated_win_rate": 0.000665
+      },
+      {
+        "card_number": 6,
+        "diagnostic_net_payout_on_1": 7657.66880000001,
+        "joint_model_probability": 0.00013125952122241438,
+        "lane": "most_likely",
+        "leg_count": 6,
+        "legs": [
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_823095",
+            "player": "Cal Raleigh",
+            "team": "SEA"
+          },
+          {
+            "fanduel_price": 360.0,
+            "game_id": "mlb_824632",
+            "player": "Jackson Chourio",
+            "team": "MIL"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_824796",
+            "player": "Wilyer Abreu",
+            "team": "BOS"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Brandon Lowe",
+            "team": "PIT"
+          },
+          {
+            "fanduel_price": 440.0,
+            "game_id": "mlb_823907",
+            "player": "Jordan Walker",
+            "team": "STL"
+          },
+          {
+            "fanduel_price": 370.0,
+            "game_id": "mlb_824069",
+            "player": "Bobby Witt Jr.",
+            "team": "KC"
+          }
+        ],
+        "simulated_win_rate": 0.00013
+      },
+      {
+        "card_number": 7,
+        "diagnostic_net_payout_on_1": 301.40000000000015,
+        "joint_model_probability": 0.0033885419199601837,
+        "lane": "most_likely",
+        "leg_count": 4,
+        "legs": [
+          {
+            "fanduel_price": 320.0,
+            "game_id": "mlb_822853",
+            "player": "Junior Caminero",
+            "team": "TB"
+          },
+          {
+            "fanduel_price": 350.0,
+            "game_id": "mlb_824069",
+            "player": "Jac Caglianone",
+            "team": "KC"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_824796",
+            "player": "Wilyer Abreu",
+            "team": "BOS"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Brandon Lowe",
+            "team": "PIT"
+          }
+        ],
+        "simulated_win_rate": 0.003385
+      },
+      {
+        "card_number": 8,
+        "diagnostic_net_payout_on_1": 17709.92000000002,
+        "joint_model_probability": 8.01241773903815e-05,
+        "lane": "price_efficient",
+        "leg_count": 5,
+        "legs": [
+          {
+            "fanduel_price": 800.0,
+            "game_id": "mlb_823095",
+            "player": "Brian Serven",
+            "team": "ATH"
+          },
+          {
+            "fanduel_price": 820.0,
+            "game_id": "mlb_824144",
+            "player": "Andrew Benintendi",
+            "team": "CWS"
+          },
+          {
+            "fanduel_price": 830.0,
+            "game_id": "mlb_824388",
+            "player": "Nathaniel Lowe",
+            "team": "CLE"
+          },
+          {
+            "fanduel_price": 360.0,
+            "game_id": "mlb_824069",
+            "player": "Griffin Conine",
+            "team": "MIA"
+          },
+          {
+            "fanduel_price": 400.0,
+            "game_id": "mlb_824632",
+            "player": "Ian Happ",
+            "team": "CHC"
+          }
+        ],
+        "simulated_win_rate": 6.5e-05
+      },
+      {
+        "card_number": 9,
+        "diagnostic_net_payout_on_1": 14638.040000000012,
+        "joint_model_probability": 9.352040266242279e-05,
+        "lane": "price_efficient",
+        "leg_count": 5,
+        "legs": [
+          {
+            "fanduel_price": 800.0,
+            "game_id": "mlb_823095",
+            "player": "Brian Serven",
+            "team": "ATH"
+          },
+          {
+            "fanduel_price": 820.0,
+            "game_id": "mlb_824144",
+            "player": "Andrew Benintendi",
+            "team": "CWS"
+          },
+          {
+            "fanduel_price": 750.0,
+            "game_id": "mlb_822853",
+            "player": "Justin Foscue",
+            "team": "TEX"
+          },
+          {
+            "fanduel_price": 420.0,
+            "game_id": "mlb_824632",
+            "player": "Seiya Suzuki",
+            "team": "CHC"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Brandon Lowe",
+            "team": "PIT"
+          }
+        ],
+        "simulated_win_rate": 9.5e-05
+      },
+      {
+        "card_number": 10,
+        "diagnostic_net_payout_on_1": 25184.33000000002,
+        "joint_model_probability": 5.288302620852572e-05,
+        "lane": "price_efficient",
+        "leg_count": 5,
+        "legs": [
+          {
+            "fanduel_price": 800.0,
+            "game_id": "mlb_823095",
+            "player": "Brian Serven",
+            "team": "ATH"
+          },
+          {
+            "fanduel_price": 750.0,
+            "game_id": "mlb_822853",
+            "player": "Justin Foscue",
+            "team": "TEX"
+          },
+          {
+            "fanduel_price": 830.0,
+            "game_id": "mlb_824388",
+            "player": "Nathaniel Lowe",
+            "team": "CLE"
+          },
+          {
+            "fanduel_price": 490.0,
+            "game_id": "mlb_824144",
+            "player": "Colson Montgomery",
+            "team": "CWS"
+          },
+          {
+            "fanduel_price": 500.0,
+            "game_id": "mlb_824796",
+            "player": "Mickey Gasper",
+            "team": "BOS"
+          }
+        ],
+        "simulated_win_rate": 5.5e-05
+      },
+      {
+        "card_number": 11,
+        "diagnostic_net_payout_on_1": 26271.267500000034,
+        "joint_model_probability": 5.060415746617224e-05,
+        "lane": "price_efficient",
+        "leg_count": 5,
+        "legs": [
+          {
+            "fanduel_price": 750.0,
+            "game_id": "mlb_822853",
+            "player": "Justin Foscue",
+            "team": "TEX"
+          },
+          {
+            "fanduel_price": 830.0,
+            "game_id": "mlb_824388",
+            "player": "Nathaniel Lowe",
+            "team": "CLE"
+          },
+          {
+            "fanduel_price": 360.0,
+            "game_id": "mlb_824069",
+            "player": "Griffin Conine",
+            "team": "MIA"
+          },
+          {
+            "fanduel_price": 750.0,
+            "game_id": "mlb_823095",
+            "player": "Lawrence Butler",
+            "team": "ATH"
+          },
+          {
+            "fanduel_price": 750.0,
+            "game_id": "mlb_823907",
+            "player": "Alec Burleson",
+            "team": "STL"
+          }
+        ],
+        "simulated_win_rate": 1.5e-05
+      },
+      {
+        "card_number": 12,
+        "diagnostic_net_payout_on_1": 90870.13700000012,
+        "joint_model_probability": 1.4773971613166256e-05,
+        "lane": "price_efficient",
+        "leg_count": 6,
+        "legs": [
+          {
+            "fanduel_price": 800.0,
+            "game_id": "mlb_823095",
+            "player": "Brian Serven",
+            "team": "ATH"
+          },
+          {
+            "fanduel_price": 750.0,
+            "game_id": "mlb_822853",
+            "player": "Justin Foscue",
+            "team": "TEX"
+          },
+          {
+            "fanduel_price": 360.0,
+            "game_id": "mlb_824069",
+            "player": "Griffin Conine",
+            "team": "MIA"
+          },
+          {
+            "fanduel_price": 750.0,
+            "game_id": "mlb_824632",
+            "player": "Christian Yelich",
+            "team": "MIL"
+          },
+          {
+            "fanduel_price": 390.0,
+            "game_id": "mlb_824796",
+            "player": "Christian Encarnacion-Strand",
+            "team": "BAL"
+          },
+          {
+            "fanduel_price": 520.0,
+            "game_id": "mlb_824388",
+            "player": "Vladimir Guerrero Jr.",
+            "team": "TOR"
+          }
+        ],
+        "simulated_win_rate": 3e-05
+      },
+      {
+        "card_number": 13,
+        "diagnostic_net_payout_on_1": 24725.840000000026,
+        "joint_model_probability": 5.283465195603514e-05,
+        "lane": "price_efficient",
+        "leg_count": 5,
+        "legs": [
+          {
+            "fanduel_price": 820.0,
+            "game_id": "mlb_824144",
+            "player": "Andrew Benintendi",
+            "team": "CWS"
+          },
+          {
+            "fanduel_price": 750.0,
+            "game_id": "mlb_822853",
+            "player": "Justin Foscue",
+            "team": "TEX"
+          },
+          {
+            "fanduel_price": 830.0,
+            "game_id": "mlb_824388",
+            "player": "Nathaniel Lowe",
+            "team": "CLE"
+          },
+          {
+            "fanduel_price": 750.0,
+            "game_id": "mlb_823095",
+            "player": "Henry Bolte",
+            "team": "ATH"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Rafael Devers",
+            "team": "SF"
+          }
+        ],
+        "simulated_win_rate": 4e-05
+      },
+      {
+        "card_number": 14,
+        "diagnostic_net_payout_on_1": 1598.6960000000024,
+        "joint_model_probability": 0.0008124251369013297,
+        "lane": "price_efficient",
+        "leg_count": 4,
+        "legs": [
+          {
+            "fanduel_price": 800.0,
+            "game_id": "mlb_823095",
+            "player": "Brian Serven",
+            "team": "ATH"
+          },
+          {
+            "fanduel_price": 820.0,
+            "game_id": "mlb_824144",
+            "player": "Andrew Benintendi",
+            "team": "CWS"
+          },
+          {
+            "fanduel_price": 320.0,
+            "game_id": "mlb_822853",
+            "player": "Junior Caminero",
+            "team": "TB"
+          },
+          {
+            "fanduel_price": 360.0,
+            "game_id": "mlb_824632",
+            "player": "Jackson Chourio",
+            "team": "MIL"
+          }
+        ],
+        "simulated_win_rate": 0.000745
+      },
+      {
+        "card_number": 15,
+        "diagnostic_net_payout_on_1": 308.1200000000003,
+        "joint_model_probability": 0.003306711128766255,
+        "lane": "balanced",
+        "leg_count": 4,
+        "legs": [
+          {
+            "fanduel_price": 320.0,
+            "game_id": "mlb_822853",
+            "player": "Junior Caminero",
+            "team": "TB"
+          },
+          {
+            "fanduel_price": 360.0,
+            "game_id": "mlb_824632",
+            "player": "Jackson Chourio",
+            "team": "MIL"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_824796",
+            "player": "Wilyer Abreu",
+            "team": "BOS"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Rafael Devers",
+            "team": "SF"
+          }
+        ],
+        "simulated_win_rate": 0.003225
+      },
+      {
+        "card_number": 16,
+        "diagnostic_net_payout_on_1": 301.5800000000001,
+        "joint_model_probability": 0.0032863905831481428,
+        "lane": "balanced",
+        "leg_count": 4,
+        "legs": [
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_823095",
+            "player": "Cal Raleigh",
+            "team": "SEA"
+          },
+          {
+            "fanduel_price": 350.0,
+            "game_id": "mlb_824069",
+            "player": "Jac Caglianone",
+            "team": "KC"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Brandon Lowe",
+            "team": "PIT"
+          },
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_824796",
+            "player": "Coby Mayo",
+            "team": "BAL"
+          }
+        ],
+        "simulated_win_rate": 0.00339
+      },
+      {
+        "card_number": 17,
+        "diagnostic_net_payout_on_1": 8766.44000000001,
+        "joint_model_probability": 0.00011037814327438107,
+        "lane": "balanced",
+        "leg_count": 6,
+        "legs": [
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_823095",
+            "player": "Cal Raleigh",
+            "team": "SEA"
+          },
+          {
+            "fanduel_price": 350.0,
+            "game_id": "mlb_824069",
+            "player": "Jac Caglianone",
+            "team": "KC"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_824796",
+            "player": "Wilyer Abreu",
+            "team": "BOS"
+          },
+          {
+            "fanduel_price": 400.0,
+            "game_id": "mlb_824632",
+            "player": "Ian Happ",
+            "team": "CHC"
+          },
+          {
+            "fanduel_price": 440.0,
+            "game_id": "mlb_824144",
+            "player": "Miguel Vargas",
+            "team": "CWS"
+          },
+          {
+            "fanduel_price": 340.0,
+            "game_id": "mlb_822853",
+            "player": "Corey Seager",
+            "team": "TEX"
+          }
+        ],
+        "simulated_win_rate": 0.0001
+      },
+      {
+        "card_number": 18,
+        "diagnostic_net_payout_on_1": 308.9600000000002,
+        "joint_model_probability": 0.003207188809831644,
+        "lane": "balanced",
+        "leg_count": 4,
+        "legs": [
+          {
+            "fanduel_price": 320.0,
+            "game_id": "mlb_822853",
+            "player": "Junior Caminero",
+            "team": "TB"
+          },
+          {
+            "fanduel_price": 350.0,
+            "game_id": "mlb_824069",
+            "player": "Jac Caglianone",
+            "team": "KC"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Rafael Devers",
+            "team": "SF"
+          },
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_824796",
+            "player": "Coby Mayo",
+            "team": "BAL"
+          }
+        ],
+        "simulated_win_rate": 0.00339
+      },
+      {
+        "card_number": 19,
+        "diagnostic_net_payout_on_1": 8941.400000000009,
+        "joint_model_probability": 0.00010892097992108092,
+        "lane": "balanced",
+        "leg_count": 6,
+        "legs": [
+          {
+            "fanduel_price": 360.0,
+            "game_id": "mlb_824632",
+            "player": "Jackson Chourio",
+            "team": "MIL"
+          },
+          {
+            "fanduel_price": 400.0,
+            "game_id": "mlb_822853",
+            "player": "Jake Burger",
+            "team": "TEX"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_824796",
+            "player": "Wilyer Abreu",
+            "team": "BOS"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Brandon Lowe",
+            "team": "PIT"
+          },
+          {
+            "fanduel_price": 440.0,
+            "game_id": "mlb_824144",
+            "player": "Miguel Vargas",
+            "team": "CWS"
+          },
+          {
+            "fanduel_price": 350.0,
+            "game_id": "mlb_824069",
+            "player": "Carter Jensen",
+            "team": "KC"
+          }
+        ],
+        "simulated_win_rate": 6e-05
+      },
+      {
+        "card_number": 20,
+        "diagnostic_net_payout_on_1": 343.4000000000002,
+        "joint_model_probability": 0.0030428490026383785,
+        "lane": "balanced",
+        "leg_count": 4,
+        "legs": [
+          {
+            "fanduel_price": 320.0,
+            "game_id": "mlb_822853",
+            "player": "Junior Caminero",
+            "team": "TB"
+          },
+          {
+            "fanduel_price": 310.0,
+            "game_id": "mlb_823095",
+            "player": "Cal Raleigh",
+            "team": "SEA"
+          },
+          {
+            "fanduel_price": 400.0,
+            "game_id": "mlb_824632",
+            "player": "Jake Bauers",
+            "team": "MIL"
+          },
+          {
+            "fanduel_price": 300.0,
+            "game_id": "mlb_823337",
+            "player": "Brandon Lowe",
+            "team": "PIT"
+          }
+        ],
+        "simulated_win_rate": 0.003295
+      }
+    ],
+    "error": null,
+    "monte_carlo": {
+      "probability_any_card_wins": 0.020975,
+      "slates": 200000,
+      "status": "UNVALIDATED_INDEPENDENCE_BASELINE"
+    },
+    "posture": "PAPER_RESEARCH_ONLY_NO_STAKING",
+    "slate_date": "2026-09-03",
+    "source_candidate_sha256": "88f7c060251a7e93043abfb98b7832aca03a44efc5bf23b6edd0f07b28ea1c0c",
+    "status": "PUBLISHED"
+  },
   "sim_picks": {
     "frame": "Sim-1 passive/unscored shadow archive; display uses rank and uncalibrated sim score only. v0-lite score magnitudes are known to be roughly 3x inflated and must not be read as probabilities.",
     "picks": [
@@ -6714,17 +9119,17 @@
         "market_table": [
           {
             "market": "HR",
-            "picks": 2482,
+            "picks": 2485,
             "status": "measured against market expectations"
           },
           {
             "market": "doubles",
-            "picks": 2507,
+            "picks": 2510,
             "status": "measured against market expectations"
           },
           {
             "market": "hits",
-            "picks": 3207,
+            "picks": 3209,
             "status": "measured against market expectations"
           },
           {
@@ -6735,7 +9140,7 @@
         ],
         "name": "M-1",
         "rate": 0,
-        "rate_label": "observational (12394)",
+        "rate_label": "observational (12402)",
         "status_label": "M-1 Phase C preliminary read PASS · artifact 04e9c2bb876473139d76bb05c28c796c2e74d3e3610723cfd851ff892489000a"
       }
     ]
