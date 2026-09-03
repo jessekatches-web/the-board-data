@@ -3250,7 +3250,7 @@
   "meta": {
     "banner": "PAPER / RESEARCH — no staking. Verdict metrics are pre-registered; everything here is observational.",
     "earliest_first_pitch": "2026-09-03T16:35:00Z",
-    "generated_at": "2026-09-03T15:40:56Z",
+    "generated_at": "2026-09-03T15:50:23Z",
     "omissions": [
       "Scout/v3/Sim-1 render only from same-slate local artifacts; no new API calls are made by the dashboard generator."
     ],
@@ -3263,12 +3263,12 @@
       "market_mispricing_phase0_snapshot_2026-09-03_open_154015Z.csv",
       "phase0_raw_payloads_2026-09-03_open_154015Z.json",
       "pa_sim_v0_lite_predictions_2026-09-03_2026-09-03_150549Z_LOCKED_RUN.csv",
-      "scored_rows_2026-09-03_2026-09-03_150009Z.csv",
-      "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_D_PROJECTED_ALLOWED_2026-09-03_150009Z.csv",
-      "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ADDITIVE_CONTEXT_SHADOW_TOP5_2026-09-03_150009Z.csv",
-      "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ELITE_POWER_EXCEPTION_CANDIDATES_2026-09-03_150009Z.csv",
-      "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_FULL_CONVICTION_CANDIDATES_2026-09-03_150009Z.csv",
-      "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_F_PROJECTED_ALLOWED_2026-09-03_150009Z.csv",
+      "scored_rows_2026-09-03_2026-09-03_154516Z.csv",
+      "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_D_PROJECTED_ALLOWED_2026-09-03_154516Z.csv",
+      "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ADDITIVE_CONTEXT_SHADOW_TOP5_2026-09-03_154516Z.csv",
+      "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_ELITE_POWER_EXCEPTION_CANDIDATES_2026-09-03_154516Z.csv",
+      "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_E_FULL_CONVICTION_CANDIDATES_2026-09-03_154516Z.csv",
+      "top5_operational_2026-09-03_LANE2_FA_FORWARD_CLOCK_SOURCE_SYSTEM_F_PROJECTED_ALLOWED_2026-09-03_154516Z.csv",
       "project_homer_descriptive_census_2026-07-28.json",
       "portfolio-sim-v0-2026-09-03.json"
     ]
@@ -3358,25 +3358,25 @@
         },
         {
           "clv_sign": null,
-          "detail": "E #3 · score 77.1",
+          "detail": "E #3 · score 77.2",
           "hr": false,
           "label": "E",
           "market_key": null,
           "rank": 3,
           "relative_divergence": null,
-          "score": 77.11,
+          "score": 77.15,
           "source_view": "E",
           "system": "system_e"
         },
         {
           "clv_sign": null,
-          "detail": "F #4 · score 88.6",
+          "detail": "F #4 · score 88.7",
           "hr": false,
           "label": "F",
           "market_key": null,
           "rank": 4,
           "relative_divergence": null,
-          "score": 88.57,
+          "score": 88.69,
           "source_view": "F",
           "system": "system_f"
         },
@@ -3421,6 +3421,135 @@
         "plain": "theScore Bet +450 vs market +384",
         "point": 0.5,
         "price": "+450"
+      }
+    },
+    {
+      "best_hr_book": "Caesars",
+      "best_hr_odds": "+305",
+      "convergence_count": 5,
+      "countdown": "",
+      "game_id": "mlb_824069",
+      "game_start_utc": "2026-09-03T23:40:00Z",
+      "game_started": false,
+      "game_state": "NOT_STARTED",
+      "game_time_et": "7:40 PM",
+      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/669065/headshot/67/current",
+      "id": "kylestowers|mlb_824069",
+      "markets": [
+        {
+          "book": "betPARX",
+          "consensus_price": "-103",
+          "market_key": "batter_total_bases",
+          "market_label": "total bases",
+          "plain": "betPARX · total bases o1.5 · +120 · mkt -103",
+          "point": 1.5,
+          "price": "+120",
+          "relative_divergence": 0.1047746720741687
+        },
+        {
+          "book": "Bally Bet",
+          "consensus_price": "-243",
+          "market_key": "batter_hits",
+          "market_label": "hits",
+          "plain": "Bally Bet · hits o0.5 · -200 · mkt -243",
+          "point": 0.5,
+          "price": "-200",
+          "relative_divergence": 0.0594394604015917
+        }
+      ],
+      "opponent": "KC",
+      "player": "Kyle Stowers",
+      "player_id": 669065,
+      "sort": {
+        "m1_relative_divergence": 0.1047746720741687,
+        "player": "Kyle Stowers",
+        "primary": 5
+      },
+      "system_keys": [
+        "lane",
+        "system_e",
+        "system_f",
+        "system_d",
+        "m1"
+      ],
+      "systems": [
+        {
+          "clv_sign": null,
+          "detail": "Lane #3 · market-missed",
+          "hr": false,
+          "label": "Lane",
+          "market_key": null,
+          "rank": 3,
+          "relative_divergence": null,
+          "system": "lane"
+        },
+        {
+          "clv_sign": null,
+          "detail": "E #1 · score 81.0",
+          "hr": false,
+          "label": "E",
+          "market_key": null,
+          "rank": 1,
+          "relative_divergence": null,
+          "score": 80.95,
+          "source_view": "E",
+          "system": "system_e"
+        },
+        {
+          "clv_sign": null,
+          "detail": "F #5 · score 88.5",
+          "hr": false,
+          "label": "F",
+          "market_key": null,
+          "rank": 5,
+          "relative_divergence": null,
+          "score": 88.54,
+          "source_view": "F",
+          "system": "system_f"
+        },
+        {
+          "clv_sign": null,
+          "detail": "D #5 · score 81.5",
+          "hr": false,
+          "label": "D",
+          "market_key": null,
+          "rank": 5,
+          "relative_divergence": null,
+          "score": 81.52,
+          "source_view": "D",
+          "system": "system_d"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 10%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_total_bases",
+          "rank": null,
+          "relative_divergence": 0.1047746720741687,
+          "system": "m1"
+        },
+        {
+          "clv_sign": null,
+          "detail": "M-1 6%",
+          "hr": false,
+          "label": "M-1",
+          "market_key": "batter_hits",
+          "rank": null,
+          "relative_divergence": 0.0594394604015917,
+          "system": "m1"
+        }
+      ],
+      "team": "MIA",
+      "validated_price_flag": {
+        "book": "betPARX",
+        "label": "M-1 price",
+        "market_key": "batter_total_bases",
+        "market_label": "total bases",
+        "market_price": "-103",
+        "plain": "betPARX +120 vs market -103",
+        "point": 1.5,
+        "price": "+120"
       }
     },
     {
@@ -3496,13 +3625,13 @@
         },
         {
           "clv_sign": null,
-          "detail": "D #4 · score 82.4",
+          "detail": "D #3 · score 82.6",
           "hr": false,
           "label": "D",
           "market_key": null,
-          "rank": 4,
+          "rank": 3,
           "relative_divergence": null,
-          "score": 82.42,
+          "score": 82.56,
           "source_view": "D",
           "system": "system_d"
         },
@@ -3537,122 +3666,6 @@
         "plain": "Bally Bet +133 vs market +106",
         "point": 1.5,
         "price": "+133"
-      }
-    },
-    {
-      "best_hr_book": "Caesars",
-      "best_hr_odds": "+305",
-      "convergence_count": 4,
-      "countdown": "",
-      "game_id": "mlb_824069",
-      "game_start_utc": "2026-09-03T23:40:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "7:40 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/669065/headshot/67/current",
-      "id": "kylestowers|mlb_824069",
-      "markets": [
-        {
-          "book": "betPARX",
-          "consensus_price": "-103",
-          "market_key": "batter_total_bases",
-          "market_label": "total bases",
-          "plain": "betPARX · total bases o1.5 · +120 · mkt -103",
-          "point": 1.5,
-          "price": "+120",
-          "relative_divergence": 0.1047746720741687
-        },
-        {
-          "book": "Bally Bet",
-          "consensus_price": "-243",
-          "market_key": "batter_hits",
-          "market_label": "hits",
-          "plain": "Bally Bet · hits o0.5 · -200 · mkt -243",
-          "point": 0.5,
-          "price": "-200",
-          "relative_divergence": 0.0594394604015917
-        }
-      ],
-      "opponent": "KC",
-      "player": "Kyle Stowers",
-      "player_id": 669065,
-      "sort": {
-        "m1_relative_divergence": 0.1047746720741687,
-        "player": "Kyle Stowers",
-        "primary": 4
-      },
-      "system_keys": [
-        "lane",
-        "system_e",
-        "system_f",
-        "m1"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "Lane #3 · market-missed",
-          "hr": false,
-          "label": "Lane",
-          "market_key": null,
-          "rank": 3,
-          "relative_divergence": null,
-          "system": "lane"
-        },
-        {
-          "clv_sign": null,
-          "detail": "E #1 · score 80.9",
-          "hr": false,
-          "label": "E",
-          "market_key": null,
-          "rank": 1,
-          "relative_divergence": null,
-          "score": 80.87,
-          "source_view": "E",
-          "system": "system_e"
-        },
-        {
-          "clv_sign": null,
-          "detail": "F #5 · score 88.3",
-          "hr": false,
-          "label": "F",
-          "market_key": null,
-          "rank": 5,
-          "relative_divergence": null,
-          "score": 88.31,
-          "source_view": "F",
-          "system": "system_f"
-        },
-        {
-          "clv_sign": null,
-          "detail": "M-1 10%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_total_bases",
-          "rank": null,
-          "relative_divergence": 0.1047746720741687,
-          "system": "m1"
-        },
-        {
-          "clv_sign": null,
-          "detail": "M-1 6%",
-          "hr": false,
-          "label": "M-1",
-          "market_key": "batter_hits",
-          "rank": null,
-          "relative_divergence": 0.0594394604015917,
-          "system": "m1"
-        }
-      ],
-      "team": "MIA",
-      "validated_price_flag": {
-        "book": "betPARX",
-        "label": "M-1 price",
-        "market_key": "batter_total_bases",
-        "market_label": "total bases",
-        "market_price": "-103",
-        "plain": "betPARX +120 vs market -103",
-        "point": 1.5,
-        "price": "+120"
       }
     },
     {
@@ -3707,25 +3720,25 @@
         },
         {
           "clv_sign": null,
-          "detail": "F #1 · score 95.9",
+          "detail": "F #1 · score 96.0",
           "hr": false,
           "label": "F",
           "market_key": null,
           "rank": 1,
           "relative_divergence": null,
-          "score": 95.87,
+          "score": 96.0,
           "source_view": "F",
           "system": "system_f"
         },
         {
           "clv_sign": null,
-          "detail": "D #1 · score 88.5",
+          "detail": "D #1 · score 88.6",
           "hr": false,
           "label": "D",
           "market_key": null,
           "rank": 1,
           "relative_divergence": null,
-          "score": 88.46,
+          "score": 88.59,
           "source_view": "D",
           "system": "system_d"
         }
@@ -4029,13 +4042,13 @@
         },
         {
           "clv_sign": null,
-          "detail": "D #2 · score 84.8",
+          "detail": "D #2 · score 85.0",
           "hr": false,
           "label": "D",
           "market_key": null,
           "rank": 2,
           "relative_divergence": null,
-          "score": 84.83,
+          "score": 84.96,
           "source_view": "D",
           "system": "system_d"
         },
@@ -7442,13 +7455,13 @@
       "systems": [
         {
           "clv_sign": null,
-          "detail": "D #5 · score 81.9",
+          "detail": "D #4 · score 82.0",
           "hr": false,
           "label": "D",
           "market_key": null,
-          "rank": 5,
+          "rank": 4,
           "relative_divergence": null,
-          "score": 81.9,
+          "score": 82.03,
           "source_view": "D",
           "system": "system_d"
         }
@@ -7483,13 +7496,13 @@
       "systems": [
         {
           "clv_sign": null,
-          "detail": "E #4 · score 76.5",
+          "detail": "E #4 · score 76.6",
           "hr": false,
           "label": "E",
           "market_key": null,
           "rank": 4,
           "relative_divergence": null,
-          "score": 76.53,
+          "score": 76.59,
           "source_view": "E",
           "system": "system_e"
         }
@@ -7543,47 +7556,6 @@
       "best_hr_odds": null,
       "convergence_count": 1,
       "countdown": "",
-      "game_id": "mlb_824388",
-      "game_start_utc": "2026-09-03T17:10:00Z",
-      "game_started": false,
-      "game_state": "NOT_STARTED",
-      "game_time_et": "1:10 PM",
-      "headshot_url": "https://img.mlbstatic.com/mlb-photos/image/upload/w_180,q_auto:best/v1/people/664770/headshot/67/current",
-      "id": "nathanlukes|mlb_824388",
-      "markets": [],
-      "opponent": "CLE",
-      "player": "Nathan Lukes",
-      "player_id": 664770,
-      "sort": {
-        "m1_relative_divergence": 0.0,
-        "player": "Nathan Lukes",
-        "primary": 1
-      },
-      "system_keys": [
-        "system_d"
-      ],
-      "systems": [
-        {
-          "clv_sign": null,
-          "detail": "D #3 · score 83.6",
-          "hr": false,
-          "label": "D",
-          "market_key": null,
-          "rank": 3,
-          "relative_divergence": null,
-          "score": 83.61,
-          "source_view": "D",
-          "system": "system_d"
-        }
-      ],
-      "team": "TOR",
-      "validated_price_flag": null
-    },
-    {
-      "best_hr_book": "",
-      "best_hr_odds": null,
-      "convergence_count": 1,
-      "countdown": "",
       "game_id": "mlb_823337",
       "game_start_utc": "2026-09-03T16:35:00Z",
       "game_started": false,
@@ -7606,13 +7578,13 @@
       "systems": [
         {
           "clv_sign": null,
-          "detail": "F #3 · score 88.8",
+          "detail": "F #3 · score 88.9",
           "hr": false,
           "label": "F",
           "market_key": null,
           "rank": 3,
           "relative_divergence": null,
-          "score": 88.79,
+          "score": 88.92,
           "source_view": "F",
           "system": "system_f"
         }
