@@ -1,0 +1,75 @@
+name: Validate Board data and roll back invalid pushes
+
+on:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+concurrency:
+  group: board-main-rollback
+  cancel-in-progress: false
+
+jobs:
+  validate-board:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          persist-credentials: ***
+
+      - name: Validate committed dashboard data
+        id: validate
+        env:
+          BEFORE: ${{ github.event.before }}
+          ACTOR: ${{ github.actor }}
+        run: |
+          set -eu
+          # Accept a bot rollback only if it restores the named ancestor's
+          # exact dashboard and NHL sidecar blobs.
+          subject="$(git log -1 --format=%s HEAD)"
+          if [ "$ACTOR" = 'github-actions[bot]' ] &&
+             [[ "$subject" =~ ^board-rollback:\ restore\ ([0-9a-f]{40})\ after\ invalid\ push\ ([0-9a-f]{40})$ ]]; then
+            restored="${BASH_REMATCH[1]}"
+            rejected="${BASH_REMATCH[2]}"
+            test "$(git rev-parse HEAD^)" = "$rejected"
+            git merge-base --is-ancestor "$restored" HEAD^
+            for file in dashboard_data.json nhl_daily.json; do
+              test "$(git rev-parse "HEAD:$file")" = "$(git rev-parse "$restored:$file")"
+            done
+            exit 0
+          fi
+
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = '0000000000000000000000000000000000000000' ]; then
+            python3 validate_board.py --candidate HEAD
+          else
+            python3 validate_board.py --base "$BEFORE" --candidate HEAD
+          fi
+
+      - name: Revert invalid push without force-pushing
+        if: ${{ failure() && steps.validate.outcome == 'failure' }}
+        env:
+          BEFORE: ${{ github.event.before }}
+          AFTER: ${{ github.sha }}
+        run: |
+          set -euo pipefail
+          if [ -z "$BEFORE" ] || [ "$BEFORE" = '0000000000000000000000000000000000000000' ]; then
+            echo 'Cannot automatically revert an initial branch creation.' >&2
+            exit 1
+          fi
+
+          git cat-file -e "$BEFORE^{commit}"
+          git merge-base --is-ancestor "$BEFORE" "$AFTER"
+          current="$(git ls-remote origin refs/heads/main | cut -f1)"
+          if [ "$current" != "$AFTER" ]; then
+            echo 'main moved since this push; refusing to revert another writer.' >&2
+            exit 1
+          fi
+
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          git revert --no-commit "$BEFORE..$AFTER"
+          git commit -m "board-rollback: restore $BEFORE after invalid push $AFTER"
+          git push origin HEAD:main
