@@ -11,6 +11,7 @@ import json
 import subprocess
 import sys
 from pathlib import Path
+from zoneinfo import ZoneInfo
 
 
 def blob(repo, revision, path):
@@ -59,7 +60,7 @@ def slate_date(data):
     return value
 
 
-def validate(repo, base, candidate):
+def validate(repo, base, candidate, expected_date=None):
     before = blob(repo, base, 'dashboard_data.json') if base else None
     after = blob(repo, candidate, 'dashboard_data.json')
     if after is not None and before == after:
@@ -94,6 +95,8 @@ def validate(repo, base, candidate):
         old_day = slate_date(old)
         if day < old_day:
             raise ValueError('dashboard slate_date older than previous canonical')
+    if expected_date is not None and day != expected_date:
+        raise ValueError(f'expected slate_date {expected_date}, got {day}')
     return f'NHL dashboard validated: {day}, {count} cards, exact sidecar bytes'
 
 
@@ -102,9 +105,12 @@ def main():
     parser.add_argument('--repo', type=Path, default=Path('.'))
     parser.add_argument('--base', help='base commit; omitted only on initial creation')
     parser.add_argument('--candidate', default='HEAD', help='candidate commit')
+    parser.add_argument('--expected-date', type=dt.date.fromisoformat,
+                        default=dt.datetime.now(ZoneInfo('America/New_York')).date(),
+                        help='ET slate date (defaults to current ET day)')
     args = parser.parse_args()
     try:
-        print(validate(args.repo, args.base, args.candidate))
+        print(validate(args.repo, args.base, args.candidate, args.expected_date))
     except (ValueError, json.JSONDecodeError, OSError) as exc:
         print(f'BOARD_VALIDATION_REFUSED: {exc}', file=sys.stderr)
         return 1

@@ -37,7 +37,8 @@ class BoardValidationTests(unittest.TestCase):
     def run_validator(self):
         self.commit()
         return subprocess.run([sys.executable, str(VALIDATOR), '--repo', str(self.repo),
-                               '--base', self.base, '--candidate', 'HEAD'],
+                               '--base', self.base, '--candidate', 'HEAD',
+                               '--expected-date', '2026-10-08'],
                               text=True, capture_output=True)
 
     def nhl(self):
@@ -64,6 +65,18 @@ class BoardValidationTests(unittest.TestCase):
         self.write('dashboard_data.json', bad)
         self.write('nhl_daily.json', bad)
         self.assertIn('older than previous', self.run_validator().stderr)
+
+    def test_stale_date_even_if_not_older_than_previous(self):
+        bad = self.nhl() | {'slate_date': '2026-10-07'}
+        self.write('dashboard_data.json', bad)
+        self.write('nhl_daily.json', bad)
+        self.assertIn('expected slate_date', self.run_validator().stderr)
+
+    def test_future_date_refused(self):
+        bad = self.nhl() | {'slate_date': '2026-10-09'}
+        self.write('dashboard_data.json', bad)
+        self.write('nhl_daily.json', bad)
+        self.assertIn('expected slate_date', self.run_validator().stderr)
 
     def test_invalid_date(self):
         bad = self.nhl() | {'slate_date': '2026-10-99'}
